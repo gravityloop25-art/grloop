@@ -1,0 +1,480 @@
+{
+  "communities": {
+    "0": [
+      "dashboard_db",
+      "dashboard_db_database",
+      "dashboard_db_db",
+      "dashboard_db_delkv",
+      "dashboard_db_fs",
+      "dashboard_db_getkv",
+      "dashboard_db_path",
+      "dashboard_db_setkv",
+      "dashboard_errors",
+      "dashboard_errors_apierror",
+      "dashboard_errors_apierror_constructor",
+      "dashboard_errors_explain",
+      "dashboard_errors_http",
+      "dashboard_google",
+      "dashboard_google_accesstoken",
+      "dashboard_google_authurl",
+      "dashboard_google_cfg",
+      "dashboard_google_configured",
+      "dashboard_google_crypto",
+      "dashboard_google_gget",
+      "dashboard_google_handlecallback",
+      "dashboard_google_loggedinemail",
+      "dashboard_google_logout",
+      "dashboard_google_newstate",
+      "dashboard_google_scopes",
+      "dashboard_google_tokenrequest",
+      "dashboard_metricool",
+      "dashboard_metricool_configured",
+      "dashboard_metricool_fetchscheduled",
+      "dashboard_metricool_isolocal",
+      "dashboard_metricool_normnetwork",
+      "dashboard_metricool_pad",
+      "dashboard_server",
+      "dashboard_server_api",
+      "dashboard_server_app",
+      "dashboard_server_authed",
+      "dashboard_server_express",
+      "dashboard_server_path",
+      "dashboard_server_session",
+      "dashboard_sync",
+      "dashboard_sync_analytics",
+      "dashboard_sync_daysago",
+      "dashboard_sync_parseduration",
+      "dashboard_sync_pervideoreport",
+      "dashboard_sync_runsync",
+      "dashboard_sync_syncanalytics",
+      "dashboard_sync_syncchannel",
+      "dashboard_sync_syncposts",
+      "dashboard_sync_syncvideos",
+      "dashboard_sync_videocurve",
+      "dashboard_sync_ymd",
+      "ref_crypto",
+      "ref_path"
+    ],
+    "1": [
+      "dashboard_public_app",
+      "dashboard_public_app_adddays",
+      "dashboard_public_app_api",
+      "dashboard_public_app_app",
+      "dashboard_public_app_axes",
+      "dashboard_public_app_besttimes",
+      "dashboard_public_app_c",
+      "dashboard_public_app_charts",
+      "dashboard_public_app_cols",
+      "dashboard_public_app_datede",
+      "dashboard_public_app_draw",
+      "dashboard_public_app_esc",
+      "dashboard_public_app_fmt",
+      "dashboard_public_app_fmtk",
+      "dashboard_public_app_hhmm",
+      "dashboard_public_app_killcharts",
+      "dashboard_public_app_local",
+      "dashboard_public_app_loginview",
+      "dashboard_public_app_mkchart",
+      "dashboard_public_app_mondayof",
+      "dashboard_public_app_net",
+      "dashboard_public_app_nf",
+      "dashboard_public_app_openvideo",
+      "dashboard_public_app_overview",
+      "dashboard_public_app_partsfmt",
+      "dashboard_public_app_planview",
+      "dashboard_public_app_refreshstatus",
+      "dashboard_public_app_renderplan",
+      "dashboard_public_app_route",
+      "dashboard_public_app_showbanner",
+      "dashboard_public_app_tiktokview",
+      "dashboard_public_app_todaystr",
+      "dashboard_public_app_videosview",
+      "dashboard_public_app_vids",
+      "dashboard_public_app_wd"
+    ],
+    "2": [
+      "dashboard_package",
+      "dashboard_package_dependencies",
+      "dashboard_package_dependencies_better_sqlite3",
+      "dashboard_package_dependencies_chart_js",
+      "dashboard_package_dependencies_dotenv",
+      "dashboard_package_dependencies_express",
+      "dashboard_package_dependencies_express_session",
+      "dashboard_package_description",
+      "dashboard_package_engines",
+      "dashboard_package_engines_node",
+      "dashboard_package_main",
+      "dashboard_package_name",
+      "dashboard_package_scripts",
+      "dashboard_package_scripts_demo",
+      "dashboard_package_scripts_dev",
+      "dashboard_package_scripts_start",
+      "dashboard_package_version",
+      "ref_better_sqlite3",
+      "ref_chart_js",
+      "ref_dotenv",
+      "ref_express",
+      "ref_express_session"
+    ],
+    "3": [
+      "code_common_font",
+      "code_common_lerp",
+      "code_gear3",
+      "code_gear3_ang",
+      "code_gear3_arc_collide",
+      "code_gear3_ballcol",
+      "code_gear3_draw",
+      "code_gear3_draw_arm",
+      "code_gear3_pt_collide",
+      "code_gear3_run",
+      "code_gear3_step",
+      "code_hb_draw",
+      "code_hb_tcol",
+      "code_wl",
+      "code_wl_colr",
+      "code_wl_draw",
+      "code_wl_run",
+      "code_wl_scr",
+      "code_wl_splash",
+      "code_wl_wave_step"
+    ],
+    "4": [
+      "code_common_mux",
+      "code_hb",
+      "code_hb_run",
+      "code_hb_step",
+      "code_mg",
+      "code_mg_draw",
+      "code_mg_run",
+      "code_mg_step",
+      "random",
+      "subprocess",
+      "sys"
+    ],
+    "5": [
+      "code_gv",
+      "code_gv_arm_state",
+      "code_gv_draw",
+      "code_gv_gear_hit",
+      "code_gv_obb",
+      "code_gv_rot",
+      "code_gv_run",
+      "code_gv_seg_hit",
+      "code_gv_step",
+      "code_gv_tooth_poly",
+      "os"
+    ],
+    "6": [
+      "dashboard_demo",
+      "dashboard_demo_ch",
+      "dashboard_demo_fs",
+      "dashboard_demo_insd",
+      "dashboard_demo_insp",
+      "dashboard_demo_insv",
+      "dashboard_demo_names",
+      "dashboard_demo_now",
+      "dashboard_demo_pad",
+      "dashboard_demo_rnd",
+      "ref_fs"
+    ],
+    "7": [
+      "code_common",
+      "code_common_click",
+      "code_common_finale",
+      "code_common_make_audio",
+      "code_common_make_audio_add",
+      "code_common_pop",
+      "code_common_rationale_89",
+      "code_common_tone",
+      "numpy",
+      "wave"
+    ],
+    "8": [
+      "code_hit",
+      "code_hit_ballcol",
+      "code_hit_corners",
+      "code_hit_draw",
+      "code_hit_obb",
+      "code_hit_obstacles",
+      "code_hit_rationale_31",
+      "code_hit_rot",
+      "code_hit_run",
+      "code_hit_step"
+    ],
+    "9": [
+      "code_gb",
+      "code_gb_bloop",
+      "code_gb_draw",
+      "code_gb_make_audio_gb",
+      "code_gb_make_audio_gb_add",
+      "code_gb_run",
+      "code_gb_scol",
+      "code_gb_shimmer",
+      "code_gb_step"
+    ],
+    "10": [
+      "code_dr",
+      "code_dr_adf",
+      "code_dr_draw",
+      "code_dr_rot",
+      "code_dr_run",
+      "code_dr_step",
+      "code_dr_th1",
+      "code_dr_th2"
+    ],
+    "11": [
+      "code_ce",
+      "code_ce_dang",
+      "code_ce_draw",
+      "code_ce_run",
+      "code_ce_step",
+      "code_common_compose",
+      "code_common_rationale_40"
+    ],
+    "12": [
+      "code_gearpl",
+      "code_gearpl_ballcol",
+      "code_gearpl_draw",
+      "code_gearpl_run",
+      "code_gearpl_spawn",
+      "code_gearpl_step",
+      "code_gearpl_update_gears"
+    ],
+    "13": [
+      "code_tu",
+      "code_tu_arm_hit",
+      "code_tu_draw",
+      "code_tu_rationale_27",
+      "code_tu_rot",
+      "code_tu_run",
+      "code_tu_step"
+    ],
+    "14": [
+      "code_bk",
+      "code_bk_draw",
+      "code_bk_rot",
+      "code_bk_run",
+      "code_bk_step",
+      "math"
+    ],
+    "15": [
+      "code_cd",
+      "code_cd_draw",
+      "code_cd_rot",
+      "code_cd_run",
+      "code_cd_step",
+      "code_cd_theta"
+    ],
+    "16": [
+      "code_ls",
+      "code_ls_draw",
+      "code_ls_mcol",
+      "code_ls_rad",
+      "code_ls_run",
+      "code_ls_step"
+    ],
+    "17": [
+      "code_plinko",
+      "code_plinko_ballcol",
+      "code_plinko_draw",
+      "code_plinko_run",
+      "code_plinko_spawn",
+      "code_plinko_step"
+    ],
+    "18": [
+      "code_rb",
+      "code_rb_bcol",
+      "code_rb_draw",
+      "code_rb_rot",
+      "code_rb_run",
+      "code_rb_step"
+    ],
+    "19": [
+      "code_fk",
+      "code_fk_bar",
+      "code_fk_draw",
+      "code_fk_run",
+      "code_fk_step"
+    ],
+    "20": [
+      "code_tor",
+      "code_tor_draw",
+      "code_tor_run",
+      "code_tor_step",
+      "pil"
+    ],
+    "21": [
+      "code_common_rationale_10",
+      "code_common_sky",
+      "code_common_sky_frame",
+      "code_common_sky_init"
+    ],
+    "22": [
+      "code_common_writer",
+      "code_common_writer_close",
+      "code_common_writer_init",
+      "code_common_writer_write"
+    ]
+  },
+  "cohesion": {
+    "0": 0.09796806966618288,
+    "1": 0.1546218487394958,
+    "2": 0.11255411255411256,
+    "3": 0.19473684210526315,
+    "4": 0.2727272727272727,
+    "5": 0.34545454545454546,
+    "6": 0.18181818181818182,
+    "7": 0.4666666666666667,
+    "8": 0.37777777777777777,
+    "9": 0.4166666666666667,
+    "10": 0.5357142857142857,
+    "11": 0.47619047619047616,
+    "12": 0.5238095238095238,
+    "13": 0.47619047619047616,
+    "14": 0.5333333333333333,
+    "15": 0.6666666666666666,
+    "16": 0.6666666666666666,
+    "17": 0.6,
+    "18": 0.6,
+    "19": 0.8,
+    "20": 0.6,
+    "21": 0.5,
+    "22": 0.5
+  },
+  "gods": [
+    {
+      "id": "code_common_make_audio",
+      "label": "make_audio()",
+      "degree": 27
+    },
+    {
+      "id": "code_common_writer",
+      "label": "Writer",
+      "degree": 22
+    },
+    {
+      "id": "code_common_compose",
+      "label": "compose()",
+      "degree": 21
+    },
+    {
+      "id": "code_common_mux",
+      "label": "mux()",
+      "degree": 20
+    },
+    {
+      "id": "code_common_font",
+      "label": "font()",
+      "degree": 19
+    },
+    {
+      "id": "code_common_lerp",
+      "label": "lerp()",
+      "degree": 16
+    },
+    {
+      "id": "dashboard_public_app_renderplan",
+      "label": "renderPlan()",
+      "degree": 15
+    },
+    {
+      "id": "dashboard_public_app_openvideo",
+      "label": "openVideo()",
+      "degree": 11
+    },
+    {
+      "id": "dashboard_db_getkv",
+      "label": "getKV()",
+      "degree": 10
+    },
+    {
+      "id": "dashboard_public_app_overview",
+      "label": "overview()",
+      "degree": 10
+    }
+  ],
+  "surprises": [
+    {
+      "source": "run()",
+      "target": "Writer",
+      "source_files": [
+        "code/bk.py",
+        "code/common.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "run()",
+      "target": "Writer",
+      "source_files": [
+        "code/cd.py",
+        "code/common.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "run()",
+      "target": "Writer",
+      "source_files": [
+        "code/ce.py",
+        "code/common.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "run()",
+      "target": "Writer",
+      "source_files": [
+        "code/dr.py",
+        "code/common.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "run()",
+      "target": "Writer",
+      "source_files": [
+        "code/fk.py",
+        "code/common.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "bridges separate communities"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `make_audio()` connect `Community 7` to `Community 3`, `Community 4`, `Community 5`, `Community 8`, `Community 10`, `Community 11`, `Community 12`, `Community 13`, `Community 14`, `Community 15`, `Community 16`, `Community 17`, `Community 18`, `Community 19`, `Community 20`?",
+      "why": "High betweenness centrality (0.028) - this node is a cross-community bridge."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 0` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.09796806966618288 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `Writer` connect `Community 22` to `Community 3`, `Community 4`, `Community 5`, `Community 7`, `Community 8`, `Community 9`, `Community 10`, `Community 11`, `Community 12`, `Community 13`, `Community 14`, `Community 15`, `Community 16`, `Community 17`, `Community 18`, `Community 19`, `Community 20`?",
+      "why": "High betweenness centrality (0.026) - this node is a cross-community bridge."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 2` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.11255411255411256 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `compose()` connect `Community 11` to `Community 3`, `Community 4`, `Community 5`, `Community 7`, `Community 8`, `Community 9`, `Community 10`, `Community 12`, `Community 13`, `Community 14`, `Community 15`, `Community 16`, `Community 17`, `Community 18`, `Community 19`, `Community 20`?",
+      "why": "High betweenness centrality (0.022) - this node is a cross-community bridge."
+    }
+  ]
+}
