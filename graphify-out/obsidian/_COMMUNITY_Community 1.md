@@ -1,18 +1,19 @@
 ---
 type: community
-cohesion: 0.15
-members: 36
+cohesion: 0.13
+members: 40
 ---
 
 # Community 1
 
-**Cohesion:** 0.15 - loosely connected
-**Members:** 36 nodes
+**Cohesion:** 0.13 - loosely connected
+**Members:** 40 nodes
 
 ## Members
 - [[C]] - code - dashboard/public/app.js
 - [[COLS]] - code - dashboard/public/app.js
 - [[NET]] - code - dashboard/public/app.js
+- [[SYNC_PARTS]] - code - dashboard/public/app.js
 - [[VIDS]] - code - dashboard/public/app.js
 - [[WD]] - code - dashboard/public/app.js
 - [[addDays()]] - code - dashboard/public/app.js
@@ -29,6 +30,7 @@ members: 36
 - [[fmt()]] - code - dashboard/public/app.js
 - [[fmtK()]] - code - dashboard/public/app.js
 - [[hhmm()]] - code - dashboard/public/app.js
+- [[isStale()]] - code - dashboard/public/app.js
 - [[killCharts()]] - code - dashboard/public/app.js
 - [[local()]] - code - dashboard/public/app.js
 - [[loginView()]] - code - dashboard/public/app.js
@@ -43,6 +45,8 @@ members: 36
 - [[renderPlan()]] - code - dashboard/public/app.js
 - [[route()]] - code - dashboard/public/app.js
 - [[showBanner()]] - code - dashboard/public/app.js
+- [[syncAll()]] - code - dashboard/public/app.js
+- [[syncIfStale()]] - code - dashboard/public/app.js
 - [[tiktokView()]] - code - dashboard/public/app.js
 - [[todayStr()]] - code - dashboard/public/app.js
 - [[videosView()]] - code - dashboard/public/app.js
@@ -53,3 +57,9 @@ members: 36
 TABLE source_file, type FROM #community/Community_1
 SORT file.name ASC
 ```
+
+## Connections to other communities
+- 1 edge to [[_COMMUNITY_Community 48]]
+
+## Top bridge nodes
+- [[videosView()]] - degree 6, connects to 1 community

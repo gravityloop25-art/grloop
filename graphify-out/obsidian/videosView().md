@@ -16,6 +16,7 @@ tags:
 - [[app.js]] - `contains` [EXTRACTED]
 - [[draw()]] - `calls` [EXTRACTED]
 - [[esc()]] - `calls` [EXTRACTED]
+- [[q()_1]] - `indirect_call` [INFERRED]
 - [[route()]] - `indirect_call` [INFERRED]
 
 #graphify/code #graphify/EXTRACTED #community/Community_1

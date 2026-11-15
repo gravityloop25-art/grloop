@@ -2,7 +2,7 @@
 source_file: "dashboard/server.js"
 type: "code"
 community: "Community 0"
-location: "L72"
+location: "L66"
 tags:
   - graphify/code
   - graphify/EXTRACTED
@@ -12,6 +12,7 @@ tags:
 # authed()
 
 ## Connections
+- [[isLoggedIn()]] - `calls` [EXTRACTED]
 - [[loggedInEmail()]] - `calls` [EXTRACTED]
 - [[server.js]] - `contains` [EXTRACTED]
 

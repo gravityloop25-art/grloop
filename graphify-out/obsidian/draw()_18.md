@@ -1,21 +1,23 @@
 ---
-source_file: "code/gb.py"
+source_file: "code/hit.py"
 type: "code"
-community: "Community 9"
-location: "L38"
+community: "Community 8"
+location: "L131"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_9
+  - community/Community_8
 ---
 
 # draw()
 
 ## Connections
+- [[ballcol()_3]] - `calls` [EXTRACTED]
 - [[compose()]] - `calls` [EXTRACTED]
+- [[corners()]] - `calls` [EXTRACTED]
 - [[font()]] - `calls` [EXTRACTED]
-- [[gb.py]] - `contains` [EXTRACTED]
+- [[hit.py]] - `contains` [EXTRACTED]
+- [[obstacles()]] - `calls` [EXTRACTED]
 - [[run()_17]] - `calls` [EXTRACTED]
-- [[scol()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_9
+#graphify/code #graphify/EXTRACTED #community/Community_8

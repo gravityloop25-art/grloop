@@ -1,13 +1,13 @@
 ---
 type: community
 cohesion: 0.06
-members: 37
+members: 36
 ---
 
 # Community 22
 
 **Cohesion:** 0.06 - loosely connected
-**Members:** 37 nodes
+**Members:** 36 nodes
 
 ## Members
 - [[APP_URL]] - code - apps/desktop/main.js
@@ -37,7 +37,6 @@ members: 37
 - [[pending]] - code - apps/desktop/main.js
 - [[preload.js]] - code - apps/desktop/preload.js
 - [[productName]] - code - apps/desktop/package.json
-- [[ref_path]] - concept
 - [[scripts_1]] - code - apps/desktop/package.json
 - [[start_1]] - code - apps/desktop/package.json
 - [[target]] - code - apps/desktop/package.json
@@ -56,7 +55,7 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 2 edges to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 0]]
 
 ## Top bridge nodes
-- [[ref_path]] - degree 3, connects to 1 community
+- [[main.js]] - degree 8, connects to 1 community

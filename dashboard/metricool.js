@@ -15,7 +15,7 @@ function normNetwork(n) {
 
 // Holt geplante Posts (heute -1 Tag bis +60 Tage). Antwortformat wird tolerant gelesen.
 async function fetchScheduled() {
-  if (!configured()) throw new ApiError('Metricool: METRICOOL_TOKEN fehlt in der .env – geplante Posts können nicht geladen werden.', { source: 'Metricool' });
+  if (!configured()) throw new ApiError('Metricool: METRICOOL_TOKEN fehlt in den Umgebungsvariablen (.env bzw. Vercel) – geplante Posts können nicht geladen werden.', { source: 'Metricool' });
   const tz = process.env.TIMEZONE || 'Europe/Berlin';
   const from = new Date(Date.now() - 86400e3);
   const to = new Date(Date.now() + 60 * 86400e3);

@@ -1,24 +1,22 @@
 ---
-source_file: "code/wl.py"
+source_file: "dashboard/db.js"
 type: "code"
-community: "Community 10"
-location: "L78"
+community: "Community 0"
+location: "L30"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_10
+  - community/Community_0
 ---
 
 # run()
 
 ## Connections
-- [[Writer]] - `calls` [EXTRACTED]
-- [[draw()_1]] - `calls` [EXTRACTED]
-- [[make_audio()]] - `calls` [EXTRACTED]
-- [[mux()]] - `calls` [EXTRACTED]
-- [[scr()]] - `calls` [EXTRACTED]
-- [[splash()]] - `calls` [EXTRACTED]
-- [[wave_step()]] - `calls` [EXTRACTED]
-- [[wl.py]] - `contains` [EXTRACTED]
+- [[db.js]] - `indirect_call` [INFERRED]
+- [[delKV()]] - `calls` [EXTRACTED]
+- [[init()]] - `calls` [EXTRACTED]
+- [[server.js]] - `imports` [EXTRACTED]
+- [[setKV()]] - `calls` [EXTRACTED]
+- [[sync.js]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_10
+#graphify/code #graphify/EXTRACTED #community/Community_0

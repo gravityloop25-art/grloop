@@ -12,7 +12,7 @@ tags:
 # corners()
 
 ## Connections
-- [[draw()_17]] - `calls` [EXTRACTED]
+- [[draw()_18]] - `calls` [EXTRACTED]
 - [[hit.py]] - `contains` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/Community_8

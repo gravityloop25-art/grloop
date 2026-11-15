@@ -12,7 +12,7 @@ tags:
 # ballcol()
 
 ## Connections
-- [[draw()_3]] - `calls` [EXTRACTED]
+- [[draw()_4]] - `calls` [EXTRACTED]
 - [[gearpl.py]] - `contains` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/Community_12

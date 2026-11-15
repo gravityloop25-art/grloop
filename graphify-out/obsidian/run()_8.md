@@ -1,22 +1,22 @@
 ---
-source_file: "code/rb.py"
+source_file: "code/ls.py"
 type: "code"
-community: "Community 18"
-location: "L115"
+community: "Community 16"
+location: "L86"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_18
+  - community/Community_16
 ---
 
 # run()
 
 ## Connections
 - [[Writer]] - `calls` [EXTRACTED]
-- [[draw()_9]] - `calls` [EXTRACTED]
+- [[draw()_8]] - `calls` [EXTRACTED]
+- [[ls.py]] - `contains` [EXTRACTED]
 - [[make_audio()]] - `calls` [EXTRACTED]
 - [[mux()]] - `calls` [EXTRACTED]
-- [[rb.py]] - `contains` [EXTRACTED]
-- [[step()_7]] - `calls` [EXTRACTED]
+- [[step()_6]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_18
+#graphify/code #graphify/EXTRACTED #community/Community_16

@@ -2,7 +2,7 @@
 source_file: "dashboard/db.js"
 type: "code"
 community: "Community 0"
-location: "L24"
+location: "L33"
 tags:
   - graphify/code
   - graphify/EXTRACTED
@@ -17,10 +17,13 @@ tags:
 - [[google.js]] - `imports` [EXTRACTED]
 - [[handleCallback()]] - `calls` [EXTRACTED]
 - [[loggedInEmail()]] - `calls` [EXTRACTED]
-- [[runSync()]] - `calls` [EXTRACTED]
+- [[q()]] - `calls` [EXTRACTED]
+- [[runPart()]] - `calls` [EXTRACTED]
 - [[server.js]] - `imports` [EXTRACTED]
+- [[status()]] - `calls` [EXTRACTED]
 - [[sync.js]] - `imports` [EXTRACTED]
-- [[syncChannel()]] - `calls` [EXTRACTED]
+- [[syncAnalytics()]] - `calls` [EXTRACTED]
+- [[syncVideos()]] - `calls` [EXTRACTED]
 - [[videoCurve()]] - `calls` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/Community_0

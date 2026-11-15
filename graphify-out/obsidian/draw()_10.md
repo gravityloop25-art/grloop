@@ -1,21 +1,22 @@
 ---
-source_file: "code/fk.py"
+source_file: "code/rb.py"
 type: "code"
-community: "Community 19"
-location: "L76"
+community: "Community 18"
+location: "L70"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_19
+  - community/Community_18
 ---
 
 # draw()
 
 ## Connections
-- [[bar()]] - `calls` [EXTRACTED]
+- [[bcol()]] - `calls` [EXTRACTED]
 - [[compose()]] - `calls` [EXTRACTED]
-- [[fk.py]] - `contains` [EXTRACTED]
 - [[font()]] - `calls` [EXTRACTED]
-- [[run()_9]] - `calls` [EXTRACTED]
+- [[lerp()]] - `calls` [EXTRACTED]
+- [[rb.py]] - `contains` [EXTRACTED]
+- [[run()_10]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_19
+#graphify/code #graphify/EXTRACTED #community/Community_18

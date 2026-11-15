@@ -14,14 +14,14 @@ tags:
 ## Connections
 - [[ballcol()]] - `contains` [EXTRACTED]
 - [[common.py]] - `imports_from` [EXTRACTED]
-- [[draw()_3]] - `contains` [EXTRACTED]
+- [[draw()_4]] - `contains` [EXTRACTED]
 - [[math]] - `imports` [EXTRACTED]
 - [[numpy]] - `imports` [EXTRACTED]
 - [[pil]] - `imports_from` [EXTRACTED]
 - [[random]] - `imports` [EXTRACTED]
-- [[run()_2]] - `contains` [EXTRACTED]
+- [[run()_4]] - `contains` [EXTRACTED]
 - [[spawn()]] - `contains` [EXTRACTED]
-- [[step()_1]] - `contains` [EXTRACTED]
+- [[step()_2]] - `contains` [EXTRACTED]
 - [[sys]] - `imports` [EXTRACTED]
 - [[update_gears()]] - `contains` [EXTRACTED]
 

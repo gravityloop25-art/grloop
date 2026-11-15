@@ -15,7 +15,7 @@ tags:
 - [[authed()]] - `calls` [EXTRACTED]
 - [[getKV()]] - `calls` [EXTRACTED]
 - [[google.js]] - `indirect_call` [INFERRED]
-- [[runSync()]] - `calls` [EXTRACTED]
+- [[runPart()]] - `calls` [EXTRACTED]
 - [[server.js]] - `calls` [EXTRACTED]
 - [[sync.js]] - `imports` [EXTRACTED]
 

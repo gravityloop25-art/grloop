@@ -12,7 +12,7 @@ tags:
 # arm_state()
 
 ## Connections
-- [[draw()_16]] - `calls` [EXTRACTED]
+- [[draw()_17]] - `calls` [EXTRACTED]
 - [[gv.py]] - `contains` [EXTRACTED]
 - [[step()_14]] - `calls` [EXTRACTED]
 

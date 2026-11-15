@@ -12,7 +12,7 @@ tags:
 # obstacles()
 
 ## Connections
-- [[draw()_17]] - `calls` [EXTRACTED]
+- [[draw()_18]] - `calls` [EXTRACTED]
 - [[hit.py]] - `contains` [EXTRACTED]
 - [[returns list of dict(O, al, lo, hi, vt, w, C0, split, col)]] - `rationale_for` [EXTRACTED]
 - [[step()_15]] - `calls` [EXTRACTED]

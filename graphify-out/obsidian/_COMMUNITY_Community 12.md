@@ -11,11 +11,11 @@ members: 7
 
 ## Members
 - [[ballcol()]] - code - code/gearpl.py
-- [[draw()_3]] - code - code/gearpl.py
+- [[draw()_4]] - code - code/gearpl.py
 - [[gearpl.py]] - code - code/gearpl.py
-- [[run()_2]] - code - code/gearpl.py
+- [[run()_4]] - code - code/gearpl.py
 - [[spawn()]] - code - code/gearpl.py
-- [[step()_1]] - code - code/gearpl.py
+- [[step()_2]] - code - code/gearpl.py
 - [[update_gears()]] - code - code/gearpl.py
 
 ## Live Query (requires Dataview plugin)
@@ -27,16 +27,16 @@ SORT file.name ASC
 
 ## Connections to other communities
 - 3 edges to [[_COMMUNITY_Community 7]]
-- 2 edges to [[_COMMUNITY_Community 26]]
+- 2 edges to [[_COMMUNITY_Community 20]]
 - 1 edge to [[_COMMUNITY_Community 11]]
+- 1 edge to [[_COMMUNITY_Community 10]]
 - 1 edge to [[_COMMUNITY_Community 3]]
-- 1 edge to [[_COMMUNITY_Community 19]]
 - 1 edge to [[_COMMUNITY_Community 18]]
-- 1 edge to [[_COMMUNITY_Community 4]]
-- 1 edge to [[_COMMUNITY_Community 20]]
+- 1 edge to [[_COMMUNITY_Community 19]]
 - 1 edge to [[_COMMUNITY_Community 14]]
+- 1 edge to [[_COMMUNITY_Community 17]]
 
 ## Top bridge nodes
-- [[gearpl.py]] - degree 12, connects to 5 communities
-- [[draw()_3]] - degree 6, connects to 3 communities
-- [[run()_2]] - degree 6, connects to 3 communities
+- [[gearpl.py]] - degree 12, connects to 4 communities
+- [[draw()_4]] - degree 6, connects to 3 communities
+- [[run()_4]] - degree 6, connects to 3 communities

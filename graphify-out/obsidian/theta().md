@@ -13,7 +13,7 @@ tags:
 
 ## Connections
 - [[cd.py]] - `contains` [EXTRACTED]
-- [[draw()_6]] - `calls` [EXTRACTED]
-- [[step()_4]] - `calls` [EXTRACTED]
+- [[draw()_7]] - `calls` [EXTRACTED]
+- [[step()_5]] - `calls` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/Community_15

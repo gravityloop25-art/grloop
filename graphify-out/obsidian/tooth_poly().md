@@ -12,7 +12,7 @@ tags:
 # tooth_poly()
 
 ## Connections
-- [[draw()_16]] - `calls` [EXTRACTED]
+- [[draw()_17]] - `calls` [EXTRACTED]
 - [[gv.py]] - `contains` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/Community_5

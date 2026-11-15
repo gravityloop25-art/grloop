@@ -1,22 +1,22 @@
 ---
-source_file: "code/hb.py"
+source_file: "code/fk.py"
 type: "code"
-community: "Community 26"
-location: "L88"
+community: "Community 19"
+location: "L105"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_26
+  - community/Community_19
 ---
 
 # run()
 
 ## Connections
 - [[Writer]] - `calls` [EXTRACTED]
-- [[draw()_12]] - `calls` [EXTRACTED]
-- [[hb.py]] - `contains` [EXTRACTED]
+- [[draw()_11]] - `calls` [EXTRACTED]
+- [[fk.py]] - `contains` [EXTRACTED]
 - [[make_audio()]] - `calls` [EXTRACTED]
 - [[mux()]] - `calls` [EXTRACTED]
-- [[step()_10]] - `calls` [EXTRACTED]
+- [[step()_9]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_26
+#graphify/code #graphify/EXTRACTED #community/Community_19

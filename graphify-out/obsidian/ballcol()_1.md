@@ -12,7 +12,7 @@ tags:
 # ballcol()
 
 ## Connections
-- [[draw()_8]] - `calls` [EXTRACTED]
+- [[draw()_9]] - `calls` [EXTRACTED]
 - [[plinko.py]] - `contains` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/Community_17

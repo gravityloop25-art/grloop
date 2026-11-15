@@ -2,7 +2,7 @@
 source_file: "dashboard/sync.js"
 type: "code"
 community: "Community 0"
-location: "L21"
+location: "L19"
 tags:
   - graphify/code
   - graphify/EXTRACTED
@@ -12,10 +12,8 @@ tags:
 # syncChannel()
 
 ## Connections
-- [[getKV()]] - `calls` [EXTRACTED]
 - [[gget()]] - `calls` [EXTRACTED]
-- [[runSync()]] - `indirect_call` [INFERRED]
 - [[setKV()]] - `calls` [EXTRACTED]
-- [[sync.js]] - `contains` [EXTRACTED]
+- [[sync.js]] - `indirect_call` [INFERRED]
 
 #graphify/code #graphify/EXTRACTED #community/Community_0

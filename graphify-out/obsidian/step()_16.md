@@ -13,7 +13,7 @@ tags:
 
 ## Connections
 - [[gb.py]] - `contains` [EXTRACTED]
-- [[run()_17]] - `calls` [EXTRACTED]
+- [[run()_18]] - `calls` [EXTRACTED]
 - [[scol()]] - `calls` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/Community_9

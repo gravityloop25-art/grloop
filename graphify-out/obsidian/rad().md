@@ -12,8 +12,8 @@ tags:
 # rad()
 
 ## Connections
-- [[draw()_7]] - `calls` [EXTRACTED]
+- [[draw()_8]] - `calls` [EXTRACTED]
 - [[ls.py]] - `contains` [EXTRACTED]
-- [[step()_5]] - `calls` [EXTRACTED]
+- [[step()_6]] - `calls` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/Community_16

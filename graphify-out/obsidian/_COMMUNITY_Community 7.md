@@ -29,17 +29,15 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
+- 9 edges to [[_COMMUNITY_Community 20]]
+- 7 edges to [[_COMMUNITY_Community 10]]
 - 5 edges to [[_COMMUNITY_Community 18]]
 - 5 edges to [[_COMMUNITY_Community 19]]
-- 5 edges to [[_COMMUNITY_Community 20]]
-- 5 edges to [[_COMMUNITY_Community 26]]
 - 4 edges to [[_COMMUNITY_Community 11]]
+- 4 edges to [[_COMMUNITY_Community 14]]
 - 4 edges to [[_COMMUNITY_Community 3]]
-- 4 edges to [[_COMMUNITY_Community 4]]
-- 3 edges to [[_COMMUNITY_Community 10]]
 - 3 edges to [[_COMMUNITY_Community 12]]
 - 3 edges to [[_COMMUNITY_Community 13]]
-- 3 edges to [[_COMMUNITY_Community 14]]
 - 3 edges to [[_COMMUNITY_Community 15]]
 - 3 edges to [[_COMMUNITY_Community 16]]
 - 3 edges to [[_COMMUNITY_Community 17]]
@@ -50,7 +48,7 @@ SORT file.name ASC
 - 1 edge to [[_COMMUNITY_Community 21]]
 
 ## Top bridge nodes
-- [[common.py]] - degree 35, connects to 19 communities
-- [[numpy]] - degree 25, connects to 18 communities
-- [[make_audio()]] - degree 27, connects to 17 communities
+- [[common.py]] - degree 35, connects to 17 communities
+- [[numpy]] - degree 25, connects to 16 communities
+- [[make_audio()]] - degree 27, connects to 15 communities
 - [[finale()]] - degree 5, connects to 1 community

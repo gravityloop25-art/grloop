@@ -1,12 +1,12 @@
 ---
 source_file: "code/common.py"
 type: "rationale"
-community: "Community 19"
+community: "Community 18"
 location: "L40"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Community_19
+  - community/Community_18
 ---
 
 # sky: float32 HxWx3, light: PIL RGB layer of crisp neon. adds soft glow.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[compose()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Community_19
+#graphify/rationale #graphify/EXTRACTED #community/Community_18

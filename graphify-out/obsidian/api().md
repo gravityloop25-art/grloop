@@ -18,6 +18,8 @@ tags:
 - [[planView()]] - `calls` [EXTRACTED]
 - [[refreshStatus()]] - `calls` [EXTRACTED]
 - [[route()]] - `calls` [EXTRACTED]
+- [[syncAll()]] - `calls` [EXTRACTED]
+- [[syncIfStale()]] - `calls` [EXTRACTED]
 - [[tiktokView()]] - `calls` [EXTRACTED]
 - [[videosView()]] - `calls` [EXTRACTED]
 

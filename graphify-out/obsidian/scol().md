@@ -12,7 +12,7 @@ tags:
 # scol()
 
 ## Connections
-- [[draw()_18]] - `calls` [EXTRACTED]
+- [[draw()_19]] - `calls` [EXTRACTED]
 - [[gb.py]] - `contains` [EXTRACTED]
 - [[lerp()]] - `calls` [EXTRACTED]
 - [[step()_16]] - `calls` [EXTRACTED]

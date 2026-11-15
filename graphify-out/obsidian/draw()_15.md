@@ -1,20 +1,22 @@
 ---
-source_file: "code/tor.py"
+source_file: "code/gear3.py"
 type: "code"
-community: "Community 4"
-location: "L66"
+community: "Community 3"
+location: "L117"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_4
+  - community/Community_3
 ---
 
 # draw()
 
 ## Connections
+- [[ballcol()_2]] - `calls` [EXTRACTED]
 - [[compose()]] - `calls` [EXTRACTED]
+- [[draw_arm()]] - `calls` [EXTRACTED]
 - [[font()]] - `calls` [EXTRACTED]
-- [[run()_14]] - `calls` [EXTRACTED]
-- [[tor.py]] - `contains` [EXTRACTED]
+- [[gear3.py]] - `contains` [EXTRACTED]
+- [[run()_15]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_4
+#graphify/code #graphify/EXTRACTED #community/Community_3

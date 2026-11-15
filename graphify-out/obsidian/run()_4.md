@@ -1,22 +1,22 @@
 ---
-source_file: "code/bk.py"
+source_file: "code/gearpl.py"
 type: "code"
-community: "Community 14"
-location: "L95"
+community: "Community 12"
+location: "L116"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_14
+  - community/Community_12
 ---
 
 # run()
 
 ## Connections
 - [[Writer]] - `calls` [EXTRACTED]
-- [[bk.py]] - `contains` [EXTRACTED]
-- [[draw()_5]] - `calls` [EXTRACTED]
+- [[draw()_4]] - `calls` [EXTRACTED]
+- [[gearpl.py]] - `contains` [EXTRACTED]
 - [[make_audio()]] - `calls` [EXTRACTED]
 - [[mux()]] - `calls` [EXTRACTED]
-- [[step()_3]] - `calls` [EXTRACTED]
+- [[step()_2]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_14
+#graphify/code #graphify/EXTRACTED #community/Community_12

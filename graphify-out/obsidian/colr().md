@@ -12,7 +12,7 @@ tags:
 # colr()
 
 ## Connections
-- [[draw()_1]] - `calls` [EXTRACTED]
+- [[draw()_2]] - `calls` [EXTRACTED]
 - [[lerp()]] - `calls` [EXTRACTED]
 - [[wl.py]] - `contains` [EXTRACTED]
 

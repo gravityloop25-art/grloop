@@ -15,5 +15,6 @@ tags:
 - [[api()]] - `calls` [EXTRACTED]
 - [[app.js]] - `contains` [EXTRACTED]
 - [[showBanner()]] - `calls` [EXTRACTED]
+- [[syncAll()]] - `calls` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/Community_1

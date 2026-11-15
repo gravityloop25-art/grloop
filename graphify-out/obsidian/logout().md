@@ -1,8 +1,8 @@
 ---
-source_file: "dashboard/google.js"
+source_file: "dashboard/session.js"
 type: "code"
 community: "Community 0"
-location: "L82"
+location: "L28"
 tags:
   - graphify/code
   - graphify/EXTRACTED
@@ -12,8 +12,8 @@ tags:
 # logout()
 
 ## Connections
-- [[delKV()]] - `calls` [EXTRACTED]
-- [[google.js]] - `indirect_call` [INFERRED]
 - [[server.js]] - `calls` [EXTRACTED]
+- [[session.js]] - `indirect_call` [INFERRED]
+- [[setCookie()]] - `calls` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/Community_0

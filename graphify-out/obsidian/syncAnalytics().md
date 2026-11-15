@@ -2,7 +2,7 @@
 source_file: "dashboard/sync.js"
 type: "code"
 community: "Community 0"
-location: "L75"
+location: "L69"
 tags:
   - graphify/code
   - graphify/EXTRACTED
@@ -13,9 +13,11 @@ tags:
 
 ## Connections
 - [[analytics()]] - `calls` [EXTRACTED]
+- [[batch()]] - `calls` [EXTRACTED]
 - [[daysAgo()]] - `calls` [EXTRACTED]
+- [[getKV()]] - `calls` [EXTRACTED]
+- [[num()]] - `calls` [EXTRACTED]
 - [[perVideoReport()]] - `calls` [EXTRACTED]
-- [[runSync()]] - `calls` [EXTRACTED]
-- [[sync.js]] - `contains` [EXTRACTED]
+- [[sync.js]] - `indirect_call` [INFERRED]
 
 #graphify/code #graphify/EXTRACTED #community/Community_0

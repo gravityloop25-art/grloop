@@ -12,10 +12,10 @@ members: 9
 ## Members
 - [[add()_1]] - code - code/gb.py
 - [[bloop()]] - code - code/gb.py
-- [[draw()_18]] - code - code/gb.py
+- [[draw()_19]] - code - code/gb.py
 - [[gb.py]] - code - code/gb.py
 - [[make_audio_gb()]] - code - code/gb.py
-- [[run()_17]] - code - code/gb.py
+- [[run()_18]] - code - code/gb.py
 - [[scol()]] - code - code/gb.py
 - [[shimmer()]] - code - code/gb.py
 - [[step()_16]] - code - code/gb.py
@@ -29,18 +29,18 @@ SORT file.name ASC
 
 ## Connections to other communities
 - 3 edges to [[_COMMUNITY_Community 7]]
-- 2 edges to [[_COMMUNITY_Community 26]]
+- 2 edges to [[_COMMUNITY_Community 20]]
 - 1 edge to [[_COMMUNITY_Community 11]]
+- 1 edge to [[_COMMUNITY_Community 10]]
 - 1 edge to [[_COMMUNITY_Community 18]]
 - 1 edge to [[_COMMUNITY_Community 19]]
 - 1 edge to [[_COMMUNITY_Community 3]]
-- 1 edge to [[_COMMUNITY_Community 4]]
-- 1 edge to [[_COMMUNITY_Community 20]]
 - 1 edge to [[_COMMUNITY_Community 14]]
+- 1 edge to [[_COMMUNITY_Community 17]]
 
 ## Top bridge nodes
-- [[gb.py]] - degree 13, connects to 5 communities
-- [[run()_17]] - degree 6, connects to 2 communities
-- [[draw()_18]] - degree 5, connects to 2 communities
+- [[gb.py]] - degree 13, connects to 4 communities
+- [[run()_18]] - degree 6, connects to 2 communities
+- [[draw()_19]] - degree 5, connects to 2 communities
 - [[make_audio_gb()]] - degree 6, connects to 1 community
 - [[scol()]] - degree 4, connects to 1 community

@@ -11,12 +11,12 @@ members: 7
 
 ## Members
 - [[bar()]] - code - code/fk.py
-- [[compose()]] - code - code/common.py
-- [[draw()_10]] - code - code/fk.py
+- [[draw()_11]] - code - code/fk.py
 - [[fk.py]] - code - code/fk.py
-- [[run()_9]] - code - code/fk.py
-- [[sky float32 HxWx3, light PIL RGB layer of crisp neon. adds soft glow.]] - rationale - code/common.py
-- [[step()_8]] - code - code/fk.py
+- [[mux()]] - code - code/common.py
+- [[run()_11]] - code - code/fk.py
+- [[step()_9]] - code - code/fk.py
+- [[subprocess]] - concept
 
 ## Live Query (requires Dataview plugin)
 
@@ -27,26 +27,25 @@ SORT file.name ASC
 
 ## Connections to other communities
 - 5 edges to [[_COMMUNITY_Community 7]]
+- 4 edges to [[_COMMUNITY_Community 20]]
 - 2 edges to [[_COMMUNITY_Community 11]]
+- 2 edges to [[_COMMUNITY_Community 10]]
 - 2 edges to [[_COMMUNITY_Community 14]]
+- 2 edges to [[_COMMUNITY_Community 17]]
 - 2 edges to [[_COMMUNITY_Community 18]]
 - 2 edges to [[_COMMUNITY_Community 3]]
-- 2 edges to [[_COMMUNITY_Community 26]]
-- 2 edges to [[_COMMUNITY_Community 20]]
-- 2 edges to [[_COMMUNITY_Community 4]]
-- 1 edge to [[_COMMUNITY_Community 10]]
 - 1 edge to [[_COMMUNITY_Community 12]]
 - 1 edge to [[_COMMUNITY_Community 13]]
 - 1 edge to [[_COMMUNITY_Community 15]]
 - 1 edge to [[_COMMUNITY_Community 16]]
-- 1 edge to [[_COMMUNITY_Community 17]]
 - 1 edge to [[_COMMUNITY_Community 27]]
 - 1 edge to [[_COMMUNITY_Community 9]]
 - 1 edge to [[_COMMUNITY_Community 5]]
 - 1 edge to [[_COMMUNITY_Community 8]]
 
 ## Top bridge nodes
-- [[compose()]] - degree 21, connects to 18 communities
-- [[fk.py]] - degree 10, connects to 5 communities
-- [[run()_9]] - degree 6, connects to 3 communities
-- [[draw()_10]] - degree 5, connects to 1 community
+- [[mux()]] - degree 20, connects to 16 communities
+- [[fk.py]] - degree 10, connects to 4 communities
+- [[run()_11]] - degree 6, connects to 2 communities
+- [[draw()_11]] - degree 5, connects to 2 communities
+- [[subprocess]] - degree 2, connects to 1 community

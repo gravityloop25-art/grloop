@@ -12,7 +12,7 @@ tags:
 # rot()
 
 ## Connections
-- [[step()_2]] - `calls` [EXTRACTED]
+- [[step()_3]] - `calls` [EXTRACTED]
 - [[tu.py]] - `contains` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/Community_13

@@ -14,13 +14,13 @@ tags:
 ## Connections
 - [[bar()]] - `contains` [EXTRACTED]
 - [[common.py]] - `imports_from` [EXTRACTED]
-- [[draw()_10]] - `contains` [EXTRACTED]
+- [[draw()_11]] - `contains` [EXTRACTED]
 - [[math]] - `imports` [EXTRACTED]
 - [[numpy]] - `imports` [EXTRACTED]
 - [[pil]] - `imports_from` [EXTRACTED]
 - [[random]] - `imports` [EXTRACTED]
-- [[run()_9]] - `contains` [EXTRACTED]
-- [[step()_8]] - `contains` [EXTRACTED]
+- [[run()_11]] - `contains` [EXTRACTED]
+- [[step()_9]] - `contains` [EXTRACTED]
 - [[sys]] - `imports` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/Community_19

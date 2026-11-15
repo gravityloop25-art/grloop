@@ -12,8 +12,8 @@ tags:
 # bar()
 
 ## Connections
-- [[draw()_10]] - `calls` [EXTRACTED]
+- [[draw()_11]] - `calls` [EXTRACTED]
 - [[fk.py]] - `contains` [EXTRACTED]
-- [[step()_8]] - `calls` [EXTRACTED]
+- [[step()_9]] - `calls` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/Community_19

@@ -1,7 +1,7 @@
 {
   "name": "gravity-loop-dashboard",
   "version": "1.0.0",
-  "description": "Lokales Dashboard für den Shorts-Kanal Gravity Loop",
+  "description": "Lokales Dashboard f\u00fcr den Shorts-Kanal Gravity Loop",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -9,11 +9,12 @@
     "demo": "node demo.js && DEMO=1 DB_FILE=data/demo.sqlite node server.js"
   },
   "dependencies": {
-    "better-sqlite3": "^13.2.0",
+    "@libsql/client": "^0.18.0",
     "chart.js": "^4.4.0",
     "dotenv": "^18.0.10",
-    "express": "^5.0.0",
-    "express-session": "^1.18.0"
+    "express": "^5.0.0"
   },
-  "engines": { "node": ">=18" }
+  "engines": {
+    "node": ">=18"
+  }
 }

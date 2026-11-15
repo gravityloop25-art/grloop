@@ -1,12 +1,12 @@
 ---
 source_file: "dashboard/demo.js"
 type: "code"
-community: "Community 6"
-location: "L3"
+community: "Community 0"
+location: "L4"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_6
+  - community/Community_0
 ---
 
 # fs
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[demo.js]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_6
+#graphify/code #graphify/EXTRACTED #community/Community_0

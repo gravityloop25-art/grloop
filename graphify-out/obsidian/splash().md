@@ -12,7 +12,7 @@ tags:
 # splash()
 
 ## Connections
-- [[run()]] - `calls` [EXTRACTED]
+- [[run()_2]] - `calls` [EXTRACTED]
 - [[wl.py]] - `contains` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/Community_10

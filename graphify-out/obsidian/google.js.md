@@ -27,7 +27,6 @@ tags:
 - [[handleCallback()]] - `indirect_call` [INFERRED]
 - [[http()]] - `imports` [EXTRACTED]
 - [[loggedInEmail()]] - `indirect_call` [INFERRED]
-- [[logout()]] - `indirect_call` [INFERRED]
 - [[newState()]] - `indirect_call` [INFERRED]
 - [[ref_crypto]] - `imports_from` [EXTRACTED]
 - [[server.js]] - `imports_from` [EXTRACTED]

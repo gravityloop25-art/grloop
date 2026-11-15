@@ -13,6 +13,6 @@ tags:
 
 ## Connections
 - [[gearpl.py]] - `contains` [EXTRACTED]
-- [[step()_1]] - `calls` [EXTRACTED]
+- [[step()_2]] - `calls` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/Community_12

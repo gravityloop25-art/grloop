@@ -1,12 +1,12 @@
 ---
-source_file: "code/hb.py"
+source_file: "code/mg.py"
 type: "code"
-community: "Community 26"
-location: "L54"
+community: "Community 20"
+location: "L36"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_26
+  - community/Community_20
 ---
 
 # draw()
@@ -14,9 +14,7 @@ tags:
 ## Connections
 - [[compose()]] - `calls` [EXTRACTED]
 - [[font()]] - `calls` [EXTRACTED]
-- [[hb.py]] - `contains` [EXTRACTED]
-- [[lerp()]] - `calls` [EXTRACTED]
-- [[run()_11]] - `calls` [EXTRACTED]
-- [[tcol()]] - `calls` [EXTRACTED]
+- [[mg.py]] - `contains` [EXTRACTED]
+- [[run()_12]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_26
+#graphify/code #graphify/EXTRACTED #community/Community_20

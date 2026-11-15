@@ -19,6 +19,7 @@ tags:
 - [[loginView()]] - `calls` [EXTRACTED]
 - [[overview()]] - `indirect_call` [INFERRED]
 - [[planView()]] - `indirect_call` [INFERRED]
+- [[syncAll()]] - `calls` [EXTRACTED]
 - [[tiktokView()]] - `indirect_call` [INFERRED]
 - [[videosView()]] - `indirect_call` [INFERRED]
 
