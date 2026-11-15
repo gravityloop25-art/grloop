@@ -1,0 +1,46 @@
+---
+type: community
+cohesion: 0.42
+members: 9
+---
+
+# Community 9
+
+**Cohesion:** 0.42 - moderately connected
+**Members:** 9 nodes
+
+## Members
+- [[add()_1]] - code - code/gb.py
+- [[bloop()]] - code - code/gb.py
+- [[draw()_18]] - code - code/gb.py
+- [[gb.py]] - code - code/gb.py
+- [[make_audio_gb()]] - code - code/gb.py
+- [[run()_17]] - code - code/gb.py
+- [[scol()]] - code - code/gb.py
+- [[shimmer()]] - code - code/gb.py
+- [[step()_16]] - code - code/gb.py
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Community_9
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 3 edges to [[_COMMUNITY_Community 7]]
+- 2 edges to [[_COMMUNITY_Community 26]]
+- 1 edge to [[_COMMUNITY_Community 11]]
+- 1 edge to [[_COMMUNITY_Community 18]]
+- 1 edge to [[_COMMUNITY_Community 19]]
+- 1 edge to [[_COMMUNITY_Community 3]]
+- 1 edge to [[_COMMUNITY_Community 4]]
+- 1 edge to [[_COMMUNITY_Community 20]]
+- 1 edge to [[_COMMUNITY_Community 14]]
+
+## Top bridge nodes
+- [[gb.py]] - degree 13, connects to 5 communities
+- [[run()_17]] - degree 6, connects to 2 communities
+- [[draw()_18]] - degree 5, connects to 2 communities
+- [[make_audio_gb()]] - degree 6, connects to 1 community
+- [[scol()]] - degree 4, connects to 1 community
