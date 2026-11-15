@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "concept"
-community: "Community 4"
+community: "Community 14"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Community_4
+  - community/Community_14
 ---
 
 # sys
@@ -24,10 +24,11 @@ tags:
 - [[hit.py]] - `imports` [EXTRACTED]
 - [[ls.py]] - `imports` [EXTRACTED]
 - [[mg.py]] - `imports` [EXTRACTED]
+- [[patch-manifest.py]] - `imports` [EXTRACTED]
 - [[plinko.py]] - `imports` [EXTRACTED]
 - [[rb.py]] - `imports` [EXTRACTED]
 - [[tor.py]] - `imports` [EXTRACTED]
 - [[tu.py]] - `imports` [EXTRACTED]
 - [[wl.py]] - `imports` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Community_4
+#graphify/concept #graphify/EXTRACTED #community/Community_14

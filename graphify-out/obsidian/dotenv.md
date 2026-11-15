@@ -12,7 +12,7 @@ tags:
 # dotenv
 
 ## Connections
+- [[dashboardpackage.json]] - `imports` [EXTRACTED]
 - [[dotenv@18.0.10]] - `declares` [EXTRACTED]
-- [[package.json]] - `imports` [EXTRACTED]
 
 #graphify/concept #graphify/EXTRACTED #community/Community_2

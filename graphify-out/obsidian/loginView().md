@@ -13,6 +13,7 @@ tags:
 
 ## Connections
 - [[app.js]] - `contains` [EXTRACTED]
+- [[appShell()]] - `calls` [EXTRACTED]
 - [[esc()]] - `calls` [EXTRACTED]
 - [[route()]] - `calls` [EXTRACTED]
 

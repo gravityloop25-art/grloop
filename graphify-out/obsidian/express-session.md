@@ -12,8 +12,8 @@ tags:
 # express-session
 
 ## Connections
+- [[dashboardpackage.json]] - `imports` [EXTRACTED]
 - [[express-session@1.18.0]] - `declares` [EXTRACTED]
-- [[package.json]] - `imports` [EXTRACTED]
 - [[server.js]] - `imports_from` [EXTRACTED]
 
 #graphify/concept #graphify/EXTRACTED #community/Community_2

@@ -27,25 +27,26 @@ SORT file.name ASC
 
 ## Connections to other communities
 - 5 edges to [[_COMMUNITY_Community 7]]
-- 4 edges to [[_COMMUNITY_Community 3]]
-- 3 edges to [[_COMMUNITY_Community 4]]
 - 2 edges to [[_COMMUNITY_Community 11]]
 - 2 edges to [[_COMMUNITY_Community 14]]
+- 2 edges to [[_COMMUNITY_Community 18]]
+- 2 edges to [[_COMMUNITY_Community 3]]
+- 2 edges to [[_COMMUNITY_Community 26]]
 - 2 edges to [[_COMMUNITY_Community 20]]
-- 1 edge to [[_COMMUNITY_Community 22]]
+- 2 edges to [[_COMMUNITY_Community 4]]
 - 1 edge to [[_COMMUNITY_Community 10]]
 - 1 edge to [[_COMMUNITY_Community 12]]
 - 1 edge to [[_COMMUNITY_Community 13]]
 - 1 edge to [[_COMMUNITY_Community 15]]
 - 1 edge to [[_COMMUNITY_Community 16]]
 - 1 edge to [[_COMMUNITY_Community 17]]
-- 1 edge to [[_COMMUNITY_Community 18]]
+- 1 edge to [[_COMMUNITY_Community 27]]
 - 1 edge to [[_COMMUNITY_Community 9]]
 - 1 edge to [[_COMMUNITY_Community 5]]
 - 1 edge to [[_COMMUNITY_Community 8]]
 
 ## Top bridge nodes
-- [[compose()]] - degree 21, connects to 16 communities
-- [[fk.py]] - degree 10, connects to 4 communities
+- [[compose()]] - degree 21, connects to 18 communities
+- [[fk.py]] - degree 10, connects to 5 communities
 - [[run()_9]] - degree 6, connects to 3 communities
 - [[draw()_10]] - degree 5, connects to 1 community

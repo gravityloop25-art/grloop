@@ -1,0 +1,6 @@
+node_modules
+android
+capacitor.config.json
+dist
+assets/*
+!assets/icon-only.png

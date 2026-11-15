@@ -81,8 +81,38 @@ function loginView() {
   app.innerHTML = `<div class="login card"><h1>Gravity Loop</h1>
     <p class="muted">Dashboard für ${esc(ME.allowed)}</p>
     ${setup ? `<p class="muted">Google-Zugangsdaten fehlen noch. Trage <b>GOOGLE_CLIENT_ID</b> und <b>GOOGLE_CLIENT_SECRET</b> in die <b>.env</b> ein (siehe README) und starte neu.</p>`
-      : `<a class="cta" href="/auth/login">Mit Google anmelden</a>`}</div>`;
+      : `<a class="cta" id="loginBtn" href="/auth/login">Mit Google anmelden</a>`}</div>`;
+  const sh = appShell();
+  if (sh && $('#loginBtn')) $('#loginBtn').onclick = async (e) => {
+    e.preventDefault();
+    const bytes = crypto.getRandomValues(new Uint8Array(32)); const verifier = [...bytes].map((b) => b.toString(16).padStart(2, '0')).join('');
+    try { localStorage.setItem('gl_verifier', verifier); } catch {}
+    const hash = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(verifier));
+    const challenge = [...new Uint8Array(hash)].map((b) => b.toString(16).padStart(2, '0')).join('');
+    sh.openExternal(`${location.origin}/auth/login?app=1&challenge=${challenge}`);
+  };
 }
+
+// Schnittstelle zu den Apps (Electron-Desktop: window.glApp, Android: Capacitor). Im normalen Browser null.
+function appShell() {
+  if (window.glApp) return window.glApp;
+  const cap = window.Capacitor;
+  if (cap?.isNativePlatform?.()) return {
+    openExternal: (u) => cap.Plugins.Browser.open({ url: u }),
+    onDeepLink: (cb) => cap.Plugins.App.addListener('appUrlOpen', (e) => cb(e.url)),
+  };
+  return null;
+}
+(function initDeepLink() {
+  const sh = appShell(); if (!sh) return;
+  sh.onDeepLink((url) => {
+    try {
+      const u = new URL(url); if (u.protocol !== 'gravityloop:') return;
+      const code = u.searchParams.get('code'); let v = ''; try { v = localStorage.getItem('gl_verifier') || ''; } catch {}
+      if (code) location.href = `/auth/exchange?code=${encodeURIComponent(code)}&verifier=${encodeURIComponent(v)}`;
+    } catch {}
+  });
+})();
 
 // ---- Seite 1: Übersicht ----
 async function overview() {

@@ -114,10 +114,10 @@
     "semantic_hash": "6eed9525553964061040635ef7bedf1a"
   },
   "dashboard/db.js": {
-    "mtime": 1794707169.8331778,
-    "seen": 1794734101.1682608,
-    "ast_hash": "6b83f2158d585de1b165ade7fcb5fb92",
-    "semantic_hash": "6b83f2158d585de1b165ade7fcb5fb92"
+    "mtime": 1794734747.1634886,
+    "seen": 1794734848.4870765,
+    "ast_hash": "f958f0ea6aef37198881e91b728dcc56",
+    "semantic_hash": ""
   },
   "dashboard/demo.js": {
     "mtime": 1794707181.289103,
@@ -150,15 +150,15 @@
     "semantic_hash": "2478d9682fc460510cd1a20536eb2d92"
   },
   "dashboard/public/app.js": {
-    "mtime": 1794707276.8166893,
-    "seen": 1794734101.1682737,
-    "ast_hash": "8befbaf34c15dea5ceff64565bd2b7f2",
-    "semantic_hash": "8befbaf34c15dea5ceff64565bd2b7f2"
+    "mtime": 1794734747.1640913,
+    "seen": 1794734848.4870884,
+    "ast_hash": "77f18c16c6c7af4276914f36a4c936b7",
+    "semantic_hash": ""
   },
   "dashboard/server.js": {
-    "mtime": 1794734569.3065321,
-    "seen": 1794734584.4252133,
-    "ast_hash": "2e80f646c30efb4564430fb1e8e48ff2",
+    "mtime": 1794734747.1629062,
+    "seen": 1794734848.4870899,
+    "ast_hash": "1e019cdb802997f36ca5a314a8e6f9bc",
     "semantic_hash": ""
   },
   "dashboard/sync.js": {
@@ -336,9 +336,9 @@
     "semantic_hash": ""
   },
   "CLAUDE.md": {
-    "mtime": 1794734480.998205,
-    "seen": 1794734584.4252238,
-    "ast_hash": "3a174f175bc4b0c651f713da2154cff6",
+    "mtime": 1794734846.71516,
+    "seen": 1794734848.4870963,
+    "ast_hash": "c2a9cbf3f86a47deb1b331d7391b5861",
     "semantic_hash": ""
   },
   "dashboard/README.md": {
@@ -369,6 +369,96 @@
     "mtime": 1794734569.314532,
     "seen": 1794734584.425234,
     "ast_hash": "c5b08c9c499a6d6f67c692cb1e8f12f9",
+    "semantic_hash": ""
+  },
+  ".github/workflows/build-apps.yml": {
+    "mtime": 1794734836.1614275,
+    "seen": 1794734848.4869862,
+    "ast_hash": "3f4da62516f823359359d8a2bb03b708",
+    "semantic_hash": ""
+  },
+  "apps/android/package.json": {
+    "mtime": 1794734790.4185452,
+    "seen": 1794734848.4869952,
+    "ast_hash": "ed3b7a6f6f40415883ce3bf6c057cb73",
+    "semantic_hash": ""
+  },
+  "apps/android/scripts/make-config.js": {
+    "mtime": 1794734768.806544,
+    "seen": 1794734848.4869983,
+    "ast_hash": "aad19cda321944c30c3595af1e670c49",
+    "semantic_hash": ""
+  },
+  "apps/android/scripts/patch-manifest.py": {
+    "mtime": 1794734768.8105116,
+    "seen": 1794734848.4869998,
+    "ast_hash": "64589c47f60e984231f29b7fef89abef",
+    "semantic_hash": ""
+  },
+  "apps/desktop/app-config.json": {
+    "mtime": 1794734768.7946682,
+    "seen": 1794734848.4870014,
+    "ast_hash": "66c81212031346800f53f781f4f38a84",
+    "semantic_hash": ""
+  },
+  "apps/desktop/main.js": {
+    "mtime": 1794734768.7969203,
+    "seen": 1794734848.4870026,
+    "ast_hash": "e897363caa255e6ef9ac6398ec2f70b1",
+    "semantic_hash": ""
+  },
+  "apps/desktop/package.json": {
+    "mtime": 1794734780.1945446,
+    "seen": 1794734848.487004,
+    "ast_hash": "243c8b4b5a81cfcf119d00efe490f631",
+    "semantic_hash": ""
+  },
+  "apps/desktop/preload.js": {
+    "mtime": 1794734768.7991726,
+    "seen": 1794734848.4870055,
+    "ast_hash": "3e2790164abcc37fd49ccf34bcbc25c2",
+    "semantic_hash": ""
+  },
+  "apps/README.md": {
+    "mtime": 1794734846.6959202,
+    "seen": 1794734848.4870982,
+    "ast_hash": "2c7cb3d036db61baa1d3d52efc224c14",
+    "semantic_hash": ""
+  },
+  "apps/android/README.md": {
+    "mtime": 1794734768.8143044,
+    "seen": 1794734848.4870994,
+    "ast_hash": "8359609a2a0a85945d148f4bc73ad6e6",
+    "semantic_hash": ""
+  },
+  "apps/android/www/index.html": {
+    "mtime": 1794734768.810544,
+    "seen": 1794734848.4871008,
+    "ast_hash": "52ee200ea083e4cdc503a25616c3afb2",
+    "semantic_hash": ""
+  },
+  "apps/desktop/offline.html": {
+    "mtime": 1794734768.8037426,
+    "seen": 1794734848.487102,
+    "ast_hash": "8613b7ce05967716c84ceb0cf96663d5",
+    "semantic_hash": ""
+  },
+  "apps/android/assets/icon-only.png": {
+    "mtime": 1794734768.726544,
+    "seen": 1794734848.4871078,
+    "ast_hash": "9422ad5381d110b9072a074180e88bef",
+    "semantic_hash": ""
+  },
+  "apps/android/package-lock.json": {
+    "mtime": 1794734790.4505453,
+    "seen": 1794734848.4871552,
+    "ast_hash": "f7509e8a1c78019faaeab51769bc1088",
+    "semantic_hash": ""
+  },
+  "apps/desktop/package-lock.json": {
+    "mtime": 1794734780.2785447,
+    "seen": 1794734848.487157,
+    "ast_hash": "97daf82fb866d44720ccc7f2fd800027",
     "semantic_hash": ""
   },
   "dashboard/package-lock.json": {

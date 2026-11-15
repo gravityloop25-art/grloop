@@ -1,13 +1,13 @@
 ---
 type: community
-cohesion: 0.09
-members: 56
+cohesion: 0.10
+members: 54
 ---
 
 # Community 0
 
-**Cohesion:** 0.09 - loosely connected
-**Members:** 56 nodes
+**Cohesion:** 0.10 - loosely connected
+**Members:** 54 nodes
 
 ## Members
 - [[dot-constructor()]] - code - dashboard/errors.js
@@ -51,8 +51,6 @@ members: 56
 - [[path_1]] - code - dashboard/server.js
 - [[perVideoReport()]] - code - dashboard/sync.js
 - [[ref_crypto]] - concept
-- [[ref_fs]] - concept
-- [[ref_path]] - concept
 - [[runSync()]] - code - dashboard/sync.js
 - [[server.js]] - code - dashboard/server.js
 - [[session]] - code - dashboard/server.js
@@ -77,10 +75,10 @@ SORT file.name ASC
 ## Connections to other communities
 - 4 edges to [[_COMMUNITY_Community 6]]
 - 3 edges to [[_COMMUNITY_Community 2]]
+- 2 edges to [[_COMMUNITY_Community 22]]
 
 ## Top bridge nodes
-- [[db.js]] - degree 15, connects to 2 communities
-- [[server.js]] - degree 27, connects to 1 community
+- [[db.js]] - degree 15, connects to 3 communities
+- [[server.js]] - degree 27, connects to 2 communities
 - [[setKV()]] - degree 9, connects to 1 community
 - [[db]] - degree 5, connects to 1 community
-- [[ref_fs]] - degree 2, connects to 1 community

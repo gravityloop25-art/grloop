@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "concept"
-community: "Community 20"
+community: "Community 4"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Community_20
+  - community/Community_4
 ---
 
 # math
@@ -31,4 +31,4 @@ tags:
 - [[tu.py]] - `imports` [EXTRACTED]
 - [[wl.py]] - `imports` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Community_20
+#graphify/concept #graphify/EXTRACTED #community/Community_4

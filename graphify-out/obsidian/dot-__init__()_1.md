@@ -1,17 +1,17 @@
 ---
 source_file: "code/common.py"
 type: "code"
-community: "Community 22"
-location: "L56"
+community: "Community 21"
+location: "L11"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_22
+  - community/Community_21
 ---
 
 # .__init__()
 
 ## Connections
-- [[Writer]] - `method` [EXTRACTED]
+- [[Sky]] - `method` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_22
+#graphify/code #graphify/EXTRACTED #community/Community_21

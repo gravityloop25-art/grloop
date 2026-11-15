@@ -13,7 +13,7 @@ tags:
 
 ## Connections
 - [[better-sqlite3@13.2.0]] - `declares` [EXTRACTED]
+- [[dashboardpackage.json]] - `imports` [EXTRACTED]
 - [[db.js]] - `imports_from` [EXTRACTED]
-- [[package.json]] - `imports` [EXTRACTED]
 
 #graphify/concept #graphify/EXTRACTED #community/Community_2

@@ -14,9 +14,9 @@ tags:
 ## Connections
 - [[better-sqlite3@13.2.0]] - `contains` [EXTRACTED]
 - [[chart.js@4.4.0]] - `contains` [EXTRACTED]
+- [[dashboardpackage.json]] - `contains` [EXTRACTED]
 - [[dotenv@18.0.10]] - `contains` [EXTRACTED]
 - [[express-session@1.18.0]] - `contains` [EXTRACTED]
 - [[express@5.0.0]] - `contains` [EXTRACTED]
-- [[package.json]] - `contains` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/Community_2

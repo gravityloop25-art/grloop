@@ -12,7 +12,7 @@ tags:
 # Sky
 
 ## Connections
-- [[dot-__init__()]] - `method` [EXTRACTED]
+- [[dot-__init__()_1]] - `method` [EXTRACTED]
 - [[dot-frame()]] - `method` [EXTRACTED]
 - [[common.py]] - `contains` [EXTRACTED]
 - [[dark night sky with many small twinkling stars]] - `rationale_for` [EXTRACTED]

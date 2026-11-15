@@ -1,22 +1,23 @@
 ---
-source_file: "code/gear3.py"
+source_file: "code/dr.py"
 type: "code"
-community: "Community 3"
-location: "L117"
+community: "Community 27"
+location: "L65"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_3
+  - community/Community_27
 ---
 
 # draw()
 
 ## Connections
-- [[ballcol()_2]] - `calls` [EXTRACTED]
 - [[compose()]] - `calls` [EXTRACTED]
-- [[draw_arm()]] - `calls` [EXTRACTED]
+- [[dr.py]] - `contains` [EXTRACTED]
 - [[font()]] - `calls` [EXTRACTED]
-- [[gear3.py]] - `contains` [EXTRACTED]
+- [[lerp()]] - `calls` [EXTRACTED]
 - [[run()_12]] - `calls` [EXTRACTED]
+- [[th1()]] - `calls` [EXTRACTED]
+- [[th2()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_3
+#graphify/code #graphify/EXTRACTED #community/Community_27

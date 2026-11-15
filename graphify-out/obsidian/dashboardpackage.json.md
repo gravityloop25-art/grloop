@@ -9,7 +9,7 @@ tags:
   - community/Community_2
 ---
 
-# package.json
+# dashboard/package.json
 
 ## Connections
 - [[better-sqlite3]] - `imports` [EXTRACTED]

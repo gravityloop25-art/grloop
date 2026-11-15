@@ -13,6 +13,6 @@ tags:
 
 ## Connections
 - [[chart.js@4.4.0]] - `declares` [EXTRACTED]
-- [[package.json]] - `imports` [EXTRACTED]
+- [[dashboardpackage.json]] - `imports` [EXTRACTED]
 
 #graphify/concept #graphify/EXTRACTED #community/Community_2

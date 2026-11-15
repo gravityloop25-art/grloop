@@ -1,13 +1,13 @@
 ---
 type: community
 cohesion: 0.15
-members: 35
+members: 36
 ---
 
 # Community 1
 
 **Cohesion:** 0.15 - loosely connected
-**Members:** 35 nodes
+**Members:** 36 nodes
 
 ## Members
 - [[C]] - code - dashboard/public/app.js
@@ -19,6 +19,7 @@ members: 35
 - [[api()]] - code - dashboard/public/app.js
 - [[app_1]] - code - dashboard/public/app.js
 - [[app.js]] - code - dashboard/public/app.js
+- [[appShell()]] - code - dashboard/public/app.js
 - [[axes()]] - code - dashboard/public/app.js
 - [[bestTimes()]] - code - dashboard/public/app.js
 - [[charts]] - code - dashboard/public/app.js

@@ -20,6 +20,7 @@ tags:
 - [[addDays()]] - `contains` [EXTRACTED]
 - [[api()]] - `contains` [EXTRACTED]
 - [[app_1]] - `contains` [EXTRACTED]
+- [[appShell()]] - `contains` [EXTRACTED]
 - [[axes()]] - `contains` [EXTRACTED]
 - [[bestTimes()]] - `contains` [EXTRACTED]
 - [[charts]] - `contains` [EXTRACTED]

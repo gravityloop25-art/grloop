@@ -12,7 +12,7 @@ tags:
 # engines
 
 ## Connections
+- [[dashboardpackage.json]] - `contains` [EXTRACTED]
 - [[node]] - `contains` [EXTRACTED]
-- [[package.json]] - `contains` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/Community_2

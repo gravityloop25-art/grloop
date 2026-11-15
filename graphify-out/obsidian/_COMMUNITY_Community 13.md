@@ -27,15 +27,16 @@ SORT file.name ASC
 
 ## Connections to other communities
 - 3 edges to [[_COMMUNITY_Community 7]]
-- 2 edges to [[_COMMUNITY_Community 3]]
-- 2 edges to [[_COMMUNITY_Community 4]]
-- 1 edge to [[_COMMUNITY_Community 22]]
+- 2 edges to [[_COMMUNITY_Community 26]]
 - 1 edge to [[_COMMUNITY_Community 11]]
 - 1 edge to [[_COMMUNITY_Community 19]]
+- 1 edge to [[_COMMUNITY_Community 3]]
+- 1 edge to [[_COMMUNITY_Community 18]]
+- 1 edge to [[_COMMUNITY_Community 4]]
 - 1 edge to [[_COMMUNITY_Community 20]]
 - 1 edge to [[_COMMUNITY_Community 14]]
 
 ## Top bridge nodes
-- [[tu.py]] - degree 11, connects to 4 communities
+- [[tu.py]] - degree 11, connects to 5 communities
 - [[run()_3]] - degree 6, connects to 3 communities
-- [[draw()_4]] - degree 5, connects to 2 communities
+- [[draw()_4]] - degree 5, connects to 3 communities

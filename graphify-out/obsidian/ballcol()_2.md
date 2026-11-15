@@ -1,19 +1,19 @@
 ---
 source_file: "code/gear3.py"
 type: "code"
-community: "Community 3"
+community: "Community 26"
 location: "L104"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_3
+  - community/Community_26
 ---
 
 # ballcol()
 
 ## Connections
-- [[draw()_13]] - `calls` [EXTRACTED]
+- [[draw()_14]] - `calls` [EXTRACTED]
 - [[gear3.py]] - `contains` [EXTRACTED]
 - [[lerp()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_3
+#graphify/code #graphify/EXTRACTED #community/Community_26

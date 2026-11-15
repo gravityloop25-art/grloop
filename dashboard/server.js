@@ -20,7 +20,7 @@ app.get('/healthz', (req, res) => res.send('ok'));
 app.use(session({
   store: new SqliteStore(session),
   secret: process.env.SESSION_SECRET || require('crypto').randomBytes(24).toString('hex'),
-  resave: false, saveUninitialized: false,
+  resave: false, saveUninitialized: false, rolling: true,
   cookie: { httpOnly: true, sameSite: 'lax', secure: PROD ? 'auto' : false, maxAge: 30 * 86400e3 },
 }));
 
@@ -28,6 +28,8 @@ app.use(session({
 app.get('/auth/login', (req, res) => {
   if (!google.configured()) return res.redirect('/?error=' + encodeURIComponent('GOOGLE_CLIENT_ID / GOOGLE_CLIENT_SECRET fehlen in der .env (siehe README).'));
   req.session.state = google.newState();
+  // App-Login (Desktop/Android): Login läuft im System-Browser, Rückgabe per Einmal-Code + PKCE-Challenge
+  req.session.challenge = req.query.app === '1' && /^[a-f0-9]{64}$/.test(String(req.query.challenge || '')) ? String(req.query.challenge) : null;
   res.redirect(google.authUrl(req.session.state));
 });
 
@@ -39,10 +41,28 @@ app.get('/auth/callback', async (req, res) => {
     await google.handleCallback(String(req.query.code));
     req.session.ok = true;
     runSync().catch(() => {});
+    if (req.session.challenge) {
+      const code = require('crypto').randomBytes(24).toString('hex');
+      db.prepare('INSERT INTO app_codes(code,challenge,expires) VALUES(?,?,?)').run(code, req.session.challenge, Date.now() + 120e3);
+      req.session.challenge = null; req.session.ok = false; // Browser-Sitzung wird nicht gebraucht
+      const link = `gravityloop://login?code=${code}`;
+      return res.type('html').send(`<!doctype html><meta name="viewport" content="width=device-width,initial-scale=1"><body style="background:#000;color:#fff;font:18px system-ui;text-align:center;padding:15vh 20px"><h2>Login erfolgreich ✔</h2><p><a style="display:inline-block;background:#ff2bd6;color:#000;font-weight:800;padding:14px 26px;border-radius:12px;text-decoration:none" href="${link}">Zurück zur App</a></p><p style="color:#888">Du kannst dieses Fenster danach schließen.</p><script>setTimeout(function(){location.href=${JSON.stringify(link)}},300)</script>`);
+    }
     res.redirect('/');
   } catch (e) {
     fail(e.message);
   }
+});
+
+// Löst den Einmal-Code aus der App ein (nur mit passendem Verifier, 2 Minuten gültig, einmalig).
+app.get('/auth/exchange', (req, res) => {
+  const row = db.prepare('SELECT * FROM app_codes WHERE code=?').get(String(req.query.code || ''));
+  db.prepare('DELETE FROM app_codes WHERE code=? OR expires<?').run(String(req.query.code || ''), Date.now());
+  const ok = row && row.expires > Date.now() && google.loggedInEmail() &&
+    require('crypto').createHash('sha256').update(String(req.query.verifier || '')).digest('hex') === row.challenge;
+  if (!ok) return res.redirect('/?error=' + encodeURIComponent('App-Login fehlgeschlagen oder abgelaufen. Bitte erneut anmelden.'));
+  req.session.ok = true;
+  res.redirect('/');
 });
 
 app.post('/auth/logout', (req, res) => { google.logout(); req.session.destroy(() => res.json({ ok: true })); });

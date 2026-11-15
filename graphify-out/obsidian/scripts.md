@@ -12,9 +12,9 @@ tags:
 # scripts
 
 ## Connections
+- [[dashboardpackage.json]] - `contains` [EXTRACTED]
 - [[demo]] - `contains` [EXTRACTED]
 - [[dev]] - `contains` [EXTRACTED]
-- [[package.json]] - `contains` [EXTRACTED]
 - [[start]] - `contains` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/Community_2

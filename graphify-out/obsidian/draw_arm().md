@@ -12,7 +12,7 @@ tags:
 # draw_arm()
 
 ## Connections
-- [[draw()_13]] - `calls` [EXTRACTED]
+- [[draw()_14]] - `calls` [EXTRACTED]
 - [[gear3.py]] - `contains` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/Community_3

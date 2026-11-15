@@ -17,6 +17,7 @@ CREATE TABLE IF NOT EXISTS daily (date TEXT PRIMARY KEY, views INTEGER, minutes 
 CREATE TABLE IF NOT EXISTS posts (
   id TEXT PRIMARY KEY, network TEXT, text TEXT, start TEXT, status TEXT, source TEXT
 );
+CREATE TABLE IF NOT EXISTS app_codes (code TEXT PRIMARY KEY, challenge TEXT, expires INTEGER);
 CREATE TABLE IF NOT EXISTS video_daily (video_id TEXT, day_idx INTEGER, date TEXT, views INTEGER, PRIMARY KEY (video_id, day_idx));
 `);
 

@@ -29,16 +29,17 @@ SORT file.name ASC
 
 ## Connections to other communities
 - 3 edges to [[_COMMUNITY_Community 7]]
-- 2 edges to [[_COMMUNITY_Community 3]]
-- 2 edges to [[_COMMUNITY_Community 4]]
-- 1 edge to [[_COMMUNITY_Community 22]]
+- 2 edges to [[_COMMUNITY_Community 26]]
 - 1 edge to [[_COMMUNITY_Community 11]]
+- 1 edge to [[_COMMUNITY_Community 18]]
 - 1 edge to [[_COMMUNITY_Community 19]]
+- 1 edge to [[_COMMUNITY_Community 3]]
+- 1 edge to [[_COMMUNITY_Community 4]]
 - 1 edge to [[_COMMUNITY_Community 20]]
 - 1 edge to [[_COMMUNITY_Community 14]]
 
 ## Top bridge nodes
-- [[gb.py]] - degree 13, connects to 4 communities
+- [[gb.py]] - degree 13, connects to 5 communities
 - [[run()_17]] - degree 6, connects to 2 communities
 - [[draw()_18]] - degree 5, connects to 2 communities
 - [[make_audio_gb()]] - degree 6, connects to 1 community

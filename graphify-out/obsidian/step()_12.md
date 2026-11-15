@@ -1,18 +1,21 @@
 ---
-source_file: "code/hb.py"
+source_file: "code/gear3.py"
 type: "code"
-community: "Community 4"
-location: "L25"
+community: "Community 3"
+location: "L56"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_4
+  - community/Community_3
 ---
 
 # step()
 
 ## Connections
-- [[hb.py]] - `contains` [EXTRACTED]
+- [[ang()]] - `calls` [EXTRACTED]
+- [[arc_collide()]] - `calls` [EXTRACTED]
+- [[gear3.py]] - `contains` [EXTRACTED]
+- [[pt_collide()]] - `calls` [EXTRACTED]
 - [[run()_13]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_4
+#graphify/code #graphify/EXTRACTED #community/Community_3

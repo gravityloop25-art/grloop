@@ -14,4 +14,5 @@ Dieses Repo hat einen Wissensgraphen in `graphify-out/` (`GRAPH_REPORT.md`, `gra
 
 - `code/` Python-Skripte für die Shorts-Videos, `videos/` fertige Videos.
 - `dashboard/` Web-Dashboard (Node/Express, SQLite, Chart.js). Start: siehe `dashboard/README.md`.
+- `apps/` Desktop-App (Electron) und Android-App (Capacitor), gebaut per `.github/workflows/build-apps.yml`; Details in `apps/README.md`.
 - Konto nur gravity.loop25@gmail.com. Keine Passwörter oder Secrets speichern oder committen (`.env` bleibt lokal).

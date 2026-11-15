@@ -12,6 +12,6 @@ tags:
 # version
 
 ## Connections
-- [[package.json]] - `contains` [EXTRACTED]
+- [[dashboardpackage.json]] - `contains` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/Community_2

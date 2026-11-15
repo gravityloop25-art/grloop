@@ -2,7 +2,7 @@
 source_file: "dashboard/public/app.js"
 type: "code"
 community: "Community 1"
-location: "L166"
+location: "L196"
 tags:
   - graphify/code
   - graphify/EXTRACTED

@@ -16,15 +16,15 @@ tags:
 - [[arc_collide()]] - `contains` [EXTRACTED]
 - [[ballcol()_2]] - `contains` [EXTRACTED]
 - [[common.py]] - `imports_from` [EXTRACTED]
-- [[draw()_13]] - `contains` [EXTRACTED]
+- [[draw()_14]] - `contains` [EXTRACTED]
 - [[draw_arm()]] - `contains` [EXTRACTED]
 - [[math]] - `imports` [EXTRACTED]
 - [[numpy]] - `imports` [EXTRACTED]
 - [[pil]] - `imports_from` [EXTRACTED]
 - [[pt_collide()]] - `contains` [EXTRACTED]
 - [[random]] - `imports` [EXTRACTED]
-- [[run()_12]] - `contains` [EXTRACTED]
-- [[step()_11]] - `contains` [EXTRACTED]
+- [[run()_13]] - `contains` [EXTRACTED]
+- [[step()_12]] - `contains` [EXTRACTED]
 - [[sys]] - `imports` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/Community_3
