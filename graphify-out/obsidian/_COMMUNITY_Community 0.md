@@ -1,19 +1,20 @@
 ---
 type: community
-cohesion: 0.10
-members: 53
+cohesion: 0.09
+members: 56
 ---
 
 # Community 0
 
-**Cohesion:** 0.10 - loosely connected
-**Members:** 53 nodes
+**Cohesion:** 0.09 - loosely connected
+**Members:** 56 nodes
 
 ## Members
 - [[dot-constructor()]] - code - dashboard/errors.js
 - [[ApiError]] - code - dashboard/errors.js
 - [[Database]] - code - dashboard/db.js
 - [[SCOPES]] - code - dashboard/google.js
+- [[SqliteStore()]] - code - dashboard/session-store.js
 - [[accessToken()]] - code - dashboard/google.js
 - [[analytics()]] - code - dashboard/sync.js
 - [[api]] - code - dashboard/server.js
@@ -50,10 +51,12 @@ members: 53
 - [[path_1]] - code - dashboard/server.js
 - [[perVideoReport()]] - code - dashboard/sync.js
 - [[ref_crypto]] - concept
+- [[ref_fs]] - concept
 - [[ref_path]] - concept
 - [[runSync()]] - code - dashboard/sync.js
 - [[server.js]] - code - dashboard/server.js
 - [[session]] - code - dashboard/server.js
+- [[session-store.js]] - code - dashboard/session-store.js
 - [[setKV()]] - code - dashboard/db.js
 - [[sync.js]] - code - dashboard/sync.js
 - [[syncAnalytics()]] - code - dashboard/sync.js
@@ -76,7 +79,8 @@ SORT file.name ASC
 - 3 edges to [[_COMMUNITY_Community 2]]
 
 ## Top bridge nodes
-- [[db.js]] - degree 14, connects to 2 communities
-- [[server.js]] - degree 25, connects to 1 community
+- [[db.js]] - degree 15, connects to 2 communities
+- [[server.js]] - degree 27, connects to 1 community
 - [[setKV()]] - degree 9, connects to 1 community
-- [[db]] - degree 4, connects to 1 community
+- [[db]] - degree 5, connects to 1 community
+- [[ref_fs]] - degree 2, connects to 1 community

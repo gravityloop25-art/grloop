@@ -15,7 +15,7 @@ members: 7
 - [[gearpl.py]] - code - code/gearpl.py
 - [[run()_2]] - code - code/gearpl.py
 - [[spawn()]] - code - code/gearpl.py
-- [[step()_2]] - code - code/gearpl.py
+- [[step()_1]] - code - code/gearpl.py
 - [[update_gears()]] - code - code/gearpl.py
 
 ## Live Query (requires Dataview plugin)
@@ -27,12 +27,13 @@ SORT file.name ASC
 
 ## Connections to other communities
 - 3 edges to [[_COMMUNITY_Community 7]]
-- 3 edges to [[_COMMUNITY_Community 4]]
 - 2 edges to [[_COMMUNITY_Community 3]]
+- 2 edges to [[_COMMUNITY_Community 4]]
 - 1 edge to [[_COMMUNITY_Community 22]]
 - 1 edge to [[_COMMUNITY_Community 11]]
-- 1 edge to [[_COMMUNITY_Community 14]]
+- 1 edge to [[_COMMUNITY_Community 19]]
 - 1 edge to [[_COMMUNITY_Community 20]]
+- 1 edge to [[_COMMUNITY_Community 14]]
 
 ## Top bridge nodes
 - [[gearpl.py]] - degree 12, connects to 4 communities

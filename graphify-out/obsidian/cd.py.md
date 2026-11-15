@@ -18,9 +18,9 @@ tags:
 - [[numpy]] - `imports` [EXTRACTED]
 - [[pil]] - `imports_from` [EXTRACTED]
 - [[random]] - `imports` [EXTRACTED]
-- [[rot()_3]] - `contains` [EXTRACTED]
+- [[rot()_2]] - `contains` [EXTRACTED]
 - [[run()_5]] - `contains` [EXTRACTED]
-- [[step()_5]] - `contains` [EXTRACTED]
+- [[step()_4]] - `contains` [EXTRACTED]
 - [[sys]] - `imports` [EXTRACTED]
 - [[theta()]] - `contains` [EXTRACTED]
 

@@ -1,8 +1,8 @@
 ---
-source_file: "code/tor.py"
+source_file: "code/mg.py"
 type: "code"
 community: "Community 20"
-location: "L66"
+location: "L36"
 tags:
   - graphify/code
   - graphify/EXTRACTED
@@ -14,7 +14,7 @@ tags:
 ## Connections
 - [[compose()]] - `calls` [EXTRACTED]
 - [[font()]] - `calls` [EXTRACTED]
+- [[mg.py]] - `contains` [EXTRACTED]
 - [[run()_10]] - `calls` [EXTRACTED]
-- [[tor.py]] - `contains` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/Community_20

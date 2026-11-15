@@ -13,9 +13,9 @@ members: 7
 - [[arm = segment from center out to R in direction al (both directions two arms)]] - rationale - code/tu.py
 - [[arm_hit()]] - code - code/tu.py
 - [[draw()_4]] - code - code/tu.py
-- [[rot()_1]] - code - code/tu.py
+- [[rot()]] - code - code/tu.py
 - [[run()_3]] - code - code/tu.py
-- [[step()_3]] - code - code/tu.py
+- [[step()_2]] - code - code/tu.py
 - [[tu.py]] - code - code/tu.py
 
 ## Live Query (requires Dataview plugin)
@@ -27,12 +27,13 @@ SORT file.name ASC
 
 ## Connections to other communities
 - 3 edges to [[_COMMUNITY_Community 7]]
-- 3 edges to [[_COMMUNITY_Community 4]]
 - 2 edges to [[_COMMUNITY_Community 3]]
+- 2 edges to [[_COMMUNITY_Community 4]]
 - 1 edge to [[_COMMUNITY_Community 22]]
 - 1 edge to [[_COMMUNITY_Community 11]]
-- 1 edge to [[_COMMUNITY_Community 14]]
+- 1 edge to [[_COMMUNITY_Community 19]]
 - 1 edge to [[_COMMUNITY_Community 20]]
+- 1 edge to [[_COMMUNITY_Community 14]]
 
 ## Top bridge nodes
 - [[tu.py]] - degree 11, connects to 4 communities

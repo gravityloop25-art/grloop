@@ -13,7 +13,7 @@ tags:
 
 ## Connections
 - [[Writer]] - `calls` [EXTRACTED]
-- [[draw()_13]] - `calls` [EXTRACTED]
+- [[draw()_14]] - `calls` [EXTRACTED]
 - [[hb.py]] - `contains` [EXTRACTED]
 - [[make_audio()]] - `calls` [EXTRACTED]
 - [[mux()]] - `calls` [EXTRACTED]

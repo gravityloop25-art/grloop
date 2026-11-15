@@ -13,9 +13,9 @@ members: 6
 - [[bcol()]] - code - code/rb.py
 - [[draw()_9]] - code - code/rb.py
 - [[rb.py]] - code - code/rb.py
-- [[rot()_4]] - code - code/rb.py
+- [[rot()_3]] - code - code/rb.py
 - [[run()_8]] - code - code/rb.py
-- [[step()_8]] - code - code/rb.py
+- [[step()_7]] - code - code/rb.py
 
 ## Live Query (requires Dataview plugin)
 
@@ -26,12 +26,13 @@ SORT file.name ASC
 
 ## Connections to other communities
 - 3 edges to [[_COMMUNITY_Community 7]]
-- 3 edges to [[_COMMUNITY_Community 4]]
 - 2 edges to [[_COMMUNITY_Community 3]]
+- 2 edges to [[_COMMUNITY_Community 4]]
 - 1 edge to [[_COMMUNITY_Community 22]]
 - 1 edge to [[_COMMUNITY_Community 11]]
-- 1 edge to [[_COMMUNITY_Community 14]]
+- 1 edge to [[_COMMUNITY_Community 19]]
 - 1 edge to [[_COMMUNITY_Community 20]]
+- 1 edge to [[_COMMUNITY_Community 14]]
 
 ## Top bridge nodes
 - [[rb.py]] - degree 11, connects to 4 communities

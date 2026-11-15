@@ -1,20 +1,22 @@
 ---
 type: community
-cohesion: 0.80
-members: 5
+cohesion: 0.48
+members: 7
 ---
 
 # Community 19
 
-**Cohesion:** 0.80 - tightly connected
-**Members:** 5 nodes
+**Cohesion:** 0.48 - moderately connected
+**Members:** 7 nodes
 
 ## Members
 - [[bar()]] - code - code/fk.py
+- [[compose()]] - code - code/common.py
 - [[draw()_10]] - code - code/fk.py
 - [[fk.py]] - code - code/fk.py
 - [[run()_9]] - code - code/fk.py
-- [[step()_9]] - code - code/fk.py
+- [[sky float32 HxWx3, light PIL RGB layer of crisp neon. adds soft glow.]] - rationale - code/common.py
+- [[step()_8]] - code - code/fk.py
 
 ## Live Query (requires Dataview plugin)
 
@@ -24,15 +26,26 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 7]]
+- 5 edges to [[_COMMUNITY_Community 7]]
+- 4 edges to [[_COMMUNITY_Community 3]]
 - 3 edges to [[_COMMUNITY_Community 4]]
+- 2 edges to [[_COMMUNITY_Community 11]]
+- 2 edges to [[_COMMUNITY_Community 14]]
+- 2 edges to [[_COMMUNITY_Community 20]]
 - 1 edge to [[_COMMUNITY_Community 22]]
-- 1 edge to [[_COMMUNITY_Community 11]]
-- 1 edge to [[_COMMUNITY_Community 3]]
-- 1 edge to [[_COMMUNITY_Community 14]]
-- 1 edge to [[_COMMUNITY_Community 20]]
+- 1 edge to [[_COMMUNITY_Community 10]]
+- 1 edge to [[_COMMUNITY_Community 12]]
+- 1 edge to [[_COMMUNITY_Community 13]]
+- 1 edge to [[_COMMUNITY_Community 15]]
+- 1 edge to [[_COMMUNITY_Community 16]]
+- 1 edge to [[_COMMUNITY_Community 17]]
+- 1 edge to [[_COMMUNITY_Community 18]]
+- 1 edge to [[_COMMUNITY_Community 9]]
+- 1 edge to [[_COMMUNITY_Community 5]]
+- 1 edge to [[_COMMUNITY_Community 8]]
 
 ## Top bridge nodes
+- [[compose()]] - degree 21, connects to 16 communities
 - [[fk.py]] - degree 10, connects to 4 communities
 - [[run()_9]] - degree 6, connects to 3 communities
-- [[draw()_10]] - degree 5, connects to 2 communities
+- [[draw()_10]] - degree 5, connects to 1 community

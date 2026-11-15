@@ -13,7 +13,7 @@ tags:
 
 ## Connections
 - [[common.py]] - `imports_from` [EXTRACTED]
-- [[draw()_13]] - `contains` [EXTRACTED]
+- [[draw()_14]] - `contains` [EXTRACTED]
 - [[math]] - `imports` [EXTRACTED]
 - [[numpy]] - `imports` [EXTRACTED]
 - [[pil]] - `imports_from` [EXTRACTED]

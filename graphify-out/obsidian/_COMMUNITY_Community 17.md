@@ -15,7 +15,7 @@ members: 6
 - [[plinko.py]] - code - code/plinko.py
 - [[run()_7]] - code - code/plinko.py
 - [[spawn()_1]] - code - code/plinko.py
-- [[step()_7]] - code - code/plinko.py
+- [[step()_6]] - code - code/plinko.py
 
 ## Live Query (requires Dataview plugin)
 
@@ -26,12 +26,13 @@ SORT file.name ASC
 
 ## Connections to other communities
 - 3 edges to [[_COMMUNITY_Community 7]]
-- 3 edges to [[_COMMUNITY_Community 4]]
 - 2 edges to [[_COMMUNITY_Community 3]]
+- 2 edges to [[_COMMUNITY_Community 4]]
 - 1 edge to [[_COMMUNITY_Community 22]]
 - 1 edge to [[_COMMUNITY_Community 11]]
-- 1 edge to [[_COMMUNITY_Community 14]]
+- 1 edge to [[_COMMUNITY_Community 19]]
 - 1 edge to [[_COMMUNITY_Community 20]]
+- 1 edge to [[_COMMUNITY_Community 14]]
 
 ## Top bridge nodes
 - [[plinko.py]] - degree 11, connects to 4 communities

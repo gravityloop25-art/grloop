@@ -19,9 +19,9 @@ tags:
 - [[numpy]] - `imports` [EXTRACTED]
 - [[pil]] - `imports_from` [EXTRACTED]
 - [[random]] - `imports` [EXTRACTED]
-- [[rot()_1]] - `contains` [EXTRACTED]
+- [[rot()]] - `contains` [EXTRACTED]
 - [[run()_3]] - `contains` [EXTRACTED]
-- [[step()_3]] - `contains` [EXTRACTED]
+- [[step()_2]] - `contains` [EXTRACTED]
 - [[sys]] - `imports` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/Community_13

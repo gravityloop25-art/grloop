@@ -6,15 +6,22 @@ const { db, getKV } = require('./db');
 const google = require('./google');
 const { runSync, videoCurve } = require('./sync');
 const metricool = require('./metricool');
+const { SqliteStore } = require('./session-store');
 
 const DEMO = process.env.DEMO === '1';
 const PORT = +process.env.PORT || 3000;
+const HOST = process.env.HOST || '127.0.0.1';
+const PROD = process.env.NODE_ENV === 'production';
+if (PROD && !process.env.SESSION_SECRET) { console.error('SESSION_SECRET fehlt in der Umgebung (Pflicht beim Hosting).'); process.exit(1); }
 const app = express();
 app.disable('x-powered-by');
+app.set('trust proxy', 1); // hinter dem https-Proxy des Hosters
+app.get('/healthz', (req, res) => res.send('ok'));
 app.use(session({
+  store: new SqliteStore(session),
   secret: process.env.SESSION_SECRET || require('crypto').randomBytes(24).toString('hex'),
   resave: false, saveUninitialized: false,
-  cookie: { httpOnly: true, sameSite: 'lax', maxAge: 30 * 86400e3 },
+  cookie: { httpOnly: true, sameSite: 'lax', secure: PROD ? 'auto' : false, maxAge: 30 * 86400e3 },
 }));
 
 // ---------- Login ----------
@@ -94,8 +101,8 @@ app.use('/api', api);
 app.use('/vendor/chart.js', express.static(path.join(__dirname, 'node_modules/chart.js/dist/chart.umd.js')));
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.listen(PORT, '127.0.0.1', () => {
-  console.log(`Gravity Loop Dashboard: http://localhost:${PORT}${DEMO ? '  (DEMO-MODUS mit Beispieldaten)' : ''}`);
+app.listen(PORT, HOST, () => {
+  console.log(`Gravity Loop Dashboard: http://${HOST}:${PORT}${DEMO ? '  (DEMO-MODUS mit Beispieldaten)' : ''}`);
   if (DEMO) return;
   if (!google.configured()) console.log('Hinweis: Google-Zugangsdaten fehlen in .env – siehe README.');
   const minutes = +process.env.SYNC_MINUTES || 15;

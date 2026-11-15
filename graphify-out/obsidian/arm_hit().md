@@ -13,7 +13,7 @@ tags:
 
 ## Connections
 - [[arm = segment from center out to R in direction al (both directions two arms)]] - `rationale_for` [EXTRACTED]
-- [[step()_3]] - `calls` [EXTRACTED]
+- [[step()_2]] - `calls` [EXTRACTED]
 - [[tu.py]] - `contains` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/Community_13

@@ -17,6 +17,6 @@ tags:
 - [[draw()_2]] - `calls` [EXTRACTED]
 - [[make_audio()]] - `calls` [EXTRACTED]
 - [[mux()]] - `calls` [EXTRACTED]
-- [[step()_1]] - `calls` [EXTRACTED]
+- [[step()]] - `calls` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/Community_11

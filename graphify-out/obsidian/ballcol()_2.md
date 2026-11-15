@@ -12,7 +12,7 @@ tags:
 # ballcol()
 
 ## Connections
-- [[draw()_12]] - `calls` [EXTRACTED]
+- [[draw()_13]] - `calls` [EXTRACTED]
 - [[gear3.py]] - `contains` [EXTRACTED]
 - [[lerp()]] - `calls` [EXTRACTED]
 

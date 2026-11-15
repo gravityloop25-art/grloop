@@ -14,6 +14,6 @@ tags:
 ## Connections
 - [[draw()_7]] - `calls` [EXTRACTED]
 - [[ls.py]] - `contains` [EXTRACTED]
-- [[step()_6]] - `calls` [EXTRACTED]
+- [[step()_5]] - `calls` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/Community_16

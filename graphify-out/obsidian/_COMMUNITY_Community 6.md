@@ -1,13 +1,13 @@
 ---
 type: community
-cohesion: 0.18
-members: 11
+cohesion: 0.20
+members: 10
 ---
 
 # Community 6
 
-**Cohesion:** 0.18 - loosely connected
-**Members:** 11 nodes
+**Cohesion:** 0.20 - loosely connected
+**Members:** 10 nodes
 
 ## Members
 - [[ch]] - code - dashboard/demo.js
@@ -19,7 +19,6 @@ members: 11
 - [[names]] - code - dashboard/demo.js
 - [[now]] - code - dashboard/demo.js
 - [[pad()_1]] - code - dashboard/demo.js
-- [[ref_fs]] - concept
 - [[rnd()]] - code - dashboard/demo.js
 
 ## Live Query (requires Dataview plugin)
@@ -34,4 +33,3 @@ SORT file.name ASC
 
 ## Top bridge nodes
 - [[demo.js]] - degree 13, connects to 1 community
-- [[ref_fs]] - degree 2, connects to 1 community

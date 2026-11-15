@@ -47,10 +47,19 @@
       "height": 60
     },
     {
+      "id": "n_dashboard_session_store_sqlitestore",
+      "type": "file",
+      "file": "SqliteStore().md",
+      "x": 820,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
       "id": "n_dashboard_google_accesstoken",
       "type": "file",
       "file": "accessToken().md",
-      "x": 820,
+      "x": 1020,
       "y": 80,
       "width": 180,
       "height": 60
@@ -59,7 +68,7 @@
       "id": "n_dashboard_sync_analytics",
       "type": "file",
       "file": "analytics().md",
-      "x": 1020,
+      "x": 1220,
       "y": 80,
       "width": 180,
       "height": 60
@@ -68,7 +77,7 @@
       "id": "n_dashboard_server_api",
       "type": "file",
       "file": "api.md",
-      "x": 1220,
+      "x": 1420,
       "y": 80,
       "width": 180,
       "height": 60
@@ -77,8 +86,8 @@
       "id": "n_dashboard_server_app",
       "type": "file",
       "file": "app.md",
-      "x": 1420,
-      "y": 80,
+      "x": 20,
+      "y": 160,
       "width": 180,
       "height": 60
     },
@@ -86,7 +95,7 @@
       "id": "n_dashboard_google_authurl",
       "type": "file",
       "file": "authUrl().md",
-      "x": 20,
+      "x": 220,
       "y": 160,
       "width": 180,
       "height": 60
@@ -95,7 +104,7 @@
       "id": "n_dashboard_server_authed",
       "type": "file",
       "file": "authed().md",
-      "x": 220,
+      "x": 420,
       "y": 160,
       "width": 180,
       "height": 60
@@ -104,7 +113,7 @@
       "id": "n_dashboard_google_cfg",
       "type": "file",
       "file": "cfg().md",
-      "x": 420,
+      "x": 620,
       "y": 160,
       "width": 180,
       "height": 60
@@ -113,7 +122,7 @@
       "id": "n_dashboard_google_configured",
       "type": "file",
       "file": "configured().md",
-      "x": 620,
+      "x": 820,
       "y": 160,
       "width": 180,
       "height": 60
@@ -122,7 +131,7 @@
       "id": "n_dashboard_metricool_configured",
       "type": "file",
       "file": "configured()_1.md",
-      "x": 820,
+      "x": 1020,
       "y": 160,
       "width": 180,
       "height": 60
@@ -131,7 +140,7 @@
       "id": "n_dashboard_google_crypto",
       "type": "file",
       "file": "crypto.md",
-      "x": 1020,
+      "x": 1220,
       "y": 160,
       "width": 180,
       "height": 60
@@ -140,7 +149,7 @@
       "id": "n_dashboard_sync_daysago",
       "type": "file",
       "file": "daysAgo().md",
-      "x": 1220,
+      "x": 1420,
       "y": 160,
       "width": 180,
       "height": 60
@@ -149,8 +158,8 @@
       "id": "n_dashboard_db_db",
       "type": "file",
       "file": "db.md",
-      "x": 1420,
-      "y": 160,
+      "x": 20,
+      "y": 240,
       "width": 180,
       "height": 60
     },
@@ -158,7 +167,7 @@
       "id": "n_dashboard_db",
       "type": "file",
       "file": "db.js.md",
-      "x": 20,
+      "x": 220,
       "y": 240,
       "width": 180,
       "height": 60
@@ -167,7 +176,7 @@
       "id": "n_dashboard_db_delkv",
       "type": "file",
       "file": "delKV().md",
-      "x": 220,
+      "x": 420,
       "y": 240,
       "width": 180,
       "height": 60
@@ -176,7 +185,7 @@
       "id": "n_dashboard_errors",
       "type": "file",
       "file": "errors.js.md",
-      "x": 420,
+      "x": 620,
       "y": 240,
       "width": 180,
       "height": 60
@@ -185,7 +194,7 @@
       "id": "n_dashboard_errors_explain",
       "type": "file",
       "file": "explain().md",
-      "x": 620,
+      "x": 820,
       "y": 240,
       "width": 180,
       "height": 60
@@ -194,7 +203,7 @@
       "id": "n_dashboard_server_express",
       "type": "file",
       "file": "express.md",
-      "x": 820,
+      "x": 1020,
       "y": 240,
       "width": 180,
       "height": 60
@@ -203,7 +212,7 @@
       "id": "n_dashboard_metricool_fetchscheduled",
       "type": "file",
       "file": "fetchScheduled().md",
-      "x": 1020,
+      "x": 1220,
       "y": 240,
       "width": 180,
       "height": 60
@@ -212,7 +221,7 @@
       "id": "n_dashboard_db_fs",
       "type": "file",
       "file": "fs.md",
-      "x": 1220,
+      "x": 1420,
       "y": 240,
       "width": 180,
       "height": 60
@@ -221,8 +230,8 @@
       "id": "n_dashboard_db_getkv",
       "type": "file",
       "file": "getKV().md",
-      "x": 1420,
-      "y": 240,
+      "x": 20,
+      "y": 320,
       "width": 180,
       "height": 60
     },
@@ -230,7 +239,7 @@
       "id": "n_dashboard_google_gget",
       "type": "file",
       "file": "gget().md",
-      "x": 20,
+      "x": 220,
       "y": 320,
       "width": 180,
       "height": 60
@@ -239,7 +248,7 @@
       "id": "n_dashboard_google",
       "type": "file",
       "file": "google.js.md",
-      "x": 220,
+      "x": 420,
       "y": 320,
       "width": 180,
       "height": 60
@@ -248,7 +257,7 @@
       "id": "n_dashboard_google_handlecallback",
       "type": "file",
       "file": "handleCallback().md",
-      "x": 420,
+      "x": 620,
       "y": 320,
       "width": 180,
       "height": 60
@@ -257,7 +266,7 @@
       "id": "n_dashboard_errors_http",
       "type": "file",
       "file": "http().md",
-      "x": 620,
+      "x": 820,
       "y": 320,
       "width": 180,
       "height": 60
@@ -266,7 +275,7 @@
       "id": "n_dashboard_metricool_isolocal",
       "type": "file",
       "file": "isoLocal().md",
-      "x": 820,
+      "x": 1020,
       "y": 320,
       "width": 180,
       "height": 60
@@ -275,7 +284,7 @@
       "id": "n_dashboard_google_loggedinemail",
       "type": "file",
       "file": "loggedInEmail().md",
-      "x": 1020,
+      "x": 1220,
       "y": 320,
       "width": 180,
       "height": 60
@@ -284,7 +293,7 @@
       "id": "n_dashboard_google_logout",
       "type": "file",
       "file": "logout().md",
-      "x": 1220,
+      "x": 1420,
       "y": 320,
       "width": 180,
       "height": 60
@@ -293,8 +302,8 @@
       "id": "n_dashboard_metricool",
       "type": "file",
       "file": "metricool.js.md",
-      "x": 1420,
-      "y": 320,
+      "x": 20,
+      "y": 400,
       "width": 180,
       "height": 60
     },
@@ -302,7 +311,7 @@
       "id": "n_dashboard_google_newstate",
       "type": "file",
       "file": "newState().md",
-      "x": 20,
+      "x": 220,
       "y": 400,
       "width": 180,
       "height": 60
@@ -311,7 +320,7 @@
       "id": "n_dashboard_metricool_normnetwork",
       "type": "file",
       "file": "normNetwork().md",
-      "x": 220,
+      "x": 420,
       "y": 400,
       "width": 180,
       "height": 60
@@ -320,7 +329,7 @@
       "id": "n_dashboard_metricool_pad",
       "type": "file",
       "file": "pad().md",
-      "x": 420,
+      "x": 620,
       "y": 400,
       "width": 180,
       "height": 60
@@ -329,7 +338,7 @@
       "id": "n_dashboard_sync_parseduration",
       "type": "file",
       "file": "parseDuration().md",
-      "x": 620,
+      "x": 820,
       "y": 400,
       "width": 180,
       "height": 60
@@ -338,7 +347,7 @@
       "id": "n_dashboard_db_path",
       "type": "file",
       "file": "path.md",
-      "x": 820,
+      "x": 1020,
       "y": 400,
       "width": 180,
       "height": 60
@@ -347,7 +356,7 @@
       "id": "n_dashboard_server_path",
       "type": "file",
       "file": "path_1.md",
-      "x": 1020,
+      "x": 1220,
       "y": 400,
       "width": 180,
       "height": 60
@@ -356,7 +365,7 @@
       "id": "n_dashboard_sync_pervideoreport",
       "type": "file",
       "file": "perVideoReport().md",
-      "x": 1220,
+      "x": 1420,
       "y": 400,
       "width": 180,
       "height": 60
@@ -365,8 +374,17 @@
       "id": "n_ref_crypto",
       "type": "file",
       "file": "ref_crypto.md",
-      "x": 1420,
-      "y": 400,
+      "x": 20,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_fs",
+      "type": "file",
+      "file": "ref_fs.md",
+      "x": 220,
+      "y": 480,
       "width": 180,
       "height": 60
     },
@@ -374,7 +392,7 @@
       "id": "n_ref_path",
       "type": "file",
       "file": "ref_path.md",
-      "x": 20,
+      "x": 420,
       "y": 480,
       "width": 180,
       "height": 60
@@ -383,7 +401,7 @@
       "id": "n_dashboard_sync_runsync",
       "type": "file",
       "file": "runSync().md",
-      "x": 220,
+      "x": 620,
       "y": 480,
       "width": 180,
       "height": 60
@@ -392,7 +410,7 @@
       "id": "n_dashboard_server",
       "type": "file",
       "file": "server.js.md",
-      "x": 420,
+      "x": 820,
       "y": 480,
       "width": 180,
       "height": 60
@@ -401,7 +419,16 @@
       "id": "n_dashboard_server_session",
       "type": "file",
       "file": "session.md",
-      "x": 620,
+      "x": 1020,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_dashboard_session_store",
+      "type": "file",
+      "file": "session-store.js.md",
+      "x": 1220,
       "y": 480,
       "width": 180,
       "height": 60
@@ -410,7 +437,7 @@
       "id": "n_dashboard_db_setkv",
       "type": "file",
       "file": "setKV().md",
-      "x": 820,
+      "x": 1420,
       "y": 480,
       "width": 180,
       "height": 60
@@ -419,8 +446,8 @@
       "id": "n_dashboard_sync",
       "type": "file",
       "file": "sync.js.md",
-      "x": 1020,
-      "y": 480,
+      "x": 20,
+      "y": 560,
       "width": 180,
       "height": 60
     },
@@ -428,8 +455,8 @@
       "id": "n_dashboard_sync_syncanalytics",
       "type": "file",
       "file": "syncAnalytics().md",
-      "x": 1220,
-      "y": 480,
+      "x": 220,
+      "y": 560,
       "width": 180,
       "height": 60
     },
@@ -437,8 +464,8 @@
       "id": "n_dashboard_sync_syncchannel",
       "type": "file",
       "file": "syncChannel().md",
-      "x": 1420,
-      "y": 480,
+      "x": 420,
+      "y": 560,
       "width": 180,
       "height": 60
     },
@@ -446,7 +473,7 @@
       "id": "n_dashboard_sync_syncposts",
       "type": "file",
       "file": "syncPosts().md",
-      "x": 20,
+      "x": 620,
       "y": 560,
       "width": 180,
       "height": 60
@@ -455,7 +482,7 @@
       "id": "n_dashboard_sync_syncvideos",
       "type": "file",
       "file": "syncVideos().md",
-      "x": 220,
+      "x": 820,
       "y": 560,
       "width": 180,
       "height": 60
@@ -464,7 +491,7 @@
       "id": "n_dashboard_google_tokenrequest",
       "type": "file",
       "file": "tokenRequest().md",
-      "x": 420,
+      "x": 1020,
       "y": 560,
       "width": 180,
       "height": 60
@@ -473,7 +500,7 @@
       "id": "n_dashboard_sync_videocurve",
       "type": "file",
       "file": "videoCurve().md",
-      "x": 620,
+      "x": 1220,
       "y": 560,
       "width": 180,
       "height": 60
@@ -482,7 +509,7 @@
       "id": "n_dashboard_sync_ymd",
       "type": "file",
       "file": "ymd().md",
-      "x": 820,
+      "x": 1420,
       "y": 560,
       "width": 180,
       "height": 60
@@ -1027,14 +1054,23 @@
       "x": 4420,
       "y": 0,
       "width": 1100,
-      "height": 520,
+      "height": 620,
       "color": "4"
+    },
+    {
+      "id": "n_code_dr_adf",
+      "type": "file",
+      "file": "adf().md",
+      "x": 4440,
+      "y": 80,
+      "width": 180,
+      "height": 60
     },
     {
       "id": "n_code_gear3_ang",
       "type": "file",
       "file": "ang().md",
-      "x": 4440,
+      "x": 4640,
       "y": 80,
       "width": 180,
       "height": 60
@@ -1043,7 +1079,7 @@
       "id": "n_code_gear3_arc_collide",
       "type": "file",
       "file": "arc_collide().md",
-      "x": 4640,
+      "x": 4840,
       "y": 80,
       "width": 180,
       "height": 60
@@ -1052,43 +1088,43 @@
       "id": "n_code_gear3_ballcol",
       "type": "file",
       "file": "ballcol()_2.md",
-      "x": 4840,
-      "y": 80,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_code_wl_colr",
-      "type": "file",
-      "file": "colr().md",
       "x": 5040,
       "y": 80,
       "width": 180,
       "height": 60
     },
     {
-      "id": "n_code_gear3_draw",
+      "id": "n_code_dr",
       "type": "file",
-      "file": "draw()_12.md",
+      "file": "dr.py.md",
       "x": 5240,
       "y": 80,
       "width": 180,
       "height": 60
     },
     {
-      "id": "n_code_hb_draw",
+      "id": "n_code_dr_draw",
       "type": "file",
-      "file": "draw()_13.md",
+      "file": "draw()_12.md",
       "x": 4440,
       "y": 160,
       "width": 180,
       "height": 60
     },
     {
-      "id": "n_code_wl_draw",
+      "id": "n_code_gear3_draw",
+      "type": "file",
+      "file": "draw()_13.md",
+      "x": 4640,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_code_hb_draw",
       "type": "file",
       "file": "draw()_14.md",
-      "x": 4640,
+      "x": 4840,
       "y": 160,
       "width": 180,
       "height": 60
@@ -1097,7 +1133,7 @@
       "id": "n_code_gear3_draw_arm",
       "type": "file",
       "file": "draw_arm().md",
-      "x": 4840,
+      "x": 5040,
       "y": 160,
       "width": 180,
       "height": 60
@@ -1106,7 +1142,7 @@
       "id": "n_code_common_font",
       "type": "file",
       "file": "font().md",
-      "x": 5040,
+      "x": 5240,
       "y": 160,
       "width": 180,
       "height": 60
@@ -1115,8 +1151,8 @@
       "id": "n_code_gear3",
       "type": "file",
       "file": "gear3.py.md",
-      "x": 5240,
-      "y": 160,
+      "x": 4440,
+      "y": 240,
       "width": 180,
       "height": 60
     },
@@ -1124,7 +1160,7 @@
       "id": "n_code_common_lerp",
       "type": "file",
       "file": "lerp().md",
-      "x": 4440,
+      "x": 4640,
       "y": 240,
       "width": 180,
       "height": 60
@@ -1133,7 +1169,25 @@
       "id": "n_code_gear3_pt_collide",
       "type": "file",
       "file": "pt_collide().md",
-      "x": 4640,
+      "x": 4840,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_code_dr_rot",
+      "type": "file",
+      "file": "rot()_4.md",
+      "x": 5040,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_code_dr_run",
+      "type": "file",
+      "file": "run()_11.md",
+      "x": 5240,
       "y": 240,
       "width": 180,
       "height": 60
@@ -1141,35 +1195,17 @@
     {
       "id": "n_code_gear3_run",
       "type": "file",
-      "file": "run()_11.md",
-      "x": 4840,
-      "y": 240,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_code_wl_run",
-      "type": "file",
       "file": "run()_12.md",
-      "x": 5040,
-      "y": 240,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_code_wl_scr",
-      "type": "file",
-      "file": "scr().md",
-      "x": 5240,
-      "y": 240,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_code_wl_splash",
-      "type": "file",
-      "file": "splash().md",
       "x": 4440,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_code_dr_step",
+      "type": "file",
+      "file": "step()_10.md",
+      "x": 4640,
       "y": 320,
       "width": 180,
       "height": 60
@@ -1178,7 +1214,7 @@
       "id": "n_code_gear3_step",
       "type": "file",
       "file": "step()_11.md",
-      "x": 4640,
+      "x": 4840,
       "y": 320,
       "width": 180,
       "height": 60
@@ -1187,26 +1223,26 @@
       "id": "n_code_hb_tcol",
       "type": "file",
       "file": "tcol().md",
-      "x": 4840,
-      "y": 320,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_code_wl_wave_step",
-      "type": "file",
-      "file": "wave_step().md",
       "x": 5040,
       "y": 320,
       "width": 180,
       "height": 60
     },
     {
-      "id": "n_code_wl",
+      "id": "n_code_dr_th1",
       "type": "file",
-      "file": "wl.py.md",
+      "file": "th1().md",
       "x": 5240,
       "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_code_dr_th2",
+      "type": "file",
+      "file": "th2().md",
+      "x": 4440,
+      "y": 400,
       "width": 180,
       "height": 60
     },
@@ -1216,12 +1252,12 @@
       "label": "Community 4",
       "x": 5600,
       "y": 0,
-      "width": 880,
+      "width": 660,
       "height": 420,
       "color": "5"
     },
     {
-      "id": "n_code_mg_draw",
+      "id": "n_code_tor_draw",
       "type": "file",
       "file": "draw()_15.md",
       "x": 5620,
@@ -1239,29 +1275,11 @@
       "height": 60
     },
     {
-      "id": "n_code_mg",
-      "type": "file",
-      "file": "mg.py.md",
-      "x": 6020,
-      "y": 80,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_code_common_mux",
-      "type": "file",
-      "file": "mux().md",
-      "x": 6220,
-      "y": 80,
-      "width": 180,
-      "height": 60
-    },
-    {
       "id": "n_random",
       "type": "file",
       "file": "random.md",
-      "x": 5620,
-      "y": 160,
+      "x": 6020,
+      "y": 80,
       "width": 180,
       "height": 60
     },
@@ -1269,16 +1287,16 @@
       "id": "n_code_hb_run",
       "type": "file",
       "file": "run()_13.md",
-      "x": 5820,
+      "x": 5620,
       "y": 160,
       "width": 180,
       "height": 60
     },
     {
-      "id": "n_code_mg_run",
+      "id": "n_code_tor_run",
       "type": "file",
       "file": "run()_14.md",
-      "x": 6020,
+      "x": 5820,
       "y": 160,
       "width": 180,
       "height": 60
@@ -1287,13 +1305,13 @@
       "id": "n_code_hb_step",
       "type": "file",
       "file": "step()_12.md",
-      "x": 6220,
+      "x": 6020,
       "y": 160,
       "width": 180,
       "height": 60
     },
     {
-      "id": "n_code_mg_step",
+      "id": "n_code_tor_step",
       "type": "file",
       "file": "step()_13.md",
       "x": 5620,
@@ -1302,18 +1320,18 @@
       "height": 60
     },
     {
-      "id": "n_subprocess",
+      "id": "n_sys",
       "type": "file",
-      "file": "subprocess.md",
+      "file": "sys.md",
       "x": 5820,
       "y": 240,
       "width": 180,
       "height": 60
     },
     {
-      "id": "n_sys",
+      "id": "n_code_tor",
       "type": "file",
-      "file": "sys.md",
+      "file": "tor.py.md",
       "x": 6020,
       "y": 240,
       "width": 180,
@@ -1520,19 +1538,10 @@
       "height": 60
     },
     {
-      "id": "n_ref_fs",
-      "type": "file",
-      "file": "ref_fs.md",
-      "x": 2060,
-      "y": 1140,
-      "width": 180,
-      "height": 60
-    },
-    {
       "id": "n_dashboard_demo_rnd",
       "type": "file",
       "file": "rnd().md",
-      "x": 2260,
+      "x": 2060,
       "y": 1140,
       "width": 180,
       "height": 60
@@ -1839,73 +1848,64 @@
       "color": "5"
     },
     {
-      "id": "n_code_dr_adf",
+      "id": "n_code_wl_colr",
       "type": "file",
-      "file": "adf().md",
+      "file": "colr().md",
       "x": 20,
       "y": 1480,
       "width": 180,
       "height": 60
     },
     {
-      "id": "n_code_dr",
-      "type": "file",
-      "file": "dr.py.md",
-      "x": 220,
-      "y": 1480,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_code_dr_draw",
+      "id": "n_code_wl_draw",
       "type": "file",
       "file": "draw()_1.md",
+      "x": 220,
+      "y": 1480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_code_wl_run",
+      "type": "file",
+      "file": "run().md",
       "x": 420,
       "y": 1480,
       "width": 180,
       "height": 60
     },
     {
-      "id": "n_code_dr_rot",
+      "id": "n_code_wl_scr",
       "type": "file",
-      "file": "rot().md",
+      "file": "scr().md",
       "x": 20,
       "y": 1560,
       "width": 180,
       "height": 60
     },
     {
-      "id": "n_code_dr_run",
+      "id": "n_code_wl_splash",
       "type": "file",
-      "file": "run().md",
+      "file": "splash().md",
       "x": 220,
       "y": 1560,
       "width": 180,
       "height": 60
     },
     {
-      "id": "n_code_dr_step",
+      "id": "n_code_wl_wave_step",
       "type": "file",
-      "file": "step().md",
+      "file": "wave_step().md",
       "x": 420,
       "y": 1560,
       "width": 180,
       "height": 60
     },
     {
-      "id": "n_code_dr_th1",
+      "id": "n_code_wl",
       "type": "file",
-      "file": "th1().md",
+      "file": "wl.py.md",
       "x": 20,
-      "y": 1640,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_code_dr_th2",
-      "type": "file",
-      "file": "th2().md",
-      "x": 220,
       "y": 1640,
       "width": 180,
       "height": 60
@@ -1930,19 +1930,10 @@
       "height": 60
     },
     {
-      "id": "n_code_common_compose",
-      "type": "file",
-      "file": "compose().md",
-      "x": 2060,
-      "y": 1480,
-      "width": 180,
-      "height": 60
-    },
-    {
       "id": "n_code_ce_dang",
       "type": "file",
       "file": "dang().md",
-      "x": 2260,
+      "x": 2060,
       "y": 1480,
       "width": 180,
       "height": 60
@@ -1951,6 +1942,15 @@
       "id": "n_code_ce_draw",
       "type": "file",
       "file": "draw()_2.md",
+      "x": 2260,
+      "y": 1480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_code_common_mux",
+      "type": "file",
+      "file": "mux().md",
       "x": 1860,
       "y": 1560,
       "width": 180,
@@ -1966,18 +1966,18 @@
       "height": 60
     },
     {
-      "id": "n_code_common_rationale_40",
+      "id": "n_code_ce_step",
       "type": "file",
-      "file": "sky float32 HxWx3, light PIL RGB layer of crisp neon. adds soft glow..md",
+      "file": "step().md",
       "x": 2260,
       "y": 1560,
       "width": 180,
       "height": 60
     },
     {
-      "id": "n_code_ce_step",
+      "id": "n_subprocess",
       "type": "file",
-      "file": "step()_1.md",
+      "file": "subprocess.md",
       "x": 1860,
       "y": 1640,
       "width": 180,
@@ -2041,7 +2041,7 @@
     {
       "id": "n_code_gearpl_step",
       "type": "file",
-      "file": "step()_2.md",
+      "file": "step()_1.md",
       "x": 3660,
       "y": 1560,
       "width": 180,
@@ -2096,7 +2096,7 @@
     {
       "id": "n_code_tu_rot",
       "type": "file",
-      "file": "rot()_1.md",
+      "file": "rot().md",
       "x": 4440,
       "y": 1560,
       "width": 180,
@@ -2114,7 +2114,7 @@
     {
       "id": "n_code_tu_step",
       "type": "file",
-      "file": "step()_3.md",
+      "file": "step()_2.md",
       "x": 4840,
       "y": 1560,
       "width": 180,
@@ -2158,9 +2158,9 @@
       "height": 60
     },
     {
-      "id": "n_math",
+      "id": "n_pil",
       "type": "file",
-      "file": "math.md",
+      "file": "pil.md",
       "x": 6020,
       "y": 1480,
       "width": 180,
@@ -2169,7 +2169,7 @@
     {
       "id": "n_code_bk_rot",
       "type": "file",
-      "file": "rot()_2.md",
+      "file": "rot()_1.md",
       "x": 5620,
       "y": 1560,
       "width": 180,
@@ -2187,7 +2187,7 @@
     {
       "id": "n_code_bk_step",
       "type": "file",
-      "file": "step()_4.md",
+      "file": "step()_3.md",
       "x": 6020,
       "y": 1560,
       "width": 180,
@@ -2224,7 +2224,7 @@
     {
       "id": "n_code_cd_rot",
       "type": "file",
-      "file": "rot()_3.md",
+      "file": "rot()_2.md",
       "x": 420,
       "y": 1980,
       "width": 180,
@@ -2242,7 +2242,7 @@
     {
       "id": "n_code_cd_step",
       "type": "file",
-      "file": "step()_5.md",
+      "file": "step()_4.md",
       "x": 220,
       "y": 2060,
       "width": 180,
@@ -2315,7 +2315,7 @@
     {
       "id": "n_code_ls_step",
       "type": "file",
-      "file": "step()_6.md",
+      "file": "step()_5.md",
       "x": 2260,
       "y": 2060,
       "width": 180,
@@ -2379,7 +2379,7 @@
     {
       "id": "n_code_plinko_step",
       "type": "file",
-      "file": "step()_7.md",
+      "file": "step()_6.md",
       "x": 3660,
       "y": 2060,
       "width": 180,
@@ -2425,7 +2425,7 @@
     {
       "id": "n_code_rb_rot",
       "type": "file",
-      "file": "rot()_4.md",
+      "file": "rot()_3.md",
       "x": 4440,
       "y": 2060,
       "width": 180,
@@ -2443,7 +2443,7 @@
     {
       "id": "n_code_rb_step",
       "type": "file",
-      "file": "step()_8.md",
+      "file": "step()_7.md",
       "x": 4840,
       "y": 2060,
       "width": 180,
@@ -2456,7 +2456,7 @@
       "x": 5600,
       "y": 1900,
       "width": 660,
-      "height": 400,
+      "height": 420,
       "color": "2"
     },
     {
@@ -2469,10 +2469,19 @@
       "height": 60
     },
     {
+      "id": "n_code_common_compose",
+      "type": "file",
+      "file": "compose().md",
+      "x": 5820,
+      "y": 1980,
+      "width": 180,
+      "height": 60
+    },
+    {
       "id": "n_code_fk_draw",
       "type": "file",
       "file": "draw()_10.md",
-      "x": 5820,
+      "x": 6020,
       "y": 1980,
       "width": 180,
       "height": 60
@@ -2481,8 +2490,8 @@
       "id": "n_code_fk",
       "type": "file",
       "file": "fk.py.md",
-      "x": 6020,
-      "y": 1980,
+      "x": 5620,
+      "y": 2060,
       "width": 180,
       "height": 60
     },
@@ -2490,7 +2499,16 @@
       "id": "n_code_fk_run",
       "type": "file",
       "file": "run()_9.md",
-      "x": 5620,
+      "x": 5820,
+      "y": 2060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_code_common_rationale_40",
+      "type": "file",
+      "file": "sky float32 HxWx3, light PIL RGB layer of crisp neon. adds soft glow..md",
+      "x": 6020,
       "y": 2060,
       "width": 180,
       "height": 60
@@ -2498,9 +2516,9 @@
     {
       "id": "n_code_fk_step",
       "type": "file",
-      "file": "step()_9.md",
-      "x": 5820,
-      "y": 2060,
+      "file": "step()_8.md",
+      "x": 5620,
+      "y": 2140,
       "width": 180,
       "height": 60
     },
@@ -2509,53 +2527,53 @@
       "type": "group",
       "label": "Community 20",
       "x": 0,
-      "y": 2380,
+      "y": 2400,
       "width": 660,
       "height": 400,
       "color": "3"
     },
     {
-      "id": "n_code_tor_draw",
+      "id": "n_code_mg_draw",
       "type": "file",
       "file": "draw()_11.md",
       "x": 20,
-      "y": 2460,
+      "y": 2480,
       "width": 180,
       "height": 60
     },
     {
-      "id": "n_pil",
+      "id": "n_math",
       "type": "file",
-      "file": "pil.md",
+      "file": "math.md",
       "x": 220,
-      "y": 2460,
+      "y": 2480,
       "width": 180,
       "height": 60
     },
     {
-      "id": "n_code_tor_run",
+      "id": "n_code_mg",
+      "type": "file",
+      "file": "mg.py.md",
+      "x": 420,
+      "y": 2480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_code_mg_run",
       "type": "file",
       "file": "run()_10.md",
-      "x": 420,
-      "y": 2460,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_code_tor_step",
-      "type": "file",
-      "file": "step()_10.md",
       "x": 20,
-      "y": 2540,
+      "y": 2560,
       "width": 180,
       "height": 60
     },
     {
-      "id": "n_code_tor",
+      "id": "n_code_mg_step",
       "type": "file",
-      "file": "tor.py.md",
+      "file": "step()_9.md",
       "x": 220,
-      "y": 2540,
+      "y": 2560,
       "width": 180,
       "height": 60
     },
@@ -2564,7 +2582,7 @@
       "type": "group",
       "label": "Community 21",
       "x": 1840,
-      "y": 2380,
+      "y": 2400,
       "width": 600,
       "height": 400,
       "color": "4"
@@ -2574,7 +2592,7 @@
       "type": "file",
       "file": "dot-__init__().md",
       "x": 1860,
-      "y": 2460,
+      "y": 2480,
       "width": 180,
       "height": 60
     },
@@ -2583,7 +2601,7 @@
       "type": "file",
       "file": "dot-frame().md",
       "x": 2060,
-      "y": 2460,
+      "y": 2480,
       "width": 180,
       "height": 60
     },
@@ -2592,7 +2610,7 @@
       "type": "file",
       "file": "Sky.md",
       "x": 1860,
-      "y": 2540,
+      "y": 2560,
       "width": 180,
       "height": 60
     },
@@ -2601,7 +2619,7 @@
       "type": "file",
       "file": "dark night sky with many small twinkling stars.md",
       "x": 2060,
-      "y": 2540,
+      "y": 2560,
       "width": 180,
       "height": 60
     },
@@ -2610,7 +2628,7 @@
       "type": "group",
       "label": "Community 22",
       "x": 3240,
-      "y": 2380,
+      "y": 2400,
       "width": 600,
       "height": 400,
       "color": "5"
@@ -2620,7 +2638,7 @@
       "type": "file",
       "file": "dot-__init__()_1.md",
       "x": 3260,
-      "y": 2460,
+      "y": 2480,
       "width": 180,
       "height": 60
     },
@@ -2629,7 +2647,7 @@
       "type": "file",
       "file": "dot-close().md",
       "x": 3460,
-      "y": 2460,
+      "y": 2480,
       "width": 180,
       "height": 60
     },
@@ -2638,7 +2656,7 @@
       "type": "file",
       "file": "dot-write().md",
       "x": 3260,
-      "y": 2540,
+      "y": 2560,
       "width": 180,
       "height": 60
     },
@@ -2647,7 +2665,7 @@
       "type": "file",
       "file": "Writer.md",
       "x": 3460,
-      "y": 2540,
+      "y": 2560,
       "width": 180,
       "height": 60
     }
@@ -3308,6 +3326,18 @@
       "label": "contains [EXTRACTED]"
     },
     {
+      "id": "e_dashboard_server_dashboard_session_store_sqlitestore",
+      "fromNode": "n_dashboard_server",
+      "toNode": "n_dashboard_session_store_sqlitestore",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_dashboard_session_store_dashboard_session_store_sqlitestore",
+      "fromNode": "n_dashboard_session_store",
+      "toNode": "n_dashboard_session_store_sqlitestore",
+      "label": "contains [EXTRACTED]"
+    },
+    {
       "id": "e_dashboard_sync_pervideoreport_dashboard_sync_analytics",
       "fromNode": "n_dashboard_sync_pervideoreport",
       "toNode": "n_dashboard_sync_analytics",
@@ -3839,18 +3869,6 @@
       "id": "e_dashboard_public_app_dashboard_public_app_mkchart",
       "fromNode": "n_dashboard_public_app",
       "toNode": "n_dashboard_public_app_mkchart",
-      "label": "contains [EXTRACTED]"
-    },
-    {
-      "id": "e_dashboard_public_app_renderplan_dashboard_public_app_mondayof",
-      "fromNode": "n_dashboard_public_app_renderplan",
-      "toNode": "n_dashboard_public_app_mondayof",
-      "label": "calls [EXTRACTED]"
-    },
-    {
-      "id": "e_dashboard_public_app_dashboard_public_app_mondayof",
-      "fromNode": "n_dashboard_public_app",
-      "toNode": "n_dashboard_public_app_mondayof",
       "label": "contains [EXTRACTED]"
     }
   ]

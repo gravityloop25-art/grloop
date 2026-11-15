@@ -1,18 +1,18 @@
 ---
-source_file: "code/dr.py"
+source_file: "code/tu.py"
 type: "code"
-community: "Community 10"
-location: "L19"
+community: "Community 13"
+location: "L22"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_10
+  - community/Community_13
 ---
 
 # rot()
 
 ## Connections
-- [[dr.py]] - `contains` [EXTRACTED]
-- [[step()]] - `calls` [EXTRACTED]
+- [[step()_2]] - `calls` [EXTRACTED]
+- [[tu.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_10
+#graphify/code #graphify/EXTRACTED #community/Community_13

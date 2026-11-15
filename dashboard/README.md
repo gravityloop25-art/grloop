@@ -68,3 +68,23 @@ TikTok später ergänzen: in `server.js` die Route `/api/tiktok` füllen und in 
 - Der Views-Verlauf „erste 24 h / 48 h“ kommt pro **Kalendertag** (Tag 1/2/3); stündliche Daten gibt die YouTube-API nicht her.
 - „Shorts-Views 90 Tage“ summiert die Views der Shorts (≤ 3 Min) aus Analytics; YouTubes offizielle Zählung fürs Partnerprogramm kann abweichen.
 - Best-Time-Empfehlung nutzt die Gesamt-Views je Video nach Veröffentlichungszeit (ältere Videos sind im Vorteil).
+
+## Hosting (von überall erreichbar)
+
+Die App läuft als Docker-Container (`Dockerfile`). Wichtig sind zwei Dinge: eine **feste https-Adresse** und ein **dauerhafter Speicher (Volume) unter `/data`** für die SQLite-Datei und den Login.
+
+Beispiel Railway (andere Hoster wie Render/Fly.io funktionieren genauso):
+
+1. Auf railway.com mit GitHub anmelden → **New Project → Deploy from GitHub repo** → Repo `grloop` wählen, als **Root Directory** `dashboard` setzen.
+2. **Volume** hinzufügen, Mount Path `/data`.
+3. **Variables** setzen (Werte nur dort eintragen, nie ins Repo):
+   - `SESSION_SECRET` (langer Zufallstext), `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET`
+   - `GOOGLE_REDIRECT_URI` = `https://DEINE-ADRESSE/auth/callback`
+   - `ALLOWED_EMAIL` = `gravity.loop25@gmail.com`
+   - `METRICOOL_TOKEN`, `METRICOOL_BLOG_ID`, `METRICOOL_USER_ID`
+4. **Settings → Networking → Generate Domain**: das ist deine Adresse.
+5. In der Google Cloud Console beim OAuth-Client die Weiterleitungs-URI `https://DEINE-ADRESSE/auth/callback` **zusätzlich** eintragen.
+6. Zustimmungsbildschirm auf **„In Produktion“** stellen, sonst läuft der Login nach 7 Tagen ab.
+7. Adresse am Handy/PC öffnen → „Mit Google anmelden“. Am Handy: Browser-Menü → **Zum Startbildschirm hinzufügen** (läuft dann wie eine App).
+
+Sicherheit: Zugriff hat nur, wer sich mit `ALLOWED_EMAIL` bei Google anmeldet. Das Google-Token (nur Lesezugriff) liegt auf dem Volume des Hosters, schütze deshalb dein Hoster-Konto mit 2FA. Der Healthcheck-Pfad ist `/healthz`.

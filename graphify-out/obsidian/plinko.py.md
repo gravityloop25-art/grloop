@@ -21,7 +21,7 @@ tags:
 - [[random]] - `imports` [EXTRACTED]
 - [[run()_7]] - `contains` [EXTRACTED]
 - [[spawn()_1]] - `contains` [EXTRACTED]
-- [[step()_7]] - `contains` [EXTRACTED]
+- [[step()_6]] - `contains` [EXTRACTED]
 - [[sys]] - `imports` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/Community_17

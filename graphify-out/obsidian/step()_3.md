@@ -1,20 +1,19 @@
 ---
-source_file: "code/tu.py"
+source_file: "code/bk.py"
 type: "code"
-community: "Community 13"
-location: "L42"
+community: "Community 14"
+location: "L26"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_13
+  - community/Community_14
 ---
 
 # step()
 
 ## Connections
-- [[arm_hit()]] - `calls` [EXTRACTED]
+- [[bk.py]] - `contains` [EXTRACTED]
 - [[rot()_1]] - `calls` [EXTRACTED]
-- [[run()_3]] - `calls` [EXTRACTED]
-- [[tu.py]] - `contains` [EXTRACTED]
+- [[run()_4]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_13
+#graphify/code #graphify/EXTRACTED #community/Community_14
