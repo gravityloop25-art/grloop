@@ -1,12 +1,12 @@
 ---
 source_file: "code/gv.py"
 type: "code"
-community: "Community 5"
+community: "gv.py"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/gvpy
 ---
 
 # gv.py
@@ -23,10 +23,10 @@ tags:
 - [[pil]] - `imports_from` [EXTRACTED]
 - [[random]] - `imports` [EXTRACTED]
 - [[rot()_5]] - `contains` [EXTRACTED]
-- [[run()_15]] - `contains` [EXTRACTED]
+- [[run()_16]] - `contains` [EXTRACTED]
 - [[seg_hit()]] - `contains` [EXTRACTED]
 - [[step()_14]] - `contains` [EXTRACTED]
 - [[sys]] - `imports` [EXTRACTED]
 - [[tooth_poly()]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_5
+#graphify/code #graphify/EXTRACTED #community/gvpy

@@ -1,12 +1,12 @@
 ---
 source_file: "dashboard/public/app.js"
 type: "code"
-community: "Community 1"
+community: "app.js"
 location: "L48"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/appjs
 ---
 
 # showBanner()
@@ -16,4 +16,4 @@ tags:
 - [[esc()]] - `calls` [EXTRACTED]
 - [[refreshStatus()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_1
+#graphify/code #graphify/EXTRACTED #community/appjs

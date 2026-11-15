@@ -1,18 +1,18 @@
 ---
-source_file: "code/plinko.py"
+source_file: "code/gearpl.py"
 type: "code"
-community: "Community 17"
-location: "L81"
+community: "common.py"
+location: "L82"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_17
+  - community/commonpy
 ---
 
 # ballcol()
 
 ## Connections
 - [[draw()_8]] - `calls` [EXTRACTED]
-- [[plinko.py]] - `contains` [EXTRACTED]
+- [[gearpl.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_17
+#graphify/code #graphify/EXTRACTED #community/commonpy

@@ -1,22 +1,22 @@
 ---
-source_file: "code/gearpl.py"
+source_file: "code/dr.py"
 type: "code"
-community: "Community 12"
-location: "L116"
+community: "dr.py"
+location: "L90"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_12
+  - community/drpy
 ---
 
 # run()
 
 ## Connections
 - [[Writer]] - `calls` [EXTRACTED]
-- [[draw()_3]] - `calls` [EXTRACTED]
-- [[gearpl.py]] - `contains` [EXTRACTED]
+- [[dr.py]] - `contains` [EXTRACTED]
+- [[draw()_2]] - `calls` [EXTRACTED]
 - [[make_audio()]] - `calls` [EXTRACTED]
 - [[mux()]] - `calls` [EXTRACTED]
-- [[step()_1]] - `calls` [EXTRACTED]
+- [[step()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_12
+#graphify/code #graphify/EXTRACTED #community/drpy

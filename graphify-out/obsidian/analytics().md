@@ -1,12 +1,12 @@
 ---
 source_file: "dashboard/sync.js"
 type: "code"
-community: "Community 0"
-location: "L16"
+community: "server.js"
+location: "L17"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/serverjs
 ---
 
 # analytics()
@@ -18,4 +18,4 @@ tags:
 - [[syncAnalytics()]] - `calls` [EXTRACTED]
 - [[videoCurve()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_0
+#graphify/code #graphify/EXTRACTED #community/serverjs

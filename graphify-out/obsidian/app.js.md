@@ -1,12 +1,12 @@
 ---
 source_file: "dashboard/public/app.js"
 type: "code"
-community: "Community 1"
+community: "app.js"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/appjs
 ---
 
 # app.js
@@ -15,6 +15,7 @@ tags:
 - [[C]] - `contains` [EXTRACTED]
 - [[COLS]] - `contains` [EXTRACTED]
 - [[NET]] - `contains` [EXTRACTED]
+- [[SYNC_PARTS]] - `contains` [EXTRACTED]
 - [[VIDS]] - `contains` [EXTRACTED]
 - [[WD]] - `contains` [EXTRACTED]
 - [[addDays()]] - `contains` [EXTRACTED]
@@ -30,6 +31,7 @@ tags:
 - [[fmt()]] - `contains` [EXTRACTED]
 - [[fmtK()]] - `contains` [EXTRACTED]
 - [[hhmm()]] - `contains` [EXTRACTED]
+- [[isStale()]] - `contains` [EXTRACTED]
 - [[killCharts()]] - `contains` [EXTRACTED]
 - [[local()]] - `contains` [EXTRACTED]
 - [[loginView()]] - `contains` [EXTRACTED]
@@ -44,8 +46,10 @@ tags:
 - [[renderPlan()]] - `contains` [EXTRACTED]
 - [[route()]] - `contains` [EXTRACTED]
 - [[showBanner()]] - `contains` [EXTRACTED]
+- [[syncAll()]] - `contains` [EXTRACTED]
+- [[syncIfStale()]] - `contains` [EXTRACTED]
 - [[tiktokView()]] - `contains` [EXTRACTED]
 - [[todayStr()]] - `contains` [EXTRACTED]
 - [[videosView()]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_1
+#graphify/code #graphify/EXTRACTED #community/appjs

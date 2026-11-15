@@ -1,18 +1,18 @@
 ---
 source_file: "code/gear3.py"
 type: "code"
-community: "Community 3"
+community: "common.py"
 location: "L22"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_3
+  - community/commonpy
 ---
 
 # ang()
 
 ## Connections
 - [[gear3.py]] - `contains` [EXTRACTED]
-- [[step()_12]] - `calls` [EXTRACTED]
+- [[step()_5]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_3
+#graphify/code #graphify/EXTRACTED #community/commonpy

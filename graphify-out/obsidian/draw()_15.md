@@ -1,12 +1,12 @@
 ---
-source_file: "code/tor.py"
+source_file: "code/tu.py"
 type: "code"
-community: "Community 4"
-location: "L66"
+community: "common.py"
+location: "L78"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_4
+  - community/commonpy
 ---
 
 # draw()
@@ -14,7 +14,8 @@ tags:
 ## Connections
 - [[compose()]] - `calls` [EXTRACTED]
 - [[font()]] - `calls` [EXTRACTED]
-- [[run()_14]] - `calls` [EXTRACTED]
-- [[tor.py]] - `contains` [EXTRACTED]
+- [[lerp()]] - `calls` [EXTRACTED]
+- [[run()_15]] - `calls` [EXTRACTED]
+- [[tu.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_4
+#graphify/code #graphify/EXTRACTED #community/commonpy

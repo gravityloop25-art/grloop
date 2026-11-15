@@ -1,22 +1,21 @@
 ---
-source_file: "code/gearpl.py"
+source_file: "code/bk.py"
 type: "code"
-community: "Community 12"
-location: "L84"
+community: "common.py"
+location: "L61"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_12
+  - community/commonpy
 ---
 
 # draw()
 
 ## Connections
-- [[ballcol()]] - `calls` [EXTRACTED]
+- [[bk.py]] - `contains` [EXTRACTED]
 - [[compose()]] - `calls` [EXTRACTED]
 - [[font()]] - `calls` [EXTRACTED]
-- [[gearpl.py]] - `contains` [EXTRACTED]
 - [[lerp()]] - `calls` [EXTRACTED]
-- [[run()_2]] - `calls` [EXTRACTED]
+- [[run()_3]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_12
+#graphify/code #graphify/EXTRACTED #community/commonpy

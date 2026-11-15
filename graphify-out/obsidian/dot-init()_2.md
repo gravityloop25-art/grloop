@@ -1,0 +1,17 @@
+---
+source_file: "dashboard/public/vendor/chart.umd.js"
+type: "code"
+community: "Community 58"
+location: "L13"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Community_58
+---
+
+# .init()
+
+## Connections
+- [[Rn]] - `method` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Community_58

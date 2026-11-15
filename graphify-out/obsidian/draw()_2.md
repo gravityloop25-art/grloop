@@ -1,21 +1,23 @@
 ---
-source_file: "code/ce.py"
+source_file: "code/dr.py"
 type: "code"
-community: "Community 11"
-location: "L39"
+community: "dr.py"
+location: "L65"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_11
+  - community/drpy
 ---
 
 # draw()
 
 ## Connections
-- [[ce.py]] - `contains` [EXTRACTED]
 - [[compose()]] - `calls` [EXTRACTED]
-- [[dang()]] - `calls` [EXTRACTED]
+- [[dr.py]] - `contains` [EXTRACTED]
 - [[font()]] - `calls` [EXTRACTED]
-- [[run()_1]] - `calls` [EXTRACTED]
+- [[lerp()]] - `calls` [EXTRACTED]
+- [[run()_2]] - `calls` [EXTRACTED]
+- [[th1()]] - `calls` [EXTRACTED]
+- [[th2()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_11
+#graphify/code #graphify/EXTRACTED #community/drpy

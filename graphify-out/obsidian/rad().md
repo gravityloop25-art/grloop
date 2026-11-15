@@ -1,19 +1,19 @@
 ---
 source_file: "code/ls.py"
 type: "code"
-community: "Community 16"
+community: "common.py"
 location: "L22"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_16
+  - community/commonpy
 ---
 
 # rad()
 
 ## Connections
-- [[draw()_7]] - `calls` [EXTRACTED]
+- [[draw()_10]] - `calls` [EXTRACTED]
 - [[ls.py]] - `contains` [EXTRACTED]
-- [[step()_5]] - `calls` [EXTRACTED]
+- [[step()_8]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_16
+#graphify/code #graphify/EXTRACTED #community/commonpy

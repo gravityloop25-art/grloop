@@ -1,12 +1,12 @@
 ---
 source_file: "code/gb.py"
 type: "code"
-community: "Community 9"
+community: "gb.py"
 location: "L84"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_9
+  - community/gbpy
 ---
 
 # make_audio_gb()
@@ -16,7 +16,7 @@ tags:
 - [[bloop()]] - `calls` [EXTRACTED]
 - [[finale()]] - `calls` [EXTRACTED]
 - [[gb.py]] - `contains` [EXTRACTED]
-- [[run()_17]] - `calls` [EXTRACTED]
+- [[run()_18]] - `calls` [EXTRACTED]
 - [[shimmer()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_9
+#graphify/code #graphify/EXTRACTED #community/gbpy

@@ -1,12 +1,12 @@
 ---
 source_file: "code/common.py"
 type: "rationale"
-community: "Community 21"
+community: "Sky"
 location: "L10"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Community_21
+  - community/Sky
 ---
 
 # dark night sky with many small twinkling stars
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Sky]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Community_21
+#graphify/rationale #graphify/EXTRACTED #community/Sky

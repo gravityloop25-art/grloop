@@ -1,19 +1,19 @@
 ---
-source_file: "code/fk.py"
+source_file: "code/ls.py"
 type: "code"
-community: "Community 19"
-location: "L35"
+community: "common.py"
+location: "L29"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_19
+  - community/commonpy
 ---
 
 # step()
 
 ## Connections
-- [[bar()]] - `calls` [EXTRACTED]
-- [[fk.py]] - `contains` [EXTRACTED]
-- [[run()_9]] - `calls` [EXTRACTED]
+- [[ls.py]] - `contains` [EXTRACTED]
+- [[rad()]] - `calls` [EXTRACTED]
+- [[run()_10]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_19
+#graphify/code #graphify/EXTRACTED #community/commonpy

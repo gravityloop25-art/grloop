@@ -1,23 +1,22 @@
 ---
-source_file: "code/dr.py"
+source_file: "code/rb.py"
 type: "code"
-community: "Community 27"
-location: "L65"
+community: "common.py"
+location: "L70"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_27
+  - community/commonpy
 ---
 
 # draw()
 
 ## Connections
+- [[bcol()]] - `calls` [EXTRACTED]
 - [[compose()]] - `calls` [EXTRACTED]
-- [[dr.py]] - `contains` [EXTRACTED]
 - [[font()]] - `calls` [EXTRACTED]
 - [[lerp()]] - `calls` [EXTRACTED]
-- [[run()_12]] - `calls` [EXTRACTED]
-- [[th1()]] - `calls` [EXTRACTED]
-- [[th2()]] - `calls` [EXTRACTED]
+- [[rb.py]] - `contains` [EXTRACTED]
+- [[run()_13]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_27
+#graphify/code #graphify/EXTRACTED #community/commonpy

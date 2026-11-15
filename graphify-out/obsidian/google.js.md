@@ -1,12 +1,12 @@
 ---
 source_file: "dashboard/google.js"
 type: "code"
-community: "Community 0"
+community: "server.js"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/serverjs
 ---
 
 # google.js
@@ -27,7 +27,6 @@ tags:
 - [[handleCallback()]] - `indirect_call` [INFERRED]
 - [[http()]] - `imports` [EXTRACTED]
 - [[loggedInEmail()]] - `indirect_call` [INFERRED]
-- [[logout()]] - `indirect_call` [INFERRED]
 - [[newState()]] - `indirect_call` [INFERRED]
 - [[ref_crypto]] - `imports_from` [EXTRACTED]
 - [[server.js]] - `imports_from` [EXTRACTED]
@@ -35,4 +34,4 @@ tags:
 - [[sync.js]] - `imports_from` [EXTRACTED]
 - [[tokenRequest()]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_0
+#graphify/code #graphify/EXTRACTED #community/serverjs

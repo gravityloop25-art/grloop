@@ -1,22 +1,21 @@
 ---
-source_file: "code/cd.py"
+source_file: "code/fk.py"
 type: "code"
-community: "Community 15"
-location: "L59"
+community: "common.py"
+location: "L76"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_15
+  - community/commonpy
 ---
 
 # draw()
 
 ## Connections
-- [[cd.py]] - `contains` [EXTRACTED]
+- [[bar()]] - `calls` [EXTRACTED]
 - [[compose()]] - `calls` [EXTRACTED]
+- [[fk.py]] - `contains` [EXTRACTED]
 - [[font()]] - `calls` [EXTRACTED]
-- [[lerp()]] - `calls` [EXTRACTED]
-- [[run()_5]] - `calls` [EXTRACTED]
-- [[theta()]] - `calls` [EXTRACTED]
+- [[run()_6]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_15
+#graphify/code #graphify/EXTRACTED #community/commonpy

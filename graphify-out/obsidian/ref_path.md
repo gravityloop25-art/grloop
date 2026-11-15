@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "concept"
-community: "Community 22"
+community: "server.js"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Community_22
+  - community/serverjs
 ---
 
 # ref_path
@@ -15,4 +15,4 @@ tags:
 - [[main.js]] - `imports_from` [EXTRACTED]
 - [[server.js]] - `imports_from` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Community_22
+#graphify/concept #graphify/EXTRACTED #community/serverjs

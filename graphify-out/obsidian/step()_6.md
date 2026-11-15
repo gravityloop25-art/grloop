@@ -1,19 +1,20 @@
 ---
-source_file: "code/plinko.py"
+source_file: "code/gearpl.py"
 type: "code"
-community: "Community 17"
-location: "L33"
+community: "common.py"
+location: "L39"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_17
+  - community/commonpy
 ---
 
 # step()
 
 ## Connections
-- [[plinko.py]] - `contains` [EXTRACTED]
-- [[run()_7]] - `calls` [EXTRACTED]
-- [[spawn()_1]] - `calls` [EXTRACTED]
+- [[gearpl.py]] - `contains` [EXTRACTED]
+- [[run()_8]] - `calls` [EXTRACTED]
+- [[spawn()]] - `calls` [EXTRACTED]
+- [[update_gears()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_17
+#graphify/code #graphify/EXTRACTED #community/commonpy

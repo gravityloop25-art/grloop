@@ -1,12 +1,12 @@
 ---
 source_file: "code/hit.py"
 type: "code"
-community: "Community 8"
+community: "hit.py"
 location: "L131"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/hitpy
 ---
 
 # draw()
@@ -18,6 +18,6 @@ tags:
 - [[font()]] - `calls` [EXTRACTED]
 - [[hit.py]] - `contains` [EXTRACTED]
 - [[obstacles()]] - `calls` [EXTRACTED]
-- [[run()_16]] - `calls` [EXTRACTED]
+- [[run()_17]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_8
+#graphify/code #graphify/EXTRACTED #community/hitpy

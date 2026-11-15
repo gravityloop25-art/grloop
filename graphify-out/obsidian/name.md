@@ -1,12 +1,12 @@
 ---
 source_file: "dashboard/package.json"
 type: "code"
-community: "Community 2"
+community: "dashboard/package.json"
 location: "L2"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/dashboard/packagejson
 ---
 
 # name
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[dashboardpackage.json]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_2
+#graphify/code #graphify/EXTRACTED #community/dashboard/packagejson

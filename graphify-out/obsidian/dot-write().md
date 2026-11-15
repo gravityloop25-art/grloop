@@ -1,12 +1,12 @@
 ---
 source_file: "code/common.py"
 type: "code"
-community: "Community 11"
+community: "common.py"
 location: "L60"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_11
+  - community/commonpy
 ---
 
 # .write()
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Writer]] - `method` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_11
+#graphify/code #graphify/EXTRACTED #community/commonpy

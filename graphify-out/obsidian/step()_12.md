@@ -1,21 +1,18 @@
 ---
-source_file: "code/gear3.py"
+source_file: "code/tor.py"
 type: "code"
-community: "Community 3"
-location: "L56"
+community: "common.py"
+location: "L24"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_3
+  - community/commonpy
 ---
 
 # step()
 
 ## Connections
-- [[ang()]] - `calls` [EXTRACTED]
-- [[arc_collide()]] - `calls` [EXTRACTED]
-- [[gear3.py]] - `contains` [EXTRACTED]
-- [[pt_collide()]] - `calls` [EXTRACTED]
-- [[run()_13]] - `calls` [EXTRACTED]
+- [[run()_14]] - `calls` [EXTRACTED]
+- [[tor.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_3
+#graphify/code #graphify/EXTRACTED #community/commonpy

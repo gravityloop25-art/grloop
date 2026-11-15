@@ -287,17 +287,38 @@ async function tiktokView() {
     <p class="muted" style="font-size:13px">Geplante TikTok-Posts siehst du schon jetzt im Upload-Zeitplan.</p></div>`;
 }
 
+// ---- Aktualisieren: beim Öffnen, beim Zurückkehren und per Button ----
+const SYNC_PARTS = [['channel', 'Kanal'], ['videos', 'Videos'], ['analytics', 'Analytics'], ['analytics90', '90 Tage'], ['posts', 'Zeitplan']];
+let syncing = false;
+const isStale = (s) => !s.lastSync || Date.now() - new Date(s.lastSync) > (s.syncMinutes || 15) * 60e3;
+async function syncAll() {
+  if (syncing || !ME?.loggedIn) return;
+  syncing = true;
+  const b = $('#syncBtn'); b.classList.add('spin');
+  try {
+    for (let i = 0; i < SYNC_PARTS.length; i++) {
+      $('#syncInfo').textContent = `Aktualisiere ${i + 1}/${SYNC_PARTS.length} …`;
+      await api('/sync?part=' + SYNC_PARTS[i][0], { method: 'POST' }).catch((e) => { if (e.message === 'login') throw e; });
+    }
+    await api('/sync?part=finish', { method: 'POST' });
+  } catch {} finally { syncing = false; b.classList.remove('spin'); }
+  await refreshStatus();
+  if (ME.loggedIn && !$('#modal').innerHTML) await route();
+}
+async function syncIfStale() {
+  if (!ME?.loggedIn || ME.demo || syncing) return;
+  const s = await api('/status').catch(() => null);
+  if (s && isStale(s)) syncAll();
+}
+
 // ---- Start ----
-$('#syncBtn').onclick = async () => {
-  const b = $('#syncBtn'); b.classList.add('spin'); b.firstChild.textContent = '⟳ ';
-  try { await api('/sync', { method: 'POST' }); await refreshStatus(); await route(); } catch {} finally { b.classList.remove('spin'); b.firstChild.textContent = '↻ '; }
-};
+$('#syncBtn').onclick = () => syncAll();
 $('#logoutBtn').onclick = async () => { await fetch('/auth/logout', { method: 'POST' }); ME.loggedIn = false; location.href = '/'; };
 window.addEventListener('hashchange', route);
+document.addEventListener('visibilitychange', () => { if (!document.hidden) syncIfStale(); });
 (async () => {
   ME = await fetch('/api/me').then((r) => r.json());
   TZ = ME.tz;
   await refreshStatus(); await route();
-  setInterval(async () => { if (ME.loggedIn && !document.hidden) { await refreshStatus(); } }, 60e3);
-  setInterval(() => { if (ME.loggedIn && !document.hidden && !$('#modal').innerHTML) route(); }, 15 * 60e3);
+  syncIfStale(); // Daten sofort zeigen, im Hintergrund aktualisieren falls älter als 15 Minuten
 })();

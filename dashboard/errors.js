@@ -13,9 +13,9 @@ function explain(source, status, body) {
     return `${source}: Tageslimit (Quota) erreicht. Die Daten werden morgen automatisch wieder geladen – bis dahin siehst du die zuletzt gespeicherten Werte.`;
   if (/accessNotConfigured|has not been used|is disabled|SERVICE_DISABLED/i.test(text))
     return `${source}: Die API ist im Google-Cloud-Projekt nicht aktiviert. Bitte in der Cloud Console „YouTube Data API v3“ und „YouTube Analytics API“ aktivieren (siehe README).`;
-  if (status === 401) return `${source}: Zugriff abgelehnt (401). Bitte neu einloggen bzw. Token in der .env prüfen.`;
+  if (status === 401) return `${source}: Zugriff abgelehnt (401). Bitte neu einloggen bzw. Token bzw. Umgebungsvariablen prüfen.`;
   if (status === 403) return `${source}: Keine Berechtigung (403). Prüfe Login-Konto, Freigaben und API-Aktivierung.`;
-  if (status === 404) return `${source}: Nicht gefunden (404). Prüfe die IDs in der .env.`;
+  if (status === 404) return `${source}: Nicht gefunden (404). Prüfe die IDs in den Umgebungsvariablen.`;
   if (status === 429) return `${source}: Zu viele Anfragen (429). Es wird beim nächsten Durchlauf erneut versucht.`;
   if (status >= 500) return `${source}: Der Dienst hat gerade ein Problem (${status}). Später erneut versuchen.`;
   return `${source}: Unerwarteter Fehler (${status}).`;

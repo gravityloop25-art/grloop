@@ -1,12 +1,12 @@
 ---
 source_file: "dashboard/public/app.js"
 type: "code"
-community: "Community 1"
+community: "app.js"
 location: "L237"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/appjs
 ---
 
 # renderPlan()
@@ -27,4 +27,4 @@ tags:
 - [[renderPlan()]] - `calls` [EXTRACTED]
 - [[todayStr()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_1
+#graphify/code #graphify/EXTRACTED #community/appjs

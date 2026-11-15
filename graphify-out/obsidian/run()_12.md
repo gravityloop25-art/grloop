@@ -1,22 +1,22 @@
 ---
-source_file: "code/dr.py"
+source_file: "code/plinko.py"
 type: "code"
-community: "Community 27"
-location: "L90"
+community: "common.py"
+location: "L115"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_27
+  - community/commonpy
 ---
 
 # run()
 
 ## Connections
 - [[Writer]] - `calls` [EXTRACTED]
-- [[dr.py]] - `contains` [EXTRACTED]
-- [[draw()_13]] - `calls` [EXTRACTED]
+- [[draw()_12]] - `calls` [EXTRACTED]
 - [[make_audio()]] - `calls` [EXTRACTED]
 - [[mux()]] - `calls` [EXTRACTED]
-- [[step()_11]] - `calls` [EXTRACTED]
+- [[plinko.py]] - `contains` [EXTRACTED]
+- [[step()_10]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_27
+#graphify/code #graphify/EXTRACTED #community/commonpy

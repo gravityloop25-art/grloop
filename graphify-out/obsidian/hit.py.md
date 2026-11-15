@@ -1,12 +1,12 @@
 ---
 source_file: "code/hit.py"
 type: "code"
-community: "Community 8"
+community: "hit.py"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/hitpy
 ---
 
 # hit.py
@@ -23,8 +23,8 @@ tags:
 - [[pil]] - `imports_from` [EXTRACTED]
 - [[random]] - `imports` [EXTRACTED]
 - [[rot()_6]] - `contains` [EXTRACTED]
-- [[run()_16]] - `contains` [EXTRACTED]
+- [[run()_17]] - `contains` [EXTRACTED]
 - [[step()_15]] - `contains` [EXTRACTED]
 - [[sys]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_8
+#graphify/code #graphify/EXTRACTED #community/hitpy

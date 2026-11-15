@@ -1,12 +1,12 @@
 ---
 source_file: "dashboard/google.js"
 type: "code"
-community: "Community 0"
+community: "server.js"
 location: "L81"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/serverjs
 ---
 
 # loggedInEmail()
@@ -15,8 +15,8 @@ tags:
 - [[authed()]] - `calls` [EXTRACTED]
 - [[getKV()]] - `calls` [EXTRACTED]
 - [[google.js]] - `indirect_call` [INFERRED]
-- [[runSync()]] - `calls` [EXTRACTED]
+- [[runPart()]] - `calls` [EXTRACTED]
 - [[server.js]] - `calls` [EXTRACTED]
 - [[sync.js]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_0
+#graphify/code #graphify/EXTRACTED #community/serverjs

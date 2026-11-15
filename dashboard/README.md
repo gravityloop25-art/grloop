@@ -2,7 +2,7 @@
 
 Lokales Dashboard (Dark-Mode, handytauglich) für den Shorts-Kanal **Gravity Loop**: Übersicht, alle Videos, Upload-Zeitplan, Best-Time-Auswertung. TikTok ist als Platzhalter vorbereitet.
 
-**Stack:** Node.js + Express, SQLite (`better-sqlite3`), schlichtes HTML/JS, Chart.js. Kein Build-Schritt.
+**Stack:** Node.js + Express, SQLite/Turso (`@libsql/client`), schlichtes HTML/JS, Chart.js. Kein Build-Schritt.
 
 ## Start
 
@@ -19,7 +19,7 @@ Nur ansehen, ohne Zugangsdaten (Beispieldaten):
 npm run demo             # -> http://localhost:3000, Banner "DEMO-Modus"
 ```
 
-Daten werden alle 15 Minuten automatisch geholt (`SYNC_MINUTES`), plus Button „Jetzt aktualisieren“. Alles landet in `data/dashboard.sqlite`.
+Daten werden beim Öffnen geholt, wenn sie älter als 15 Minuten sind (`SYNC_MINUTES`), plus Button „Jetzt aktualisieren“. Lokal landet alles in `data/dashboard.sqlite`, auf Vercel in Turso.
 
 ## .env
 
@@ -57,7 +57,8 @@ Token und User-ID findest du in Metricool unter Einstellungen → API. Die gepla
 
 - `server.js` Express, Login-Routen, JSON-API
 - `google.js` OAuth, Konto-Prüfung, Token-Refresh
-- `sync.js` Abruf YouTube Data/Analytics + Metricool → SQLite
+- `sync.js` Abruf YouTube Data/Analytics + Metricool → Datenbank (in Teilschritten)
+- `session.js` signierte Login-Cookies · `api/index.js` + `vercel.json` Vercel-Einstieg
 - `metricool.js` Metricool-Client · `errors.js` verständliche Fehlermeldungen
 - `public/` Oberfläche · `demo.js` Beispieldaten
 
@@ -69,22 +70,27 @@ TikTok später ergänzen: in `server.js` die Route `/api/tiktok` füllen und in 
 - „Shorts-Views 90 Tage“ summiert die Views der Shorts (≤ 3 Min) aus Analytics; YouTubes offizielle Zählung fürs Partnerprogramm kann abweichen.
 - Best-Time-Empfehlung nutzt die Gesamt-Views je Video nach Veröffentlichungszeit (ältere Videos sind im Vorteil).
 
-## Hosting (von überall erreichbar)
+## Hosting auf Vercel (empfohlen, von überall erreichbar)
 
-Die App läuft als Docker-Container (`Dockerfile`). Wichtig sind zwei Dinge: eine **feste https-Adresse** und ein **dauerhafter Speicher (Volume) unter `/data`** für die SQLite-Datei und den Login.
+Die App läuft auf Vercel (Serverless), die Daten liegen in **Turso** (SQLite in der Cloud, Gratis-Tarif). Aktualisiert wird **beim Öffnen** der App (und wenn du zu ihr zurückkehrst), sobald die Daten älter als 15 Minuten sind, in fünf kurzen Schritten (Kanal, Videos, Analytics, 90 Tage, Zeitplan). Ein Hintergrund-Timer ist auf Vercel nicht nötig.
 
-Beispiel Railway (andere Hoster wie Render/Fly.io funktionieren genauso):
-
-1. Auf railway.com mit GitHub anmelden → **New Project → Deploy from GitHub repo** → Repo `grloop` wählen, als **Root Directory** `dashboard` setzen.
-2. **Volume** hinzufügen, Mount Path `/data`.
-3. **Variables** setzen (Werte nur dort eintragen, nie ins Repo):
-   - `SESSION_SECRET` (langer Zufallstext), `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET`
-   - `GOOGLE_REDIRECT_URI` = `https://DEINE-ADRESSE/auth/callback`
+1. **Turso:** auf turso.tech mit GitHub anmelden → Datenbank anlegen (Region in der EU) → URL (`libsql://…`) kopieren und unter „Create Token“ einen Token erzeugen.
+2. **Vercel:** auf vercel.com mit GitHub anmelden → **Add New → Project** → Repo `grloop` importieren → **Root Directory: `dashboard`**, Framework „Other“.
+3. **Environment Variables** eintragen (nur dort, nie ins Repo):
+   - `TURSO_DATABASE_URL`, `TURSO_AUTH_TOKEN`
+   - `SESSION_SECRET` (langer Zufallstext)
    - `ALLOWED_EMAIL` = `gravity.loop25@gmail.com`
-   - `METRICOOL_TOKEN`, `METRICOOL_BLOG_ID`, `METRICOOL_USER_ID`
-4. **Settings → Networking → Generate Domain**: das ist deine Adresse.
-5. In der Google Cloud Console beim OAuth-Client die Weiterleitungs-URI `https://DEINE-ADRESSE/auth/callback` **zusätzlich** eintragen.
-6. Zustimmungsbildschirm auf **„In Produktion“** stellen, sonst läuft der Login nach 7 Tagen ab.
-7. Adresse am Handy/PC öffnen → „Mit Google anmelden“. Am Handy: Browser-Menü → **Zum Startbildschirm hinzufügen** (läuft dann wie eine App).
+   - `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET`
+   - `GOOGLE_REDIRECT_URI` = `https://DEINE-ADRESSE.vercel.app/auth/callback`
+   - `METRICOOL_TOKEN`, `METRICOOL_BLOG_ID` (8100417), `METRICOOL_USER_ID`
+4. **Deploy.** Danach bei Vercel die Adresse kopieren, `GOOGLE_REDIRECT_URI` damit setzen und **neu deployen** (Variablen wirken erst nach einem neuen Deploy).
+5. **Deployment Protection:** In Vercel unter Settings → Deployment Protection für Production **keinen** Vercel-Login verlangen, sonst kommen die Apps nicht durch. Der Schutz ist Google-Login mit `ALLOWED_EMAIL`.
+6. In der Google Cloud Console `https://DEINE-ADRESSE.vercel.app/auth/callback` als Weiterleitungs-URI eintragen und den Zustimmungsbildschirm auf „In Produktion“ stellen.
+7. Adresse am Handy/PC öffnen → „Mit Google anmelden“. Am Handy: Browser-Menü → **Zum Startbildschirm hinzufügen**.
 
-Sicherheit: Zugriff hat nur, wer sich mit `ALLOWED_EMAIL` bei Google anmeldet. Das Google-Token (nur Lesezugriff) liegt auf dem Volume des Hosters, schütze deshalb dein Hoster-Konto mit 2FA. Der Healthcheck-Pfad ist `/healthz`.
+Sicherheit: Zugriff hat nur, wer sich mit `ALLOWED_EMAIL` anmeldet. Das Google-Token (nur Lesezugriff) liegt in deiner Turso-Datenbank. Schütze Turso-, Vercel- und GitHub-Konto mit 2FA. Der Vercel-Hobby-Tarif ist für private Nutzung gedacht.
+
+Lokal ohne Turso: `npm start` nutzt automatisch eine SQLite-Datei in `data/`.
+
+### Alternative: Docker
+Das `Dockerfile` läuft weiterhin bei jedem Hoster mit Volume (`/data`); dann `HOST=0.0.0.0` und `SESSION_SECRET` setzen.

@@ -1,12 +1,12 @@
 ---
 source_file: "code/mg.py"
 type: "code"
-community: "Community 20"
+community: "common.py"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_20
+  - community/commonpy
 ---
 
 # mg.py
@@ -18,8 +18,8 @@ tags:
 - [[numpy]] - `imports` [EXTRACTED]
 - [[pil]] - `imports_from` [EXTRACTED]
 - [[random]] - `imports` [EXTRACTED]
-- [[run()_10]] - `contains` [EXTRACTED]
+- [[run()_11]] - `contains` [EXTRACTED]
 - [[step()_9]] - `contains` [EXTRACTED]
 - [[sys]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_20
+#graphify/code #graphify/EXTRACTED #community/commonpy

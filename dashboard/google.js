@@ -49,8 +49,8 @@ async function handleCallback(code) {
     fetch('https://oauth2.googleapis.com/revoke?token=' + t.access_token, { method: 'POST' }).catch(() => {});
     throw new ApiError(`Dieses Dashboard ist nur für ${c.allowed} freigegeben (du hast dich mit ${email} angemeldet).`, { status: 403 });
   }
-  const prev = getKV('google_tokens', {});
-  setKV('google_tokens', {
+  const prev = await getKV('google_tokens', {});
+  await setKV('google_tokens', {
     email,
     refresh_token: t.refresh_token || prev.refresh_token,
     access_token: t.access_token,
@@ -60,15 +60,15 @@ async function handleCallback(code) {
 }
 
 async function accessToken() {
-  const t = getKV('google_tokens');
+  const t = await getKV('google_tokens');
   if (!t) throw new ApiError('Nicht eingeloggt. Bitte mit Google anmelden.', { status: 401 });
   if (t.access_token && t.expires_at > Date.now()) return t.access_token;
   if (!t.refresh_token) throw new ApiError('Login abgelaufen. Bitte neu anmelden.', { status: 401 });
-  const r = await tokenRequest({ refresh_token: t.refresh_token, grant_type: 'refresh_token' }).catch((e) => {
-    if (e.status === 400 || e.status === 401) { delKV('google_tokens'); throw new ApiError('Login abgelaufen oder widerrufen. Bitte neu anmelden.', { status: 401 }); }
+  const r = await tokenRequest({ refresh_token: t.refresh_token, grant_type: 'refresh_token' }).catch(async (e) => {
+    if (e.status === 400 || e.status === 401) { await delKV('google_tokens'); throw new ApiError('Login abgelaufen oder widerrufen. Bitte neu anmelden.', { status: 401 }); }
     throw e;
   });
-  setKV('google_tokens', { ...t, access_token: r.access_token, expires_at: Date.now() + (r.expires_in - 60) * 1000 });
+  await setKV('google_tokens', { ...t, access_token: r.access_token, expires_at: Date.now() + (r.expires_in - 60) * 1000 });
   return r.access_token;
 }
 
@@ -78,7 +78,6 @@ async function gget(source, url) {
 }
 
 const newState = () => crypto.randomBytes(16).toString('hex');
-const loggedInEmail = () => getKV('google_tokens')?.email || null;
-const logout = () => delKV('google_tokens');
+const loggedInEmail = async () => (await getKV('google_tokens'))?.email || null;
 
-module.exports = { configured, authUrl, handleCallback, gget, newState, loggedInEmail, logout, cfg };
+module.exports = { configured, authUrl, handleCallback, gget, newState, loggedInEmail, cfg };

@@ -1,19 +1,21 @@
 ---
-source_file: "code/ls.py"
+source_file: "code/gear3.py"
 type: "code"
-community: "Community 16"
-location: "L29"
+community: "common.py"
+location: "L56"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_16
+  - community/commonpy
 ---
 
 # step()
 
 ## Connections
-- [[ls.py]] - `contains` [EXTRACTED]
-- [[rad()]] - `calls` [EXTRACTED]
-- [[run()_6]] - `calls` [EXTRACTED]
+- [[ang()]] - `calls` [EXTRACTED]
+- [[arc_collide()]] - `calls` [EXTRACTED]
+- [[gear3.py]] - `contains` [EXTRACTED]
+- [[pt_collide()]] - `calls` [EXTRACTED]
+- [[run()_7]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_16
+#graphify/code #graphify/EXTRACTED #community/commonpy

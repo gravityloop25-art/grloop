@@ -1,22 +1,22 @@
 ---
-source_file: "code/gb.py"
+source_file: "code/hit.py"
 type: "code"
-community: "Community 9"
-location: "L100"
+community: "hit.py"
+location: "L179"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_9
+  - community/hitpy
 ---
 
 # run()
 
 ## Connections
 - [[Writer]] - `calls` [EXTRACTED]
-- [[draw()_18]] - `calls` [EXTRACTED]
-- [[gb.py]] - `contains` [EXTRACTED]
-- [[make_audio_gb()]] - `calls` [EXTRACTED]
+- [[draw()_17]] - `calls` [EXTRACTED]
+- [[hit.py]] - `contains` [EXTRACTED]
+- [[make_audio()]] - `calls` [EXTRACTED]
 - [[mux()]] - `calls` [EXTRACTED]
-- [[step()_16]] - `calls` [EXTRACTED]
+- [[step()_15]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_9
+#graphify/code #graphify/EXTRACTED #community/hitpy

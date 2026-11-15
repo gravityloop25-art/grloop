@@ -1,12 +1,12 @@
 ---
 source_file: "code/gb.py"
 type: "code"
-community: "Community 9"
+community: "gb.py"
 location: "L38"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_9
+  - community/gbpy
 ---
 
 # draw()
@@ -15,7 +15,7 @@ tags:
 - [[compose()]] - `calls` [EXTRACTED]
 - [[font()]] - `calls` [EXTRACTED]
 - [[gb.py]] - `contains` [EXTRACTED]
-- [[run()_17]] - `calls` [EXTRACTED]
+- [[run()_18]] - `calls` [EXTRACTED]
 - [[scol()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_9
+#graphify/code #graphify/EXTRACTED #community/gbpy

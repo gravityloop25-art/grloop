@@ -1,21 +1,21 @@
 ---
-source_file: "code/bk.py"
+source_file: "code/ce.py"
 type: "code"
-community: "Community 14"
-location: "L61"
+community: "common.py"
+location: "L39"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_14
+  - community/commonpy
 ---
 
 # draw()
 
 ## Connections
-- [[bk.py]] - `contains` [EXTRACTED]
+- [[ce.py]] - `contains` [EXTRACTED]
 - [[compose()]] - `calls` [EXTRACTED]
+- [[dang()]] - `calls` [EXTRACTED]
 - [[font()]] - `calls` [EXTRACTED]
-- [[lerp()]] - `calls` [EXTRACTED]
-- [[run()_4]] - `calls` [EXTRACTED]
+- [[run()_5]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_14
+#graphify/code #graphify/EXTRACTED #community/commonpy

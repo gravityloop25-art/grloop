@@ -1,22 +1,24 @@
 ---
-source_file: "code/ce.py"
+source_file: "code/wl.py"
 type: "code"
-community: "Community 11"
-location: "L66"
+community: "wl.py"
+location: "L78"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_11
+  - community/wlpy
 ---
 
 # run()
 
 ## Connections
 - [[Writer]] - `calls` [EXTRACTED]
-- [[ce.py]] - `contains` [EXTRACTED]
-- [[draw()_2]] - `calls` [EXTRACTED]
+- [[draw()_1]] - `calls` [EXTRACTED]
 - [[make_audio()]] - `calls` [EXTRACTED]
 - [[mux()]] - `calls` [EXTRACTED]
-- [[step()]] - `calls` [EXTRACTED]
+- [[scr()]] - `calls` [EXTRACTED]
+- [[splash()]] - `calls` [EXTRACTED]
+- [[wave_step()]] - `calls` [EXTRACTED]
+- [[wl.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_11
+#graphify/code #graphify/EXTRACTED #community/wlpy

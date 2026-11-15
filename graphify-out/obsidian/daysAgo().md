@@ -1,12 +1,12 @@
 ---
 source_file: "dashboard/sync.js"
 type: "code"
-community: "Community 0"
-location: "L9"
+community: "server.js"
+location: "L10"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/serverjs
 ---
 
 # daysAgo()
@@ -15,7 +15,8 @@ tags:
 - [[perVideoReport()]] - `calls` [EXTRACTED]
 - [[sync.js]] - `contains` [EXTRACTED]
 - [[syncAnalytics()]] - `calls` [EXTRACTED]
+- [[syncAnalytics90()]] - `calls` [EXTRACTED]
 - [[videoCurve()]] - `calls` [EXTRACTED]
 - [[ymd()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_0
+#graphify/code #graphify/EXTRACTED #community/serverjs

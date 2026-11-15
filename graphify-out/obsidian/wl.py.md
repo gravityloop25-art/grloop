@@ -1,12 +1,12 @@
 ---
 source_file: "code/wl.py"
 type: "code"
-community: "Community 10"
+community: "wl.py"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_10
+  - community/wlpy
 ---
 
 # wl.py
@@ -19,10 +19,10 @@ tags:
 - [[numpy]] - `imports` [EXTRACTED]
 - [[pil]] - `imports_from` [EXTRACTED]
 - [[random]] - `imports` [EXTRACTED]
-- [[run()]] - `contains` [EXTRACTED]
+- [[run()_1]] - `contains` [EXTRACTED]
 - [[scr()]] - `contains` [EXTRACTED]
 - [[splash()]] - `contains` [EXTRACTED]
 - [[sys]] - `imports` [EXTRACTED]
 - [[wave_step()]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_10
+#graphify/code #graphify/EXTRACTED #community/wlpy

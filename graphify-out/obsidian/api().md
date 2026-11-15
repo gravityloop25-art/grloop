@@ -1,12 +1,12 @@
 ---
 source_file: "dashboard/public/app.js"
 type: "code"
-community: "Community 1"
+community: "app.js"
 location: "L12"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/appjs
 ---
 
 # api()
@@ -18,7 +18,9 @@ tags:
 - [[planView()]] - `calls` [EXTRACTED]
 - [[refreshStatus()]] - `calls` [EXTRACTED]
 - [[route()]] - `calls` [EXTRACTED]
+- [[syncAll()]] - `calls` [EXTRACTED]
+- [[syncIfStale()]] - `calls` [EXTRACTED]
 - [[tiktokView()]] - `calls` [EXTRACTED]
 - [[videosView()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_1
+#graphify/code #graphify/EXTRACTED #community/appjs

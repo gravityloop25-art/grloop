@@ -1,22 +1,22 @@
 ---
 source_file: "code/tor.py"
 type: "code"
-community: "Community 4"
+community: "common.py"
 location: "L94"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_4
+  - community/commonpy
 ---
 
 # run()
 
 ## Connections
 - [[Writer]] - `calls` [EXTRACTED]
-- [[draw()_15]] - `calls` [EXTRACTED]
+- [[draw()_14]] - `calls` [EXTRACTED]
 - [[make_audio()]] - `calls` [EXTRACTED]
 - [[mux()]] - `calls` [EXTRACTED]
-- [[step()_13]] - `calls` [EXTRACTED]
+- [[step()_12]] - `calls` [EXTRACTED]
 - [[tor.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_4
+#graphify/code #graphify/EXTRACTED #community/commonpy

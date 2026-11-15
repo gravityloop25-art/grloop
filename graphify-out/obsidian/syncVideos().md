@@ -1,20 +1,22 @@
 ---
 source_file: "dashboard/sync.js"
 type: "code"
-community: "Community 0"
-location: "L34"
+community: "server.js"
+location: "L31"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/serverjs
 ---
 
 # syncVideos()
 
 ## Connections
+- [[batch()]] - `calls` [EXTRACTED]
+- [[getKV()]] - `calls` [EXTRACTED]
 - [[gget()]] - `calls` [EXTRACTED]
 - [[parseDuration()]] - `calls` [EXTRACTED]
-- [[runSync()]] - `calls` [EXTRACTED]
-- [[sync.js]] - `contains` [EXTRACTED]
+- [[q()]] - `calls` [EXTRACTED]
+- [[sync.js]] - `indirect_call` [INFERRED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_0
+#graphify/code #graphify/EXTRACTED #community/serverjs

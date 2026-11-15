@@ -1,0 +1,22 @@
+---
+source_file: "dashboard/public/vendor/chart.umd.js"
+type: "code"
+community: "Community 6"
+location: "L13"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Community_6
+---
+
+# _calculateBarValuePixels()
+
+## Connections
+- [[dot-applyStack()]] - `calls` [EXTRACTED]
+- [[dot-getParsed()]] - `calls` [EXTRACTED]
+- [[Bn()]] - `calls` [EXTRACTED]
+- [[chart.umd.js]] - `contains` [EXTRACTED]
+- [[s()]] - `calls` [EXTRACTED]
+- [[updateElements()]] - `calls` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Community_6

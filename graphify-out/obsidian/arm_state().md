@@ -1,12 +1,12 @@
 ---
 source_file: "code/gv.py"
 type: "code"
-community: "Community 5"
+community: "gv.py"
 location: "L53"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/gvpy
 ---
 
 # arm_state()
@@ -16,4 +16,4 @@ tags:
 - [[gv.py]] - `contains` [EXTRACTED]
 - [[step()_14]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_5
+#graphify/code #graphify/EXTRACTED #community/gvpy

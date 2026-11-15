@@ -1,18 +1,19 @@
 ---
-source_file: "code/hb.py"
+source_file: "code/plinko.py"
 type: "code"
-community: "Community 26"
-location: "L25"
+community: "common.py"
+location: "L33"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_26
+  - community/commonpy
 ---
 
 # step()
 
 ## Connections
-- [[hb.py]] - `contains` [EXTRACTED]
-- [[run()_11]] - `calls` [EXTRACTED]
+- [[plinko.py]] - `contains` [EXTRACTED]
+- [[run()_12]] - `calls` [EXTRACTED]
+- [[spawn()_1]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_26
+#graphify/code #graphify/EXTRACTED #community/commonpy
