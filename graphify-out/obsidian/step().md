@@ -15,7 +15,7 @@ tags:
 - [[adf()]] - `calls` [EXTRACTED]
 - [[dr.py]] - `contains` [EXTRACTED]
 - [[rot()]] - `calls` [EXTRACTED]
-- [[run()_2]] - `calls` [EXTRACTED]
+- [[run()_1]] - `calls` [EXTRACTED]
 - [[th1()]] - `calls` [EXTRACTED]
 - [[th2()]] - `calls` [EXTRACTED]
 

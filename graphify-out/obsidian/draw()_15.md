@@ -1,21 +1,22 @@
 ---
-source_file: "code/tu.py"
+source_file: "code/gv.py"
 type: "code"
-community: "common.py"
-location: "L78"
+community: "gv.py"
+location: "L126"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/commonpy
+  - community/gvpy
 ---
 
 # draw()
 
 ## Connections
+- [[arm_state()]] - `calls` [EXTRACTED]
 - [[compose()]] - `calls` [EXTRACTED]
 - [[font()]] - `calls` [EXTRACTED]
-- [[lerp()]] - `calls` [EXTRACTED]
+- [[gv.py]] - `contains` [EXTRACTED]
 - [[run()_15]] - `calls` [EXTRACTED]
-- [[tu.py]] - `contains` [EXTRACTED]
+- [[tooth_poly()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/commonpy
+#graphify/code #graphify/EXTRACTED #community/gvpy

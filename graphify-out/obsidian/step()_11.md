@@ -1,8 +1,8 @@
 ---
-source_file: "code/rb.py"
+source_file: "code/tor.py"
 type: "code"
 community: "common.py"
-location: "L27"
+location: "L24"
 tags:
   - graphify/code
   - graphify/EXTRACTED
@@ -12,8 +12,7 @@ tags:
 # step()
 
 ## Connections
-- [[rb.py]] - `contains` [EXTRACTED]
-- [[rot()_3]] - `calls` [EXTRACTED]
-- [[run()_13]] - `calls` [EXTRACTED]
+- [[run()_12]] - `calls` [EXTRACTED]
+- [[tor.py]] - `contains` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/commonpy

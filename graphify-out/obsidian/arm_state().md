@@ -12,8 +12,8 @@ tags:
 # arm_state()
 
 ## Connections
-- [[draw()_16]] - `calls` [EXTRACTED]
+- [[draw()_15]] - `calls` [EXTRACTED]
 - [[gv.py]] - `contains` [EXTRACTED]
-- [[step()_14]] - `calls` [EXTRACTED]
+- [[step()_13]] - `calls` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/gvpy

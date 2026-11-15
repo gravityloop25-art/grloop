@@ -1,8 +1,8 @@
 ---
-source_file: "code/gear3.py"
+source_file: "code/gearpl.py"
 type: "code"
 community: "common.py"
-location: "L104"
+location: "L82"
 tags:
   - graphify/code
   - graphify/EXTRACTED
@@ -12,8 +12,7 @@ tags:
 # ballcol()
 
 ## Connections
-- [[draw()_7]] - `calls` [EXTRACTED]
-- [[gear3.py]] - `contains` [EXTRACTED]
-- [[lerp()]] - `calls` [EXTRACTED]
+- [[draw()_6]] - `calls` [EXTRACTED]
+- [[gearpl.py]] - `contains` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/commonpy

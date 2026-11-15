@@ -1,8 +1,8 @@
 ---
-source_file: "code/ls.py"
+source_file: "code/mg.py"
 type: "code"
 community: "common.py"
-location: "L29"
+location: "L14"
 tags:
   - graphify/code
   - graphify/EXTRACTED
@@ -12,8 +12,7 @@ tags:
 # step()
 
 ## Connections
-- [[ls.py]] - `contains` [EXTRACTED]
-- [[rad()]] - `calls` [EXTRACTED]
-- [[run()_10]] - `calls` [EXTRACTED]
+- [[mg.py]] - `contains` [EXTRACTED]
+- [[run()_9]] - `calls` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/commonpy

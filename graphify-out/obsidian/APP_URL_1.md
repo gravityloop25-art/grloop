@@ -1,17 +1,17 @@
 ---
-source_file: ".github/workflows/build-apps.yml"
+source_file: "apps/desktop/main.js"
 type: "code"
-community: "build-apps.yml"
-location: "L16"
+community: "desktop/package.json"
+location: "L6"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/build-appsyml
+  - community/desktop/packagejson
 ---
 
 # APP_URL
 
 ## Connections
-- [[env_1]] - `contains` [EXTRACTED]
+- [[main.js]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/build-appsyml
+#graphify/code #graphify/EXTRACTED #community/desktop/packagejson

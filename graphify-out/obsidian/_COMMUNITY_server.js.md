@@ -20,9 +20,9 @@ members: 66
 - [[api]] - code - dashboard/server.js
 - [[app]] - code - dashboard/server.js
 - [[authUrl()]] - code - dashboard/google.js
-- [[authed()]] - code - dashboard/server.js
 - [[batch()]] - code - dashboard/db.js
 - [[cfg()]] - code - dashboard/google.js
+- [[clean()]] - code - dashboard/db.js
 - [[client]] - code - dashboard/db.js
 - [[configured()]] - code - dashboard/google.js
 - [[configured()_1]] - code - dashboard/metricool.js
@@ -41,6 +41,7 @@ members: 66
 - [[getKV()]] - code - dashboard/db.js
 - [[gget()]] - code - dashboard/google.js
 - [[google.js]] - code - dashboard/google.js
+- [[guard()]] - code - dashboard/db.js
 - [[handleCallback()]] - code - dashboard/google.js
 - [[http()]] - code - dashboard/errors.js
 - [[init()]] - code - dashboard/db.js
@@ -56,9 +57,7 @@ members: 66
 - [[path_1]] - code - dashboard/server.js
 - [[perVideoReport()]] - code - dashboard/sync.js
 - [[q()]] - code - dashboard/db.js
-- [[ref_crypto]] - concept
 - [[ref_fs]] - concept
-- [[ref_path]] - concept
 - [[rowsOf()]] - code - dashboard/db.js
 - [[run()]] - code - dashboard/db.js
 - [[runPart()]] - code - dashboard/sync.js
@@ -72,6 +71,7 @@ members: 66
 - [[syncPosts()]] - code - dashboard/sync.js
 - [[syncVideos()]] - code - dashboard/sync.js
 - [[tokenRequest()]] - code - dashboard/google.js
+- [[tursoUrl]] - code - dashboard/db.js
 - [[tz()]] - code - dashboard/server.js
 - [[videoCurve()]] - code - dashboard/sync.js
 - [[ymd()]] - code - dashboard/sync.js
@@ -85,14 +85,14 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 8 edges to [[_COMMUNITY_session.js]]
+- 10 edges to [[_COMMUNITY_session.js]]
 - 2 edges to [[_COMMUNITY_dashboardpackage.json]]
+- 2 edges to [[_COMMUNITY_desktoppackage.json]]
 - 1 edge to [[_COMMUNITY_app.js]]
-- 1 edge to [[_COMMUNITY_desktoppackage.json]]
 
 ## Top bridge nodes
-- [[server.js]] - degree 33, connects to 2 communities
-- [[db.js]] - degree 19, connects to 1 community
-- [[q()]] - degree 9, connects to 1 community
-- [[authed()]] - degree 3, connects to 1 community
-- [[ref_crypto]] - degree 3, connects to 1 community
+- [[server.js]] - degree 33, connects to 3 communities
+- [[db.js]] - degree 22, connects to 2 communities
+- [[google.js]] - degree 21, connects to 1 community
+- [[q()]] - degree 10, connects to 1 community
+- [[loggedInEmail()]] - degree 6, connects to 1 community

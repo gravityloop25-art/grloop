@@ -1,25 +1,19 @@
 ---
 type: community
-cohesion: 0.14
-members: 14
+cohesion: 0.25
+members: 8
 ---
 
 # build-apps.yml
 
-**Cohesion:** 0.14 - loosely connected
-**Members:** 14 nodes
+**Cohesion:** 0.25 - loosely connected
+**Members:** 8 nodes
 
 ## Members
-- [[APP_URL_1]] - code - .github/workflows/build-apps.yml
 - [[app_url_2]] - code - .github/workflows/build-apps.yml
-- [[build-apps.yml]] - code - .github/workflows/build-apps.yml
-- [[contents]] - code - .github/workflows/build-apps.yml
 - [[description_3]] - code - .github/workflows/build-apps.yml
-- [[env_1]] - code - .github/workflows/build-apps.yml
 - [[inputs]] - code - .github/workflows/build-apps.yml
-- [[name_5]] - code - .github/workflows/build-apps.yml
 - [[on]] - code - .github/workflows/build-apps.yml
-- [[permissions]] - code - .github/workflows/build-apps.yml
 - [[push]] - code - .github/workflows/build-apps.yml
 - [[required]] - code - .github/workflows/build-apps.yml
 - [[tags]] - code - .github/workflows/build-apps.yml
@@ -33,7 +27,7 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 1 edge to [[_COMMUNITY_with]]
+- 1 edge to [[_COMMUNITY_Community 12]]
 
 ## Top bridge nodes
-- [[build-apps.yml]] - degree 5, connects to 1 community
+- [[on]] - degree 3, connects to 1 community

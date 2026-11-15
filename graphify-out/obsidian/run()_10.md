@@ -1,8 +1,8 @@
 ---
-source_file: "code/ls.py"
+source_file: "code/plinko.py"
 type: "code"
 community: "common.py"
-location: "L86"
+location: "L115"
 tags:
   - graphify/code
   - graphify/EXTRACTED
@@ -14,9 +14,9 @@ tags:
 ## Connections
 - [[Writer]] - `calls` [EXTRACTED]
 - [[draw()_10]] - `calls` [EXTRACTED]
-- [[ls.py]] - `contains` [EXTRACTED]
 - [[make_audio()]] - `calls` [EXTRACTED]
 - [[mux()]] - `calls` [EXTRACTED]
-- [[step()_8]] - `calls` [EXTRACTED]
+- [[plinko.py]] - `contains` [EXTRACTED]
+- [[step()_9]] - `calls` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/commonpy

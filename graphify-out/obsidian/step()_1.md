@@ -14,6 +14,6 @@ tags:
 ## Connections
 - [[bk.py]] - `contains` [EXTRACTED]
 - [[rot()_1]] - `calls` [EXTRACTED]
-- [[run()_3]] - `calls` [EXTRACTED]
+- [[run()_2]] - `calls` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/commonpy

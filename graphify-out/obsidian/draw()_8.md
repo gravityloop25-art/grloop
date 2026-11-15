@@ -1,8 +1,8 @@
 ---
-source_file: "code/gearpl.py"
+source_file: "code/ls.py"
 type: "code"
 community: "common.py"
-location: "L84"
+location: "L61"
 tags:
   - graphify/code
   - graphify/EXTRACTED
@@ -12,11 +12,11 @@ tags:
 # draw()
 
 ## Connections
-- [[ballcol()_1]] - `calls` [EXTRACTED]
 - [[compose()]] - `calls` [EXTRACTED]
 - [[font()]] - `calls` [EXTRACTED]
-- [[gearpl.py]] - `contains` [EXTRACTED]
-- [[lerp()]] - `calls` [EXTRACTED]
+- [[ls.py]] - `contains` [EXTRACTED]
+- [[mcol()]] - `calls` [EXTRACTED]
+- [[rad()]] - `calls` [EXTRACTED]
 - [[run()_8]] - `calls` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/commonpy

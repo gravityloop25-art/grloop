@@ -14,7 +14,7 @@ tags:
 ## Connections
 - [[arm_state()]] - `contains` [EXTRACTED]
 - [[common.py]] - `imports_from` [EXTRACTED]
-- [[draw()_16]] - `contains` [EXTRACTED]
+- [[draw()_15]] - `contains` [EXTRACTED]
 - [[gear_hit()]] - `contains` [EXTRACTED]
 - [[math]] - `imports` [EXTRACTED]
 - [[numpy]] - `imports` [EXTRACTED]
@@ -23,9 +23,9 @@ tags:
 - [[pil]] - `imports_from` [EXTRACTED]
 - [[random]] - `imports` [EXTRACTED]
 - [[rot()_5]] - `contains` [EXTRACTED]
-- [[run()_16]] - `contains` [EXTRACTED]
+- [[run()_15]] - `contains` [EXTRACTED]
 - [[seg_hit()]] - `contains` [EXTRACTED]
-- [[step()_14]] - `contains` [EXTRACTED]
+- [[step()_13]] - `contains` [EXTRACTED]
 - [[sys]] - `imports` [EXTRACTED]
 - [[tooth_poly()]] - `contains` [EXTRACTED]
 

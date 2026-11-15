@@ -1,8 +1,8 @@
 ---
-source_file: "code/tor.py"
+source_file: "code/tu.py"
 type: "code"
 community: "common.py"
-location: "L24"
+location: "L42"
 tags:
   - graphify/code
   - graphify/EXTRACTED
@@ -12,7 +12,9 @@ tags:
 # step()
 
 ## Connections
-- [[run()_14]] - `calls` [EXTRACTED]
-- [[tor.py]] - `contains` [EXTRACTED]
+- [[arm_hit()]] - `calls` [EXTRACTED]
+- [[rot()_4]] - `calls` [EXTRACTED]
+- [[run()_13]] - `calls` [EXTRACTED]
+- [[tu.py]] - `contains` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/commonpy

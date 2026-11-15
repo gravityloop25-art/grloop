@@ -1,8 +1,8 @@
 ---
-source_file: "code/gear3.py"
+source_file: "code/hb.py"
 type: "code"
 community: "common.py"
-location: "L136"
+location: "L88"
 tags:
   - graphify/code
   - graphify/EXTRACTED
@@ -14,9 +14,9 @@ tags:
 ## Connections
 - [[Writer]] - `calls` [EXTRACTED]
 - [[draw()_7]] - `calls` [EXTRACTED]
-- [[gear3.py]] - `contains` [EXTRACTED]
+- [[hb.py]] - `contains` [EXTRACTED]
 - [[make_audio()]] - `calls` [EXTRACTED]
 - [[mux()]] - `calls` [EXTRACTED]
-- [[step()_5]] - `calls` [EXTRACTED]
+- [[step()_6]] - `calls` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/commonpy

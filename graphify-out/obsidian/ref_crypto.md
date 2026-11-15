@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "concept"
-community: "server.js"
+community: "session.js"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/serverjs
+  - community/sessionjs
 ---
 
 # ref_crypto
@@ -15,4 +15,4 @@ tags:
 - [[server.js]] - `imports_from` [EXTRACTED]
 - [[session.js]] - `imports_from` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/serverjs
+#graphify/concept #graphify/EXTRACTED #community/sessionjs

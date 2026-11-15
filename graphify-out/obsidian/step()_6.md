@@ -1,8 +1,8 @@
 ---
-source_file: "code/gearpl.py"
+source_file: "code/hb.py"
 type: "code"
 community: "common.py"
-location: "L39"
+location: "L25"
 tags:
   - graphify/code
   - graphify/EXTRACTED
@@ -12,9 +12,7 @@ tags:
 # step()
 
 ## Connections
-- [[gearpl.py]] - `contains` [EXTRACTED]
-- [[run()_8]] - `calls` [EXTRACTED]
-- [[spawn()]] - `calls` [EXTRACTED]
-- [[update_gears()]] - `calls` [EXTRACTED]
+- [[hb.py]] - `contains` [EXTRACTED]
+- [[run()_7]] - `calls` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/commonpy

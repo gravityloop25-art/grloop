@@ -12,7 +12,7 @@ tags:
 # mcol()
 
 ## Connections
-- [[draw()_10]] - `calls` [EXTRACTED]
+- [[draw()_8]] - `calls` [EXTRACTED]
 - [[lerp()]] - `calls` [EXTRACTED]
 - [[ls.py]] - `contains` [EXTRACTED]
 

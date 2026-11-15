@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "concept"
-community: "server.js"
+community: "desktop/package.json"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/serverjs
+  - community/desktop/packagejson
 ---
 
 # ref_path
@@ -15,4 +15,4 @@ tags:
 - [[main.js]] - `imports_from` [EXTRACTED]
 - [[server.js]] - `imports_from` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/serverjs
+#graphify/concept #graphify/EXTRACTED #community/desktop/packagejson

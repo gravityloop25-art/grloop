@@ -11,15 +11,15 @@ members: 11
 
 ## Members
 - [[arm_state()]] - code - code/gv.py
-- [[draw()_16]] - code - code/gv.py
+- [[draw()_15]] - code - code/gv.py
 - [[gear_hit()]] - code - code/gv.py
 - [[gv.py]] - code - code/gv.py
 - [[obb()]] - code - code/gv.py
 - [[os_1]] - concept
 - [[rot()_5]] - code - code/gv.py
-- [[run()_16]] - code - code/gv.py
+- [[run()_15]] - code - code/gv.py
 - [[seg_hit()]] - code - code/gv.py
-- [[step()_14]] - code - code/gv.py
+- [[step()_13]] - code - code/gv.py
 - [[tooth_poly()]] - code - code/gv.py
 
 ## Live Query (requires Dataview plugin)
@@ -34,5 +34,5 @@ SORT file.name ASC
 
 ## Top bridge nodes
 - [[gv.py]] - degree 16, connects to 1 community
-- [[draw()_16]] - degree 6, connects to 1 community
-- [[run()_16]] - degree 6, connects to 1 community
+- [[draw()_15]] - degree 6, connects to 1 community
+- [[run()_15]] - degree 6, connects to 1 community

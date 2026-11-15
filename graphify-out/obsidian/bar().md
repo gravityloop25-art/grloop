@@ -12,7 +12,7 @@ tags:
 # bar()
 
 ## Connections
-- [[draw()_6]] - `calls` [EXTRACTED]
+- [[draw()_5]] - `calls` [EXTRACTED]
 - [[fk.py]] - `contains` [EXTRACTED]
 - [[step()_4]] - `calls` [EXTRACTED]
 

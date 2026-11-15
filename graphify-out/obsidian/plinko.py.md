@@ -12,16 +12,16 @@ tags:
 # plinko.py
 
 ## Connections
-- [[ballcol()_2]] - `contains` [EXTRACTED]
+- [[ballcol()_1]] - `contains` [EXTRACTED]
 - [[common.py]] - `imports_from` [EXTRACTED]
-- [[draw()_12]] - `contains` [EXTRACTED]
+- [[draw()_10]] - `contains` [EXTRACTED]
 - [[math]] - `imports` [EXTRACTED]
 - [[numpy]] - `imports` [EXTRACTED]
 - [[pil]] - `imports_from` [EXTRACTED]
 - [[random]] - `imports` [EXTRACTED]
-- [[run()_12]] - `contains` [EXTRACTED]
+- [[run()_10]] - `contains` [EXTRACTED]
 - [[spawn()_1]] - `contains` [EXTRACTED]
-- [[step()_10]] - `contains` [EXTRACTED]
+- [[step()_9]] - `contains` [EXTRACTED]
 - [[sys]] - `imports` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/commonpy

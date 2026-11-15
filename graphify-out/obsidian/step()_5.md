@@ -1,8 +1,8 @@
 ---
-source_file: "code/gear3.py"
+source_file: "code/gearpl.py"
 type: "code"
 community: "common.py"
-location: "L56"
+location: "L39"
 tags:
   - graphify/code
   - graphify/EXTRACTED
@@ -12,10 +12,9 @@ tags:
 # step()
 
 ## Connections
-- [[ang()]] - `calls` [EXTRACTED]
-- [[arc_collide()]] - `calls` [EXTRACTED]
-- [[gear3.py]] - `contains` [EXTRACTED]
-- [[pt_collide()]] - `calls` [EXTRACTED]
-- [[run()_7]] - `calls` [EXTRACTED]
+- [[gearpl.py]] - `contains` [EXTRACTED]
+- [[run()_6]] - `calls` [EXTRACTED]
+- [[spawn()]] - `calls` [EXTRACTED]
+- [[update_gears()]] - `calls` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/commonpy

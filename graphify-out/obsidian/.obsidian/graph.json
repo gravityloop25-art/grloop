@@ -57,13 +57,6 @@
       }
     },
     {
-      "query": "tag:#community/wlpy",
-      "color": {
-        "a": 1,
-        "rgb": 5142951
-      }
-    },
-    {
       "query": "tag:#community/Sky",
       "color": {
         "a": 1,
@@ -82,13 +75,6 @@
       "color": {
         "a": 1,
         "rgb": 7780274
-      }
-    },
-    {
-      "query": "tag:#community/with",
-      "color": {
-        "a": 1,
-        "rgb": 5873999
       }
     },
     {

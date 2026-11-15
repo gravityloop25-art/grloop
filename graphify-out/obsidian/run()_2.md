@@ -1,22 +1,22 @@
 ---
-source_file: "code/dr.py"
+source_file: "code/bk.py"
 type: "code"
-community: "dr.py"
-location: "L90"
+community: "common.py"
+location: "L95"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/drpy
+  - community/commonpy
 ---
 
 # run()
 
 ## Connections
 - [[Writer]] - `calls` [EXTRACTED]
-- [[dr.py]] - `contains` [EXTRACTED]
+- [[bk.py]] - `contains` [EXTRACTED]
 - [[draw()_2]] - `calls` [EXTRACTED]
 - [[make_audio()]] - `calls` [EXTRACTED]
 - [[mux()]] - `calls` [EXTRACTED]
-- [[step()]] - `calls` [EXTRACTED]
+- [[step()_1]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/drpy
+#graphify/code #graphify/EXTRACTED #community/commonpy

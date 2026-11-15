@@ -12,9 +12,9 @@ members: 8
 ## Members
 - [[adf()]] - code - code/dr.py
 - [[dr.py]] - code - code/dr.py
-- [[draw()_2]] - code - code/dr.py
+- [[draw()_1]] - code - code/dr.py
 - [[rot()]] - code - code/dr.py
-- [[run()_2]] - code - code/dr.py
+- [[run()_1]] - code - code/dr.py
 - [[step()]] - code - code/dr.py
 - [[th1()]] - code - code/dr.py
 - [[th2()]] - code - code/dr.py
@@ -31,5 +31,5 @@ SORT file.name ASC
 
 ## Top bridge nodes
 - [[dr.py]] - degree 13, connects to 1 community
-- [[draw()_2]] - degree 7, connects to 1 community
-- [[run()_2]] - degree 6, connects to 1 community
+- [[draw()_1]] - degree 7, connects to 1 community
+- [[run()_1]] - degree 6, connects to 1 community

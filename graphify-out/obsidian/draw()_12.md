@@ -1,8 +1,8 @@
 ---
-source_file: "code/plinko.py"
+source_file: "code/tor.py"
 type: "code"
 community: "common.py"
-location: "L84"
+location: "L66"
 tags:
   - graphify/code
   - graphify/EXTRACTED
@@ -12,11 +12,9 @@ tags:
 # draw()
 
 ## Connections
-- [[ballcol()_2]] - `calls` [EXTRACTED]
 - [[compose()]] - `calls` [EXTRACTED]
 - [[font()]] - `calls` [EXTRACTED]
-- [[lerp()]] - `calls` [EXTRACTED]
-- [[plinko.py]] - `contains` [EXTRACTED]
 - [[run()_12]] - `calls` [EXTRACTED]
+- [[tor.py]] - `contains` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/commonpy

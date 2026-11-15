@@ -1,8 +1,8 @@
 ---
-source_file: "code/tor.py"
+source_file: "code/wl.py"
 type: "code"
 community: "common.py"
-location: "L66"
+location: "L48"
 tags:
   - graphify/code
   - graphify/EXTRACTED
@@ -12,9 +12,12 @@ tags:
 # draw()
 
 ## Connections
+- [[colr()]] - `calls` [EXTRACTED]
 - [[compose()]] - `calls` [EXTRACTED]
 - [[font()]] - `calls` [EXTRACTED]
+- [[lerp()]] - `calls` [EXTRACTED]
 - [[run()_14]] - `calls` [EXTRACTED]
-- [[tor.py]] - `contains` [EXTRACTED]
+- [[scr()]] - `calls` [EXTRACTED]
+- [[wl.py]] - `contains` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/commonpy

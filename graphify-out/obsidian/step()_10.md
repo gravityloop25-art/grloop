@@ -1,8 +1,8 @@
 ---
-source_file: "code/plinko.py"
+source_file: "code/rb.py"
 type: "code"
 community: "common.py"
-location: "L33"
+location: "L27"
 tags:
   - graphify/code
   - graphify/EXTRACTED
@@ -12,8 +12,8 @@ tags:
 # step()
 
 ## Connections
-- [[plinko.py]] - `contains` [EXTRACTED]
-- [[run()_12]] - `calls` [EXTRACTED]
-- [[spawn()_1]] - `calls` [EXTRACTED]
+- [[rb.py]] - `contains` [EXTRACTED]
+- [[rot()_3]] - `calls` [EXTRACTED]
+- [[run()_11]] - `calls` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/commonpy

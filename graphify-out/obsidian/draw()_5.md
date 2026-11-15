@@ -1,8 +1,8 @@
 ---
-source_file: "code/ce.py"
+source_file: "code/fk.py"
 type: "code"
 community: "common.py"
-location: "L39"
+location: "L76"
 tags:
   - graphify/code
   - graphify/EXTRACTED
@@ -12,9 +12,9 @@ tags:
 # draw()
 
 ## Connections
-- [[ce.py]] - `contains` [EXTRACTED]
+- [[bar()]] - `calls` [EXTRACTED]
 - [[compose()]] - `calls` [EXTRACTED]
-- [[dang()]] - `calls` [EXTRACTED]
+- [[fk.py]] - `contains` [EXTRACTED]
 - [[font()]] - `calls` [EXTRACTED]
 - [[run()_5]] - `calls` [EXTRACTED]
 

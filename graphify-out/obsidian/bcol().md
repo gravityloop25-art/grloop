@@ -12,7 +12,7 @@ tags:
 # bcol()
 
 ## Connections
-- [[draw()_13]] - `calls` [EXTRACTED]
+- [[draw()_11]] - `calls` [EXTRACTED]
 - [[rb.py]] - `contains` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/commonpy

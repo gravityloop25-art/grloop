@@ -1,12 +1,12 @@
 ---
-source_file: "code/gv.py"
+source_file: "code/gear3.py"
 type: "code"
-community: "gv.py"
-location: "L167"
+community: "Community 6"
+location: "L136"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/gvpy
+  - community/Community_6
 ---
 
 # run()
@@ -14,9 +14,9 @@ tags:
 ## Connections
 - [[Writer]] - `calls` [EXTRACTED]
 - [[draw()_16]] - `calls` [EXTRACTED]
-- [[gv.py]] - `contains` [EXTRACTED]
+- [[gear3.py]] - `contains` [EXTRACTED]
 - [[make_audio()]] - `calls` [EXTRACTED]
 - [[mux()]] - `calls` [EXTRACTED]
 - [[step()_14]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/gvpy
+#graphify/code #graphify/EXTRACTED #community/Community_6

@@ -1,8 +1,8 @@
 ---
-source_file: "code/gear3.py"
+source_file: "code/hb.py"
 type: "code"
 community: "common.py"
-location: "L117"
+location: "L54"
 tags:
   - graphify/code
   - graphify/EXTRACTED
@@ -12,11 +12,11 @@ tags:
 # draw()
 
 ## Connections
-- [[ballcol()]] - `calls` [EXTRACTED]
 - [[compose()]] - `calls` [EXTRACTED]
-- [[draw_arm()]] - `calls` [EXTRACTED]
 - [[font()]] - `calls` [EXTRACTED]
-- [[gear3.py]] - `contains` [EXTRACTED]
+- [[hb.py]] - `contains` [EXTRACTED]
+- [[lerp()]] - `calls` [EXTRACTED]
 - [[run()_7]] - `calls` [EXTRACTED]
+- [[tcol()]] - `calls` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/commonpy

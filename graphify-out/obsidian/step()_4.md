@@ -14,6 +14,6 @@ tags:
 ## Connections
 - [[bar()]] - `calls` [EXTRACTED]
 - [[fk.py]] - `contains` [EXTRACTED]
-- [[run()_6]] - `calls` [EXTRACTED]
+- [[run()_5]] - `calls` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/commonpy

@@ -1,16 +1,16 @@
 ---
 type: community
 cohesion: 0.06
-members: 36
+members: 37
 ---
 
 # desktop/package.json
 
 **Cohesion:** 0.06 - loosely connected
-**Members:** 36 nodes
+**Members:** 37 nodes
 
 ## Members
-- [[APP_URL]] - code - apps/desktop/main.js
+- [[APP_URL_1]] - code - apps/desktop/main.js
 - [[appId]] - code - apps/desktop/package.json
 - [[author]] - code - apps/desktop/package.json
 - [[build]] - code - apps/desktop/package.json
@@ -32,11 +32,12 @@ members: 36
 - [[mac]] - code - apps/desktop/package.json
 - [[main_1]] - code - apps/desktop/package.json
 - [[main.js]] - code - apps/desktop/main.js
-- [[name_1]] - code - apps/desktop/package.json
+- [[name_2]] - code - apps/desktop/package.json
 - [[path_2]] - code - apps/desktop/main.js
 - [[pending]] - code - apps/desktop/main.js
 - [[preload.js]] - code - apps/desktop/preload.js
 - [[productName]] - code - apps/desktop/package.json
+- [[ref_path]] - concept
 - [[scripts_1]] - code - apps/desktop/package.json
 - [[start_1]] - code - apps/desktop/package.json
 - [[target]] - code - apps/desktop/package.json
@@ -55,7 +56,7 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 1 edge to [[_COMMUNITY_server.js]]
+- 2 edges to [[_COMMUNITY_server.js]]
 
 ## Top bridge nodes
-- [[main.js]] - degree 8, connects to 1 community
+- [[ref_path]] - degree 3, connects to 1 community

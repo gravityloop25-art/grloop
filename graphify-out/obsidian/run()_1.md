@@ -1,24 +1,22 @@
 ---
-source_file: "code/wl.py"
+source_file: "code/dr.py"
 type: "code"
-community: "wl.py"
-location: "L78"
+community: "dr.py"
+location: "L90"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/wlpy
+  - community/drpy
 ---
 
 # run()
 
 ## Connections
 - [[Writer]] - `calls` [EXTRACTED]
+- [[dr.py]] - `contains` [EXTRACTED]
 - [[draw()_1]] - `calls` [EXTRACTED]
 - [[make_audio()]] - `calls` [EXTRACTED]
 - [[mux()]] - `calls` [EXTRACTED]
-- [[scr()]] - `calls` [EXTRACTED]
-- [[splash()]] - `calls` [EXTRACTED]
-- [[wave_step()]] - `calls` [EXTRACTED]
-- [[wl.py]] - `contains` [EXTRACTED]
+- [[step()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/wlpy
+#graphify/code #graphify/EXTRACTED #community/drpy

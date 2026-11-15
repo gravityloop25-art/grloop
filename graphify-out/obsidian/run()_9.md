@@ -1,8 +1,8 @@
 ---
-source_file: "code/hb.py"
+source_file: "code/mg.py"
 type: "code"
 community: "common.py"
-location: "L88"
+location: "L57"
 tags:
   - graphify/code
   - graphify/EXTRACTED
@@ -14,9 +14,9 @@ tags:
 ## Connections
 - [[Writer]] - `calls` [EXTRACTED]
 - [[draw()_9]] - `calls` [EXTRACTED]
-- [[hb.py]] - `contains` [EXTRACTED]
 - [[make_audio()]] - `calls` [EXTRACTED]
+- [[mg.py]] - `contains` [EXTRACTED]
 - [[mux()]] - `calls` [EXTRACTED]
-- [[step()_7]] - `calls` [EXTRACTED]
+- [[step()_8]] - `calls` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/commonpy

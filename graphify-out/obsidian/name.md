@@ -1,17 +1,17 @@
 ---
-source_file: "dashboard/package.json"
+source_file: ".github/workflows/build-apps.yml"
 type: "code"
-community: "dashboard/package.json"
-location: "L2"
+community: "Community 12"
+location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/dashboard/packagejson
+  - community/Community_12
 ---
 
 # name
 
 ## Connections
-- [[dashboardpackage.json]] - `contains` [EXTRACTED]
+- [[build-apps.yml]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/dashboard/packagejson
+#graphify/code #graphify/EXTRACTED #community/Community_12

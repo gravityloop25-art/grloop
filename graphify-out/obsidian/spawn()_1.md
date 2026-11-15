@@ -13,6 +13,6 @@ tags:
 
 ## Connections
 - [[plinko.py]] - `contains` [EXTRACTED]
-- [[step()_10]] - `calls` [EXTRACTED]
+- [[step()_9]] - `calls` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/commonpy

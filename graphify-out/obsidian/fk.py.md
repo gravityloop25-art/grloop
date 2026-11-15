@@ -14,12 +14,12 @@ tags:
 ## Connections
 - [[bar()]] - `contains` [EXTRACTED]
 - [[common.py]] - `imports_from` [EXTRACTED]
-- [[draw()_6]] - `contains` [EXTRACTED]
+- [[draw()_5]] - `contains` [EXTRACTED]
 - [[math]] - `imports` [EXTRACTED]
 - [[numpy]] - `imports` [EXTRACTED]
 - [[pil]] - `imports_from` [EXTRACTED]
 - [[random]] - `imports` [EXTRACTED]
-- [[run()_6]] - `contains` [EXTRACTED]
+- [[run()_5]] - `contains` [EXTRACTED]
 - [[step()_4]] - `contains` [EXTRACTED]
 - [[sys]] - `imports` [EXTRACTED]
 

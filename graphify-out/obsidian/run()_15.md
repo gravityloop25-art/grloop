@@ -1,12 +1,12 @@
 ---
-source_file: "code/tu.py"
+source_file: "code/gv.py"
 type: "code"
-community: "common.py"
-location: "L111"
+community: "gv.py"
+location: "L167"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/commonpy
+  - community/gvpy
 ---
 
 # run()
@@ -14,9 +14,9 @@ tags:
 ## Connections
 - [[Writer]] - `calls` [EXTRACTED]
 - [[draw()_15]] - `calls` [EXTRACTED]
+- [[gv.py]] - `contains` [EXTRACTED]
 - [[make_audio()]] - `calls` [EXTRACTED]
 - [[mux()]] - `calls` [EXTRACTED]
 - [[step()_13]] - `calls` [EXTRACTED]
-- [[tu.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/commonpy
+#graphify/code #graphify/EXTRACTED #community/gvpy

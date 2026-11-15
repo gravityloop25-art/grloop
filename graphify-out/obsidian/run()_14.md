@@ -1,8 +1,8 @@
 ---
-source_file: "code/tor.py"
+source_file: "code/wl.py"
 type: "code"
 community: "common.py"
-location: "L94"
+location: "L78"
 tags:
   - graphify/code
   - graphify/EXTRACTED
@@ -16,7 +16,9 @@ tags:
 - [[draw()_14]] - `calls` [EXTRACTED]
 - [[make_audio()]] - `calls` [EXTRACTED]
 - [[mux()]] - `calls` [EXTRACTED]
-- [[step()_12]] - `calls` [EXTRACTED]
-- [[tor.py]] - `contains` [EXTRACTED]
+- [[scr()]] - `calls` [EXTRACTED]
+- [[splash()]] - `calls` [EXTRACTED]
+- [[wave_step()]] - `calls` [EXTRACTED]
+- [[wl.py]] - `contains` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/commonpy

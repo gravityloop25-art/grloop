@@ -12,16 +12,16 @@ tags:
 # gearpl.py
 
 ## Connections
-- [[ballcol()_1]] - `contains` [EXTRACTED]
+- [[ballcol()]] - `contains` [EXTRACTED]
 - [[common.py]] - `imports_from` [EXTRACTED]
-- [[draw()_8]] - `contains` [EXTRACTED]
+- [[draw()_6]] - `contains` [EXTRACTED]
 - [[math]] - `imports` [EXTRACTED]
 - [[numpy]] - `imports` [EXTRACTED]
 - [[pil]] - `imports_from` [EXTRACTED]
 - [[random]] - `imports` [EXTRACTED]
-- [[run()_8]] - `contains` [EXTRACTED]
+- [[run()_6]] - `contains` [EXTRACTED]
 - [[spawn()]] - `contains` [EXTRACTED]
-- [[step()_6]] - `contains` [EXTRACTED]
+- [[step()_5]] - `contains` [EXTRACTED]
 - [[sys]] - `imports` [EXTRACTED]
 - [[update_gears()]] - `contains` [EXTRACTED]
 

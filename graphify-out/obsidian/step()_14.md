@@ -1,23 +1,21 @@
 ---
-source_file: "code/gv.py"
+source_file: "code/gear3.py"
 type: "code"
-community: "gv.py"
-location: "L76"
+community: "Community 6"
+location: "L56"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/gvpy
+  - community/Community_6
 ---
 
 # step()
 
 ## Connections
-- [[arm_state()]] - `calls` [EXTRACTED]
-- [[gear_hit()]] - `calls` [EXTRACTED]
-- [[gv.py]] - `contains` [EXTRACTED]
-- [[obb()]] - `calls` [EXTRACTED]
-- [[rot()_5]] - `calls` [EXTRACTED]
+- [[ang()]] - `calls` [EXTRACTED]
+- [[arc_collide()]] - `calls` [EXTRACTED]
+- [[gear3.py]] - `contains` [EXTRACTED]
+- [[pt_collide()]] - `calls` [EXTRACTED]
 - [[run()_16]] - `calls` [EXTRACTED]
-- [[seg_hit()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/gvpy
+#graphify/code #graphify/EXTRACTED #community/Community_6
