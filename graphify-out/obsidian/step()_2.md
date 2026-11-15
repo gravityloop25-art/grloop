@@ -1,20 +1,20 @@
 ---
-source_file: "code/gearpl.py"
+source_file: "code/cd.py"
 type: "code"
-community: "Community 12"
-location: "L39"
+community: "common.py"
+location: "L25"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_12
+  - community/commonpy
 ---
 
 # step()
 
 ## Connections
-- [[gearpl.py]] - `contains` [EXTRACTED]
+- [[cd.py]] - `contains` [EXTRACTED]
+- [[rot()_2]] - `calls` [EXTRACTED]
 - [[run()_4]] - `calls` [EXTRACTED]
-- [[spawn()]] - `calls` [EXTRACTED]
-- [[update_gears()]] - `calls` [EXTRACTED]
+- [[theta()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_12
+#graphify/code #graphify/EXTRACTED #community/commonpy

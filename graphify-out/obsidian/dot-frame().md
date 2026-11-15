@@ -1,12 +1,12 @@
 ---
 source_file: "code/common.py"
 type: "code"
-community: "Community 21"
+community: "Sky"
 location: "L24"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_21
+  - community/Sky
 ---
 
 # .frame()
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Sky]] - `method` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_21
+#graphify/code #graphify/EXTRACTED #community/Sky

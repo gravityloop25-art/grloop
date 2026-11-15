@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "concept"
-community: "Community 20"
+community: "common.py"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Community_20
+  - community/commonpy
 ---
 
 # pil
@@ -31,4 +31,4 @@ tags:
 - [[tu.py]] - `imports_from` [EXTRACTED]
 - [[wl.py]] - `imports_from` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Community_20
+#graphify/concept #graphify/EXTRACTED #community/commonpy

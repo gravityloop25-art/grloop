@@ -1,12 +1,12 @@
 ---
 source_file: "dashboard/google.js"
 type: "code"
-community: "Community 0"
+community: "server.js"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/serverjs
 ---
 
 # google.js
@@ -34,4 +34,4 @@ tags:
 - [[sync.js]] - `imports_from` [EXTRACTED]
 - [[tokenRequest()]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_0
+#graphify/code #graphify/EXTRACTED #community/serverjs

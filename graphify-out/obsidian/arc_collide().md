@@ -1,12 +1,12 @@
 ---
 source_file: "code/gear3.py"
 type: "code"
-community: "Community 3"
+community: "common.py"
 location: "L40"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_3
+  - community/commonpy
 ---
 
 # arc_collide()
@@ -14,6 +14,6 @@ tags:
 ## Connections
 - [[gear3.py]] - `contains` [EXTRACTED]
 - [[pt_collide()]] - `calls` [EXTRACTED]
-- [[step()_13]] - `calls` [EXTRACTED]
+- [[step()_5]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_3
+#graphify/code #graphify/EXTRACTED #community/commonpy

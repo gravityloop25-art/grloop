@@ -1,12 +1,12 @@
 ---
 source_file: "dashboard/metricool.js"
 type: "code"
-community: "Community 0"
+community: "server.js"
 location: "L3"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/serverjs
 ---
 
 # configured()
@@ -16,4 +16,4 @@ tags:
 - [[metricool.js]] - `indirect_call` [INFERRED]
 - [[server.js]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_0
+#graphify/code #graphify/EXTRACTED #community/serverjs

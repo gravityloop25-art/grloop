@@ -1,18 +1,18 @@
 ---
 source_file: "code/dr.py"
 type: "code"
-community: "Community 27"
+community: "dr.py"
 location: "L21"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_27
+  - community/drpy
 ---
 
 # adf()
 
 ## Connections
 - [[dr.py]] - `contains` [EXTRACTED]
-- [[step()_12]] - `calls` [EXTRACTED]
+- [[step()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_27
+#graphify/code #graphify/EXTRACTED #community/drpy

@@ -1,12 +1,12 @@
 ---
 source_file: "code/hit.py"
 type: "code"
-community: "Community 8"
+community: "hit.py"
 location: "L86"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/hitpy
 ---
 
 # step()
@@ -18,4 +18,4 @@ tags:
 - [[rot()_6]] - `calls` [EXTRACTED]
 - [[run()_17]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_8
+#graphify/code #graphify/EXTRACTED #community/hitpy

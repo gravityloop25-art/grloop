@@ -1,13 +1,13 @@
 ---
 type: community
-cohesion: 0.06
-members: 80
+cohesion: 0.08
+members: 66
 ---
 
-# Community 0
+# server.js
 
-**Cohesion:** 0.06 - loosely connected
-**Members:** 80 nodes
+**Cohesion:** 0.08 - loosely connected
+**Members:** 66 nodes
 
 ## Members
 - [[dot-constructor()]] - code - dashboard/errors.js
@@ -23,19 +23,15 @@ members: 80
 - [[authed()]] - code - dashboard/server.js
 - [[batch()]] - code - dashboard/db.js
 - [[cfg()]] - code - dashboard/google.js
-- [[clearOAuth()]] - code - dashboard/session.js
 - [[client]] - code - dashboard/db.js
 - [[configured()]] - code - dashboard/google.js
 - [[configured()_1]] - code - dashboard/metricool.js
-- [[cookies()]] - code - dashboard/session.js
 - [[crypto]] - code - dashboard/google.js
 - [[crypto_1]] - code - dashboard/server.js
-- [[crypto_2]] - code - dashboard/session.js
 - [[daysAgo()]] - code - dashboard/sync.js
 - [[db.js]] - code - dashboard/db.js
 - [[delKV()]] - code - dashboard/db.js
 - [[demo.js]] - code - dashboard/demo.js
-- [[devSecret]] - code - dashboard/session.js
 - [[errors.js]] - code - dashboard/errors.js
 - [[explain()]] - code - dashboard/errors.js
 - [[express]] - code - dashboard/server.js
@@ -43,17 +39,13 @@ members: 80
 - [[fs]] - code - dashboard/db.js
 - [[fs_1]] - code - dashboard/demo.js
 - [[getKV()]] - code - dashboard/db.js
-- [[getOAuth()]] - code - dashboard/session.js
 - [[gget()]] - code - dashboard/google.js
 - [[google.js]] - code - dashboard/google.js
 - [[handleCallback()]] - code - dashboard/google.js
 - [[http()]] - code - dashboard/errors.js
 - [[init()]] - code - dashboard/db.js
-- [[isLoggedIn()]] - code - dashboard/session.js
 - [[isoLocal()]] - code - dashboard/metricool.js
 - [[loggedInEmail()]] - code - dashboard/google.js
-- [[login()]] - code - dashboard/session.js
-- [[logout()]] - code - dashboard/session.js
 - [[metricool.js]] - code - dashboard/metricool.js
 - [[newState()]] - code - dashboard/google.js
 - [[normNetwork()]] - code - dashboard/metricool.js
@@ -70,13 +62,8 @@ members: 80
 - [[rowsOf()]] - code - dashboard/db.js
 - [[run()]] - code - dashboard/db.js
 - [[runPart()]] - code - dashboard/sync.js
-- [[secret()]] - code - dashboard/session.js
 - [[server.js]] - code - dashboard/server.js
-- [[session.js]] - code - dashboard/session.js
-- [[setCookie()]] - code - dashboard/session.js
 - [[setKV()]] - code - dashboard/db.js
-- [[setOAuth()]] - code - dashboard/session.js
-- [[sign()]] - code - dashboard/session.js
 - [[status()]] - code - dashboard/sync.js
 - [[sync.js]] - code - dashboard/sync.js
 - [[syncAnalytics()]] - code - dashboard/sync.js
@@ -86,7 +73,6 @@ members: 80
 - [[syncVideos()]] - code - dashboard/sync.js
 - [[tokenRequest()]] - code - dashboard/google.js
 - [[tz()]] - code - dashboard/server.js
-- [[verify()]] - code - dashboard/session.js
 - [[videoCurve()]] - code - dashboard/sync.js
 - [[ymd()]] - code - dashboard/sync.js
 - [[{ createClient }]] - code - dashboard/db.js
@@ -94,15 +80,19 @@ members: 80
 ## Live Query (requires Dataview plugin)
 
 ```dataview
-TABLE source_file, type FROM #community/Community_0
+TABLE source_file, type FROM #community/serverjs
 SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 2 edges to [[_COMMUNITY_Community 2]]
-- 1 edge to [[_COMMUNITY_Community 22]]
+- 8 edges to [[_COMMUNITY_session.js]]
+- 2 edges to [[_COMMUNITY_dashboardpackage.json]]
+- 1 edge to [[_COMMUNITY_app.js]]
+- 1 edge to [[_COMMUNITY_desktoppackage.json]]
 
 ## Top bridge nodes
-- [[server.js]] - degree 33, connects to 1 community
+- [[server.js]] - degree 33, connects to 2 communities
 - [[db.js]] - degree 19, connects to 1 community
-- [[ref_path]] - degree 3, connects to 1 community
+- [[q()]] - degree 9, connects to 1 community
+- [[authed()]] - degree 3, connects to 1 community
+- [[ref_crypto]] - degree 3, connects to 1 community

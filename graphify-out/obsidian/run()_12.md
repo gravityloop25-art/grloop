@@ -1,12 +1,12 @@
 ---
-source_file: "code/mg.py"
+source_file: "code/plinko.py"
 type: "code"
-community: "Community 20"
-location: "L57"
+community: "common.py"
+location: "L115"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_20
+  - community/commonpy
 ---
 
 # run()
@@ -15,8 +15,8 @@ tags:
 - [[Writer]] - `calls` [EXTRACTED]
 - [[draw()_12]] - `calls` [EXTRACTED]
 - [[make_audio()]] - `calls` [EXTRACTED]
-- [[mg.py]] - `contains` [EXTRACTED]
 - [[mux()]] - `calls` [EXTRACTED]
+- [[plinko.py]] - `contains` [EXTRACTED]
 - [[step()_10]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_20
+#graphify/code #graphify/EXTRACTED #community/commonpy

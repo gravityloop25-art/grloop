@@ -1,22 +1,23 @@
 ---
-source_file: "code/gv.py"
+source_file: "code/hit.py"
 type: "code"
-community: "Community 5"
-location: "L126"
+community: "hit.py"
+location: "L131"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/hitpy
 ---
 
 # draw()
 
 ## Connections
-- [[arm_state()]] - `calls` [EXTRACTED]
+- [[ballcol()_3]] - `calls` [EXTRACTED]
 - [[compose()]] - `calls` [EXTRACTED]
+- [[corners()]] - `calls` [EXTRACTED]
 - [[font()]] - `calls` [EXTRACTED]
-- [[gv.py]] - `contains` [EXTRACTED]
-- [[run()_16]] - `calls` [EXTRACTED]
-- [[tooth_poly()]] - `calls` [EXTRACTED]
+- [[hit.py]] - `contains` [EXTRACTED]
+- [[obstacles()]] - `calls` [EXTRACTED]
+- [[run()_17]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_5
+#graphify/code #graphify/EXTRACTED #community/hitpy

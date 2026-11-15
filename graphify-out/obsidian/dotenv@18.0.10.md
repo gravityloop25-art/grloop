@@ -1,12 +1,12 @@
 ---
 source_file: "dashboard/package.json"
 type: "code"
-community: "Community 2"
+community: "dashboard/package.json"
 location: "L14"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/dashboard/packagejson
 ---
 
 # dotenv@^18.0.10
@@ -15,4 +15,4 @@ tags:
 - [[dependencies]] - `contains` [EXTRACTED]
 - [[dotenv]] - `declares` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_2
+#graphify/code #graphify/EXTRACTED #community/dashboard/packagejson

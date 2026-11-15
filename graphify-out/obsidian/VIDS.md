@@ -1,12 +1,12 @@
 ---
 source_file: "dashboard/public/app.js"
 type: "code"
-community: "Community 1"
+community: "app.js"
 location: "L158"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/appjs
 ---
 
 # VIDS
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[app.js]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_1
+#graphify/code #graphify/EXTRACTED #community/appjs

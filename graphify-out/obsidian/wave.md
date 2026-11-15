@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "concept"
-community: "Community 7"
+community: "common.py"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Community_7
+  - community/commonpy
 ---
 
 # wave
@@ -14,4 +14,4 @@ tags:
 - [[common.py]] - `imports` [EXTRACTED]
 - [[make_audio()]] - `calls` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Community_7
+#graphify/concept #graphify/EXTRACTED #community/commonpy

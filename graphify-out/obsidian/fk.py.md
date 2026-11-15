@@ -1,12 +1,12 @@
 ---
 source_file: "code/fk.py"
 type: "code"
-community: "Community 19"
+community: "common.py"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_19
+  - community/commonpy
 ---
 
 # fk.py
@@ -14,13 +14,13 @@ tags:
 ## Connections
 - [[bar()]] - `contains` [EXTRACTED]
 - [[common.py]] - `imports_from` [EXTRACTED]
-- [[draw()_11]] - `contains` [EXTRACTED]
+- [[draw()_6]] - `contains` [EXTRACTED]
 - [[math]] - `imports` [EXTRACTED]
 - [[numpy]] - `imports` [EXTRACTED]
 - [[pil]] - `imports_from` [EXTRACTED]
 - [[random]] - `imports` [EXTRACTED]
-- [[run()_11]] - `contains` [EXTRACTED]
-- [[step()_9]] - `contains` [EXTRACTED]
+- [[run()_6]] - `contains` [EXTRACTED]
+- [[step()_4]] - `contains` [EXTRACTED]
 - [[sys]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_19
+#graphify/code #graphify/EXTRACTED #community/commonpy

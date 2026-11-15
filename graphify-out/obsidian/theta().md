@@ -1,19 +1,19 @@
 ---
 source_file: "code/cd.py"
 type: "code"
-community: "Community 15"
+community: "common.py"
 location: "L19"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_15
+  - community/commonpy
 ---
 
 # theta()
 
 ## Connections
 - [[cd.py]] - `contains` [EXTRACTED]
-- [[draw()_7]] - `calls` [EXTRACTED]
-- [[step()_5]] - `calls` [EXTRACTED]
+- [[draw()_4]] - `calls` [EXTRACTED]
+- [[step()_2]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_15
+#graphify/code #graphify/EXTRACTED #community/commonpy

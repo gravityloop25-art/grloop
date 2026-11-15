@@ -4,7 +4,7 @@ cohesion: 0.13
 members: 40
 ---
 
-# Community 1
+# app.js
 
 **Cohesion:** 0.13 - loosely connected
 **Members:** 40 nodes
@@ -54,12 +54,12 @@ members: 40
 ## Live Query (requires Dataview plugin)
 
 ```dataview
-TABLE source_file, type FROM #community/Community_1
+TABLE source_file, type FROM #community/appjs
 SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 1 edge to [[_COMMUNITY_Community 48]]
+- 1 edge to [[_COMMUNITY_server.js]]
 
 ## Top bridge nodes
 - [[videosView()]] - degree 6, connects to 1 community

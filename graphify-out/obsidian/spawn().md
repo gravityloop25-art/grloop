@@ -1,18 +1,18 @@
 ---
 source_file: "code/gearpl.py"
 type: "code"
-community: "Community 12"
+community: "common.py"
 location: "L35"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_12
+  - community/commonpy
 ---
 
 # spawn()
 
 ## Connections
 - [[gearpl.py]] - `contains` [EXTRACTED]
-- [[step()_2]] - `calls` [EXTRACTED]
+- [[step()_6]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_12
+#graphify/code #graphify/EXTRACTED #community/commonpy

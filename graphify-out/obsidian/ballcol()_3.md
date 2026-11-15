@@ -1,19 +1,19 @@
 ---
 source_file: "code/hit.py"
 type: "code"
-community: "Community 8"
+community: "hit.py"
 location: "L120"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/hitpy
 ---
 
 # ballcol()
 
 ## Connections
-- [[draw()_18]] - `calls` [EXTRACTED]
+- [[draw()_17]] - `calls` [EXTRACTED]
 - [[hit.py]] - `contains` [EXTRACTED]
 - [[lerp()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_8
+#graphify/code #graphify/EXTRACTED #community/hitpy

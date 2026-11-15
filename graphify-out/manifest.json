@@ -449,12 +449,6 @@
     "ast_hash": "1cd91b309e0d723c7c70000e320a3ecf",
     "semantic_hash": ""
   },
-  "dashboard/public/vendor/chart.umd.js": {
-    "mtime": 1794735681.5025983,
-    "seen": 1794735804.1772263,
-    "ast_hash": "767017d164e969e6c9dec29e1ece7e28",
-    "semantic_hash": ""
-  },
   "dashboard/session.js": {
     "mtime": 1794735694.886677,
     "seen": 1794735804.177231,

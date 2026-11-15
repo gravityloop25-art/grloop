@@ -1,12 +1,12 @@
 ---
 source_file: "code/hit.py"
 type: "rationale"
-community: "Community 8"
+community: "hit.py"
 location: "L31"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/hitpy
 ---
 
 # returns list of dict(O, al, lo, hi, vt, w, C0, split, col)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[obstacles()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Community_8
+#graphify/rationale #graphify/EXTRACTED #community/hitpy

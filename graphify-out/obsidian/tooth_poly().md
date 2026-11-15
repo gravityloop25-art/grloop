@@ -1,18 +1,18 @@
 ---
 source_file: "code/gv.py"
 type: "code"
-community: "Community 5"
+community: "gv.py"
 location: "L117"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/gvpy
 ---
 
 # tooth_poly()
 
 ## Connections
-- [[draw()_17]] - `calls` [EXTRACTED]
+- [[draw()_16]] - `calls` [EXTRACTED]
 - [[gv.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_5
+#graphify/code #graphify/EXTRACTED #community/gvpy

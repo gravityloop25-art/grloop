@@ -1,20 +1,22 @@
 ---
-source_file: "code/mg.py"
+source_file: "code/plinko.py"
 type: "code"
-community: "Community 20"
-location: "L36"
+community: "common.py"
+location: "L84"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_20
+  - community/commonpy
 ---
 
 # draw()
 
 ## Connections
+- [[ballcol()_2]] - `calls` [EXTRACTED]
 - [[compose()]] - `calls` [EXTRACTED]
 - [[font()]] - `calls` [EXTRACTED]
-- [[mg.py]] - `contains` [EXTRACTED]
+- [[lerp()]] - `calls` [EXTRACTED]
+- [[plinko.py]] - `contains` [EXTRACTED]
 - [[run()_12]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_20
+#graphify/code #graphify/EXTRACTED #community/commonpy

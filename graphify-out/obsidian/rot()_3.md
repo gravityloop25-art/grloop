@@ -1,18 +1,18 @@
 ---
 source_file: "code/rb.py"
 type: "code"
-community: "Community 18"
+community: "common.py"
 location: "L23"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_18
+  - community/commonpy
 ---
 
 # rot()
 
 ## Connections
 - [[rb.py]] - `contains` [EXTRACTED]
-- [[step()_8]] - `calls` [EXTRACTED]
+- [[step()_11]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_18
+#graphify/code #graphify/EXTRACTED #community/commonpy

@@ -1,12 +1,12 @@
 ---
 source_file: "code/gb.py"
 type: "code"
-community: "Community 9"
+community: "gb.py"
 location: "L22"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_9
+  - community/gbpy
 ---
 
 # step()
@@ -16,4 +16,4 @@ tags:
 - [[run()_18]] - `calls` [EXTRACTED]
 - [[scol()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_9
+#graphify/code #graphify/EXTRACTED #community/gbpy

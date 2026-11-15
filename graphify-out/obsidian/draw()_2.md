@@ -1,23 +1,23 @@
 ---
-source_file: "code/wl.py"
+source_file: "code/dr.py"
 type: "code"
-community: "Community 10"
-location: "L48"
+community: "dr.py"
+location: "L65"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_10
+  - community/drpy
 ---
 
 # draw()
 
 ## Connections
-- [[colr()]] - `calls` [EXTRACTED]
 - [[compose()]] - `calls` [EXTRACTED]
+- [[dr.py]] - `contains` [EXTRACTED]
 - [[font()]] - `calls` [EXTRACTED]
 - [[lerp()]] - `calls` [EXTRACTED]
 - [[run()_2]] - `calls` [EXTRACTED]
-- [[scr()]] - `calls` [EXTRACTED]
-- [[wl.py]] - `contains` [EXTRACTED]
+- [[th1()]] - `calls` [EXTRACTED]
+- [[th2()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_10
+#graphify/code #graphify/EXTRACTED #community/drpy

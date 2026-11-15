@@ -1,12 +1,12 @@
 ---
 source_file: "code/gb.py"
 type: "code"
-community: "Community 9"
+community: "gb.py"
 location: "L86"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_9
+  - community/gbpy
 ---
 
 # add()
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[make_audio_gb()]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_9
+#graphify/code #graphify/EXTRACTED #community/gbpy

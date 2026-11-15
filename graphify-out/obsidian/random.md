@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "concept"
-community: "Community 20"
+community: "common.py"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Community_20
+  - community/commonpy
 ---
 
 # random
@@ -32,4 +32,4 @@ tags:
 - [[tu.py]] - `imports` [EXTRACTED]
 - [[wl.py]] - `imports` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Community_20
+#graphify/concept #graphify/EXTRACTED #community/commonpy

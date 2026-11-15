@@ -1,12 +1,12 @@
 ---
 source_file: "dashboard/errors.js"
 type: "code"
-community: "Community 0"
+community: "server.js"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/serverjs
 ---
 
 # errors.js
@@ -18,4 +18,4 @@ tags:
 - [[http()]] - `indirect_call` [INFERRED]
 - [[metricool.js]] - `imports_from` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_0
+#graphify/code #graphify/EXTRACTED #community/serverjs

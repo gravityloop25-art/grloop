@@ -1,12 +1,12 @@
 ---
 source_file: "dashboard/server.js"
 type: "code"
-community: "Community 0"
+community: "server.js"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/serverjs
 ---
 
 # server.js
@@ -46,4 +46,4 @@ tags:
 - [[tz()]] - `contains` [EXTRACTED]
 - [[videoCurve()]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_0
+#graphify/code #graphify/EXTRACTED #community/serverjs

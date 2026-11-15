@@ -1,12 +1,12 @@
 ---
 source_file: "dashboard/server.js"
 type: "code"
-community: "Community 0"
+community: "server.js"
 location: "L66"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/serverjs
 ---
 
 # authed()
@@ -16,4 +16,4 @@ tags:
 - [[loggedInEmail()]] - `calls` [EXTRACTED]
 - [[server.js]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_0
+#graphify/code #graphify/EXTRACTED #community/serverjs

@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "concept"
-community: "Community 19"
+community: "common.py"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Community_19
+  - community/commonpy
 ---
 
 # subprocess
@@ -14,4 +14,4 @@ tags:
 - [[common.py]] - `imports` [EXTRACTED]
 - [[mux()]] - `calls` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Community_19
+#graphify/concept #graphify/EXTRACTED #community/commonpy

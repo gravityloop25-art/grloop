@@ -1,12 +1,12 @@
 ---
 source_file: "dashboard/session.js"
 type: "code"
-community: "Community 0"
+community: "session.js"
 location: "L28"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/sessionjs
 ---
 
 # logout()
@@ -16,4 +16,4 @@ tags:
 - [[session.js]] - `indirect_call` [INFERRED]
 - [[setCookie()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_0
+#graphify/code #graphify/EXTRACTED #community/sessionjs

@@ -1,22 +1,22 @@
 ---
-source_file: "code/cd.py"
+source_file: "code/gear3.py"
 type: "code"
-community: "Community 15"
-location: "L90"
+community: "common.py"
+location: "L136"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_15
+  - community/commonpy
 ---
 
 # run()
 
 ## Connections
 - [[Writer]] - `calls` [EXTRACTED]
-- [[cd.py]] - `contains` [EXTRACTED]
 - [[draw()_7]] - `calls` [EXTRACTED]
+- [[gear3.py]] - `contains` [EXTRACTED]
 - [[make_audio()]] - `calls` [EXTRACTED]
 - [[mux()]] - `calls` [EXTRACTED]
 - [[step()_5]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_15
+#graphify/code #graphify/EXTRACTED #community/commonpy

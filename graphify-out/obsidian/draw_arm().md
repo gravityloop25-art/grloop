@@ -1,18 +1,18 @@
 ---
 source_file: "code/gear3.py"
 type: "code"
-community: "Community 3"
+community: "common.py"
 location: "L108"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_3
+  - community/commonpy
 ---
 
 # draw_arm()
 
 ## Connections
-- [[draw()_15]] - `calls` [EXTRACTED]
+- [[draw()_7]] - `calls` [EXTRACTED]
 - [[gear3.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_3
+#graphify/code #graphify/EXTRACTED #community/commonpy

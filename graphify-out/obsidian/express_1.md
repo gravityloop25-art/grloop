@@ -1,12 +1,12 @@
 ---
 source_file: "dashboard/package.json"
 type: "concept"
-community: "Community 2"
+community: "dashboard/package.json"
 location: "L15"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/dashboard/packagejson
 ---
 
 # express
@@ -16,4 +16,4 @@ tags:
 - [[express@5.0.0]] - `declares` [EXTRACTED]
 - [[server.js]] - `imports_from` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Community_2
+#graphify/concept #graphify/EXTRACTED #community/dashboard/packagejson

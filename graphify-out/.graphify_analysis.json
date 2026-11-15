@@ -2,13 +2,20 @@
   "communities": {
     "0": [
       "dashboard_db",
-      "dashboard_db_database",
-      "dashboard_db_db",
+      "dashboard_db_batch",
+      "dashboard_db_client",
+      "dashboard_db_createclient",
       "dashboard_db_delkv",
       "dashboard_db_fs",
       "dashboard_db_getkv",
+      "dashboard_db_init",
       "dashboard_db_path",
+      "dashboard_db_q",
+      "dashboard_db_rowsof",
+      "dashboard_db_run",
       "dashboard_db_setkv",
+      "dashboard_demo",
+      "dashboard_demo_fs",
       "dashboard_errors",
       "dashboard_errors_apierror",
       "dashboard_errors_apierror_constructor",
@@ -23,7 +30,6 @@
       "dashboard_google_gget",
       "dashboard_google_handlecallback",
       "dashboard_google_loggedinemail",
-      "dashboard_google_logout",
       "dashboard_google_newstate",
       "dashboard_google_scopes",
       "dashboard_google_tokenrequest",
@@ -37,22 +43,29 @@
       "dashboard_server_api",
       "dashboard_server_app",
       "dashboard_server_authed",
+      "dashboard_server_crypto",
       "dashboard_server_express",
       "dashboard_server_path",
-      "dashboard_server_session",
+      "dashboard_server_tz",
       "dashboard_sync",
       "dashboard_sync_analytics",
       "dashboard_sync_daysago",
+      "dashboard_sync_needs_login",
+      "dashboard_sync_num",
       "dashboard_sync_parseduration",
+      "dashboard_sync_parts",
       "dashboard_sync_pervideoreport",
-      "dashboard_sync_runsync",
+      "dashboard_sync_runpart",
+      "dashboard_sync_status",
       "dashboard_sync_syncanalytics",
+      "dashboard_sync_syncanalytics90",
       "dashboard_sync_syncchannel",
       "dashboard_sync_syncposts",
       "dashboard_sync_syncvideos",
       "dashboard_sync_videocurve",
       "dashboard_sync_ymd",
       "ref_crypto",
+      "ref_fs",
       "ref_path"
     ],
     "1": [
@@ -60,6 +73,7 @@
       "dashboard_public_app_adddays",
       "dashboard_public_app_api",
       "dashboard_public_app_app",
+      "dashboard_public_app_appshell",
       "dashboard_public_app_axes",
       "dashboard_public_app_besttimes",
       "dashboard_public_app_c",
@@ -71,6 +85,7 @@
       "dashboard_public_app_fmt",
       "dashboard_public_app_fmtk",
       "dashboard_public_app_hhmm",
+      "dashboard_public_app_isstale",
       "dashboard_public_app_killcharts",
       "dashboard_public_app_local",
       "dashboard_public_app_loginview",
@@ -86,6 +101,9 @@
       "dashboard_public_app_renderplan",
       "dashboard_public_app_route",
       "dashboard_public_app_showbanner",
+      "dashboard_public_app_sync_parts",
+      "dashboard_public_app_syncall",
+      "dashboard_public_app_syncifstale",
       "dashboard_public_app_tiktokview",
       "dashboard_public_app_todaystr",
       "dashboard_public_app_videosview",
@@ -95,11 +113,10 @@
     "2": [
       "dashboard_package",
       "dashboard_package_dependencies",
-      "dashboard_package_dependencies_better_sqlite3",
       "dashboard_package_dependencies_chart_js",
       "dashboard_package_dependencies_dotenv",
       "dashboard_package_dependencies_express",
-      "dashboard_package_dependencies_express_session",
+      "dashboard_package_dependencies_libsql_client",
       "dashboard_package_description",
       "dashboard_package_engines",
       "dashboard_package_engines_node",
@@ -110,15 +127,51 @@
       "dashboard_package_scripts_dev",
       "dashboard_package_scripts_start",
       "dashboard_package_version",
-      "ref_better_sqlite3",
       "ref_chart_js",
       "ref_dotenv",
       "ref_express",
-      "ref_express_session"
+      "ref_libsql_client"
     ],
     "3": [
+      "apps_android_scripts_patch_manifest",
+      "code_bk",
+      "code_bk_draw",
+      "code_bk_rot",
+      "code_bk_run",
+      "code_bk_step",
+      "code_cd",
+      "code_cd_draw",
+      "code_cd_rot",
+      "code_cd_run",
+      "code_cd_step",
+      "code_cd_theta",
+      "code_ce",
+      "code_ce_dang",
+      "code_ce_draw",
+      "code_ce_run",
+      "code_ce_step",
+      "code_common",
+      "code_common_click",
+      "code_common_compose",
+      "code_common_finale",
       "code_common_font",
       "code_common_lerp",
+      "code_common_make_audio",
+      "code_common_make_audio_add",
+      "code_common_mux",
+      "code_common_pop",
+      "code_common_rationale_40",
+      "code_common_rationale_89",
+      "code_common_tone",
+      "code_common_writer",
+      "code_common_writer_close",
+      "code_common_writer_init",
+      "code_common_writer_write",
+      "code_fk",
+      "code_fk_bar",
+      "code_fk_draw",
+      "code_fk_run",
+      "code_fk_step",
       "code_gear3",
       "code_gear3_ang",
       "code_gear3_arc_collide",
@@ -128,28 +181,75 @@
       "code_gear3_pt_collide",
       "code_gear3_run",
       "code_gear3_step",
-      "code_hb_draw",
-      "code_hb_tcol",
-      "code_wl",
-      "code_wl_colr",
-      "code_wl_draw",
-      "code_wl_run",
-      "code_wl_scr",
-      "code_wl_splash",
-      "code_wl_wave_step"
-    ],
-    "4": [
-      "code_common_mux",
+      "code_gearpl",
+      "code_gearpl_ballcol",
+      "code_gearpl_draw",
+      "code_gearpl_run",
+      "code_gearpl_spawn",
+      "code_gearpl_step",
+      "code_gearpl_update_gears",
       "code_hb",
+      "code_hb_draw",
       "code_hb_run",
       "code_hb_step",
+      "code_hb_tcol",
+      "code_ls",
+      "code_ls_draw",
+      "code_ls_mcol",
+      "code_ls_rad",
+      "code_ls_run",
+      "code_ls_step",
       "code_mg",
       "code_mg_draw",
       "code_mg_run",
       "code_mg_step",
+      "code_plinko",
+      "code_plinko_ballcol",
+      "code_plinko_draw",
+      "code_plinko_run",
+      "code_plinko_spawn",
+      "code_plinko_step",
+      "code_rb",
+      "code_rb_bcol",
+      "code_rb_draw",
+      "code_rb_rot",
+      "code_rb_run",
+      "code_rb_step",
+      "code_tor",
+      "code_tor_draw",
+      "code_tor_run",
+      "code_tor_step",
+      "code_tu",
+      "code_tu_arm_hit",
+      "code_tu_draw",
+      "code_tu_rationale_27",
+      "code_tu_rot",
+      "code_tu_run",
+      "code_tu_step",
+      "math",
+      "numpy",
+      "pil",
       "random",
+      "re",
       "subprocess",
-      "sys"
+      "sys",
+      "wave"
+    ],
+    "4": [
+      "dashboard_session",
+      "dashboard_session_clearoauth",
+      "dashboard_session_cookies",
+      "dashboard_session_crypto",
+      "dashboard_session_devsecret",
+      "dashboard_session_getoauth",
+      "dashboard_session_isloggedin",
+      "dashboard_session_login",
+      "dashboard_session_logout",
+      "dashboard_session_secret",
+      "dashboard_session_setcookie",
+      "dashboard_session_setoauth",
+      "dashboard_session_sign",
+      "dashboard_session_verify"
     ],
     "5": [
       "code_gv",
@@ -163,31 +263,6 @@
       "code_gv_step",
       "code_gv_tooth_poly",
       "os"
-    ],
-    "6": [
-      "dashboard_demo",
-      "dashboard_demo_ch",
-      "dashboard_demo_fs",
-      "dashboard_demo_insd",
-      "dashboard_demo_insp",
-      "dashboard_demo_insv",
-      "dashboard_demo_names",
-      "dashboard_demo_now",
-      "dashboard_demo_pad",
-      "dashboard_demo_rnd",
-      "ref_fs"
-    ],
-    "7": [
-      "code_common",
-      "code_common_click",
-      "code_common_finale",
-      "code_common_make_audio",
-      "code_common_make_audio_add",
-      "code_common_pop",
-      "code_common_rationale_89",
-      "code_common_tone",
-      "numpy",
-      "wave"
     ],
     "8": [
       "code_hit",
@@ -213,6 +288,122 @@
       "code_gb_step"
     ],
     "10": [
+      "code_wl",
+      "code_wl_colr",
+      "code_wl_draw",
+      "code_wl_run",
+      "code_wl_scr",
+      "code_wl_splash",
+      "code_wl_wave_step"
+    ],
+    "21": [
+      "code_common_rationale_10",
+      "code_common_sky",
+      "code_common_sky_frame",
+      "code_common_sky_init"
+    ],
+    "22": [
+      "apps_desktop_main",
+      "apps_desktop_main_app_browserwindow_shell_ipcmain",
+      "apps_desktop_main_app_url",
+      "apps_desktop_main_create",
+      "apps_desktop_main_deliver",
+      "apps_desktop_main_path",
+      "apps_desktop_main_pending",
+      "apps_desktop_package",
+      "apps_desktop_package_author",
+      "apps_desktop_package_build",
+      "apps_desktop_package_build_appid",
+      "apps_desktop_package_build_files",
+      "apps_desktop_package_build_icon",
+      "apps_desktop_package_build_linux",
+      "apps_desktop_package_build_mac",
+      "apps_desktop_package_build_productname",
+      "apps_desktop_package_build_win",
+      "apps_desktop_package_description",
+      "apps_desktop_package_devdependencies",
+      "apps_desktop_package_devdependencies_electron",
+      "apps_desktop_package_devdependencies_electron_builder",
+      "apps_desktop_package_linux_category",
+      "apps_desktop_package_linux_target",
+      "apps_desktop_package_mac_category",
+      "apps_desktop_package_mac_target",
+      "apps_desktop_package_main",
+      "apps_desktop_package_name",
+      "apps_desktop_package_scripts",
+      "apps_desktop_package_scripts_dist",
+      "apps_desktop_package_scripts_start",
+      "apps_desktop_package_version",
+      "apps_desktop_package_win_target",
+      "apps_desktop_preload",
+      "apps_desktop_preload_contextbridge_ipcrenderer",
+      "ref_electron",
+      "ref_electron_builder"
+    ],
+    "23": [
+      "apps_android_package",
+      "apps_android_package_dependencies",
+      "apps_android_package_dependencies_capacitor_android",
+      "apps_android_package_dependencies_capacitor_app",
+      "apps_android_package_dependencies_capacitor_browser",
+      "apps_android_package_dependencies_capacitor_cli",
+      "apps_android_package_dependencies_capacitor_core",
+      "apps_android_package_description",
+      "apps_android_package_name",
+      "apps_android_package_private",
+      "apps_android_package_scripts",
+      "apps_android_package_scripts_config",
+      "apps_android_package_version",
+      "ref_capacitor_android",
+      "ref_capacitor_app",
+      "ref_capacitor_browser",
+      "ref_capacitor_cli",
+      "ref_capacitor_core"
+    ],
+    "24": [
+      "github_workflows_build_apps_android_defaults",
+      "github_workflows_build_apps_android_needs",
+      "github_workflows_build_apps_android_runs_on",
+      "github_workflows_build_apps_android_steps",
+      "github_workflows_build_apps_check_runs_on",
+      "github_workflows_build_apps_check_steps",
+      "github_workflows_build_apps_defaults_run",
+      "github_workflows_build_apps_desktop_defaults",
+      "github_workflows_build_apps_desktop_needs",
+      "github_workflows_build_apps_desktop_runs_on",
+      "github_workflows_build_apps_desktop_steps",
+      "github_workflows_build_apps_desktop_strategy",
+      "github_workflows_build_apps_env_csc_identity_auto_discovery",
+      "github_workflows_build_apps_jobs",
+      "github_workflows_build_apps_jobs_android",
+      "github_workflows_build_apps_jobs_check",
+      "github_workflows_build_apps_jobs_desktop",
+      "github_workflows_build_apps_jobs_release",
+      "github_workflows_build_apps_matrix_os",
+      "github_workflows_build_apps_release_needs",
+      "github_workflows_build_apps_release_runs_on",
+      "github_workflows_build_apps_release_steps",
+      "github_workflows_build_apps_run_working_directory",
+      "github_workflows_build_apps_steps_continue_on_error",
+      "github_workflows_build_apps_steps_env",
+      "github_workflows_build_apps_steps_name",
+      "github_workflows_build_apps_steps_run",
+      "github_workflows_build_apps_steps_shell",
+      "github_workflows_build_apps_steps_uses",
+      "github_workflows_build_apps_steps_with",
+      "github_workflows_build_apps_steps_working_directory",
+      "github_workflows_build_apps_strategy_fail_fast",
+      "github_workflows_build_apps_strategy_matrix",
+      "github_workflows_build_apps_with_distribution",
+      "github_workflows_build_apps_with_files",
+      "github_workflows_build_apps_with_java_version",
+      "github_workflows_build_apps_with_merge_multiple",
+      "github_workflows_build_apps_with_name",
+      "github_workflows_build_apps_with_node_version",
+      "github_workflows_build_apps_with_path",
+      "github_workflows_build_apps_with_tag_name"
+    ],
+    "27": [
       "code_dr",
       "code_dr_adf",
       "code_dr_draw",
@@ -222,124 +413,57 @@
       "code_dr_th1",
       "code_dr_th2"
     ],
-    "11": [
-      "code_ce",
-      "code_ce_dang",
-      "code_ce_draw",
-      "code_ce_run",
-      "code_ce_step",
-      "code_common_compose",
-      "code_common_rationale_40"
+    "28": [
+      "github_workflows_build_apps",
+      "github_workflows_build_apps_app_url_description",
+      "github_workflows_build_apps_app_url_required",
+      "github_workflows_build_apps_env",
+      "github_workflows_build_apps_env_app_url",
+      "github_workflows_build_apps_inputs_app_url",
+      "github_workflows_build_apps_name",
+      "github_workflows_build_apps_on",
+      "github_workflows_build_apps_on_push",
+      "github_workflows_build_apps_on_workflow_dispatch",
+      "github_workflows_build_apps_permissions",
+      "github_workflows_build_apps_permissions_contents",
+      "github_workflows_build_apps_push_tags",
+      "github_workflows_build_apps_workflow_dispatch_inputs"
     ],
-    "12": [
-      "code_gearpl",
-      "code_gearpl_ballcol",
-      "code_gearpl_draw",
-      "code_gearpl_run",
-      "code_gearpl_spawn",
-      "code_gearpl_step",
-      "code_gearpl_update_gears"
+    "33": [
+      "apps_android_scripts_make_config",
+      "apps_android_scripts_make_config_url"
     ],
-    "13": [
-      "code_tu",
-      "code_tu_arm_hit",
-      "code_tu_draw",
-      "code_tu_rationale_27",
-      "code_tu_rot",
-      "code_tu_run",
-      "code_tu_step"
+    "65": [
+      "dashboard_vercel",
+      "dashboard_vercel_api_index_js_maxduration",
+      "dashboard_vercel_functions",
+      "dashboard_vercel_functions_api_index_js",
+      "dashboard_vercel_regions",
+      "dashboard_vercel_rewrites"
     ],
-    "14": [
-      "code_bk",
-      "code_bk_draw",
-      "code_bk_rot",
-      "code_bk_run",
-      "code_bk_step",
-      "math"
-    ],
-    "15": [
-      "code_cd",
-      "code_cd_draw",
-      "code_cd_rot",
-      "code_cd_run",
-      "code_cd_step",
-      "code_cd_theta"
-    ],
-    "16": [
-      "code_ls",
-      "code_ls_draw",
-      "code_ls_mcol",
-      "code_ls_rad",
-      "code_ls_run",
-      "code_ls_step"
-    ],
-    "17": [
-      "code_plinko",
-      "code_plinko_ballcol",
-      "code_plinko_draw",
-      "code_plinko_run",
-      "code_plinko_spawn",
-      "code_plinko_step"
-    ],
-    "18": [
-      "code_rb",
-      "code_rb_bcol",
-      "code_rb_draw",
-      "code_rb_rot",
-      "code_rb_run",
-      "code_rb_step"
-    ],
-    "19": [
-      "code_fk",
-      "code_fk_bar",
-      "code_fk_draw",
-      "code_fk_run",
-      "code_fk_step"
-    ],
-    "20": [
-      "code_tor",
-      "code_tor_draw",
-      "code_tor_run",
-      "code_tor_step",
-      "pil"
-    ],
-    "21": [
-      "code_common_rationale_10",
-      "code_common_sky",
-      "code_common_sky_frame",
-      "code_common_sky_init"
-    ],
-    "22": [
-      "code_common_writer",
-      "code_common_writer_close",
-      "code_common_writer_init",
-      "code_common_writer_write"
+    "67": [
+      "dashboard_api_index"
     ]
   },
   "cohesion": {
-    "0": 0.09796806966618288,
-    "1": 0.1546218487394958,
-    "2": 0.11255411255411256,
-    "3": 0.19473684210526315,
-    "4": 0.2727272727272727,
+    "0": 0.07878787878787878,
+    "1": 0.13333333333333333,
+    "2": 0.12105263157894737,
+    "3": 0.06079207920792079,
+    "4": 0.27472527472527475,
     "5": 0.34545454545454546,
-    "6": 0.18181818181818182,
-    "7": 0.4666666666666667,
     "8": 0.37777777777777777,
     "9": 0.4166666666666667,
-    "10": 0.5357142857142857,
-    "11": 0.47619047619047616,
-    "12": 0.5238095238095238,
-    "13": 0.47619047619047616,
-    "14": 0.5333333333333333,
-    "15": 0.6666666666666666,
-    "16": 0.6666666666666666,
-    "17": 0.6,
-    "18": 0.6,
-    "19": 0.8,
-    "20": 0.6,
+    "10": 0.5714285714285714,
     "21": 0.5,
-    "22": 0.5
+    "22": 0.05873015873015873,
+    "23": 0.1437908496732026,
+    "24": 0.06097560975609756,
+    "27": 0.5357142857142857,
+    "28": 0.14285714285714285,
+    "33": 1.0,
+    "65": 0.3333333333333333,
+    "67": 1.0
   },
   "gods": [
     {
@@ -378,54 +502,32 @@
       "degree": 15
     },
     {
+      "id": "dashboard_db_getkv",
+      "label": "getKV()",
+      "degree": 13
+    },
+    {
       "id": "dashboard_public_app_openvideo",
       "label": "openVideo()",
       "degree": 11
     },
     {
-      "id": "dashboard_db_getkv",
-      "label": "getKV()",
-      "degree": 10
-    },
-    {
-      "id": "dashboard_public_app_overview",
-      "label": "overview()",
-      "degree": 10
+      "id": "github_workflows_build_apps_steps_with",
+      "label": "with",
+      "degree": 11
     }
   ],
   "surprises": [
     {
-      "source": "run()",
-      "target": "Writer",
+      "source": "videosView()",
+      "target": "q()",
       "source_files": [
-        "code/bk.py",
-        "code/common.py"
+        "dashboard/public/app.js",
+        "dashboard/db.js"
       ],
-      "confidence": "EXTRACTED",
-      "relation": "calls",
-      "why": "bridges separate communities"
-    },
-    {
-      "source": "run()",
-      "target": "Writer",
-      "source_files": [
-        "code/cd.py",
-        "code/common.py"
-      ],
-      "confidence": "EXTRACTED",
-      "relation": "calls",
-      "why": "bridges separate communities"
-    },
-    {
-      "source": "run()",
-      "target": "Writer",
-      "source_files": [
-        "code/ce.py",
-        "code/common.py"
-      ],
-      "confidence": "EXTRACTED",
-      "relation": "calls",
-      "why": "bridges separate communities"
+      "confidence": "INFERRED",
+      "relation": "indirect_call",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
     },
     {
       "source": "run()",
@@ -442,7 +544,29 @@
       "source": "run()",
       "target": "Writer",
       "source_files": [
-        "code/fk.py",
+        "code/gb.py",
+        "code/common.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "run()",
+      "target": "Writer",
+      "source_files": [
+        "code/gv.py",
+        "code/common.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "run()",
+      "target": "Writer",
+      "source_files": [
+        "code/hit.py",
         "code/common.py"
       ],
       "confidence": "EXTRACTED",
@@ -453,28 +577,38 @@
   "questions": [
     {
       "type": "bridge_node",
-      "question": "Why does `make_audio()` connect `Community 7` to `Community 3`, `Community 4`, `Community 5`, `Community 8`, `Community 10`, `Community 11`, `Community 12`, `Community 13`, `Community 14`, `Community 15`, `Community 16`, `Community 17`, `Community 18`, `Community 19`, `Community 20`?",
-      "why": "High betweenness centrality (0.028) - this node is a cross-community bridge."
+      "question": "Why does `q()` connect `server.js` to `app.js`?",
+      "why": "High betweenness centrality (0.066) - this node is a cross-community bridge."
     },
     {
       "type": "low_cohesion",
-      "question": "Should `Community 0` be split into smaller, more focused modules?",
-      "why": "Cohesion score 0.09796806966618288 - nodes in this community are weakly interconnected."
+      "question": "Should `server.js` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.07878787878787878 - nodes in this community are weakly interconnected."
     },
     {
       "type": "bridge_node",
-      "question": "Why does `Writer` connect `Community 22` to `Community 3`, `Community 4`, `Community 5`, `Community 7`, `Community 8`, `Community 9`, `Community 10`, `Community 11`, `Community 12`, `Community 13`, `Community 14`, `Community 15`, `Community 16`, `Community 17`, `Community 18`, `Community 19`, `Community 20`?",
-      "why": "High betweenness centrality (0.026) - this node is a cross-community bridge."
+      "question": "Why does `videosView()` connect `app.js` to `server.js`?",
+      "why": "High betweenness centrality (0.064) - this node is a cross-community bridge."
     },
     {
       "type": "low_cohesion",
-      "question": "Should `Community 2` be split into smaller, more focused modules?",
-      "why": "Cohesion score 0.11255411255411256 - nodes in this community are weakly interconnected."
+      "question": "Should `app.js` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.13333333333333333 - nodes in this community are weakly interconnected."
     },
     {
-      "type": "bridge_node",
-      "question": "Why does `compose()` connect `Community 11` to `Community 3`, `Community 4`, `Community 5`, `Community 7`, `Community 8`, `Community 9`, `Community 10`, `Community 12`, `Community 13`, `Community 14`, `Community 15`, `Community 16`, `Community 17`, `Community 18`, `Community 19`, `Community 20`?",
-      "why": "High betweenness centrality (0.022) - this node is a cross-community bridge."
+      "type": "low_cohesion",
+      "question": "Should `dashboard/package.json` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.12105263157894737 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `common.py` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.06079207920792079 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `desktop/package.json` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.05873015873015873 - nodes in this community are weakly interconnected."
     }
   ]
 }

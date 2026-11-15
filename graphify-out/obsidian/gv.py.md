@@ -1,12 +1,12 @@
 ---
 source_file: "code/gv.py"
 type: "code"
-community: "Community 5"
+community: "gv.py"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/gvpy
 ---
 
 # gv.py
@@ -14,7 +14,7 @@ tags:
 ## Connections
 - [[arm_state()]] - `contains` [EXTRACTED]
 - [[common.py]] - `imports_from` [EXTRACTED]
-- [[draw()_17]] - `contains` [EXTRACTED]
+- [[draw()_16]] - `contains` [EXTRACTED]
 - [[gear_hit()]] - `contains` [EXTRACTED]
 - [[math]] - `imports` [EXTRACTED]
 - [[numpy]] - `imports` [EXTRACTED]
@@ -29,4 +29,4 @@ tags:
 - [[sys]] - `imports` [EXTRACTED]
 - [[tooth_poly()]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_5
+#graphify/code #graphify/EXTRACTED #community/gvpy

@@ -4,14 +4,14 @@ cohesion: 0.35
 members: 11
 ---
 
-# Community 5
+# gv.py
 
 **Cohesion:** 0.35 - loosely connected
 **Members:** 11 nodes
 
 ## Members
 - [[arm_state()]] - code - code/gv.py
-- [[draw()_17]] - code - code/gv.py
+- [[draw()_16]] - code - code/gv.py
 - [[gear_hit()]] - code - code/gv.py
 - [[gv.py]] - code - code/gv.py
 - [[obb()]] - code - code/gv.py
@@ -25,21 +25,14 @@ members: 11
 ## Live Query (requires Dataview plugin)
 
 ```dataview
-TABLE source_file, type FROM #community/Community_5
+TABLE source_file, type FROM #community/gvpy
 SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 7]]
-- 2 edges to [[_COMMUNITY_Community 20]]
-- 1 edge to [[_COMMUNITY_Community 11]]
-- 1 edge to [[_COMMUNITY_Community 18]]
-- 1 edge to [[_COMMUNITY_Community 19]]
-- 1 edge to [[_COMMUNITY_Community 3]]
-- 1 edge to [[_COMMUNITY_Community 14]]
-- 1 edge to [[_COMMUNITY_Community 17]]
+- 11 edges to [[_COMMUNITY_common.py]]
 
 ## Top bridge nodes
-- [[gv.py]] - degree 16, connects to 4 communities
-- [[run()_16]] - degree 6, connects to 3 communities
-- [[draw()_17]] - degree 6, connects to 2 communities
+- [[gv.py]] - degree 16, connects to 1 community
+- [[draw()_16]] - degree 6, connects to 1 community
+- [[run()_16]] - degree 6, connects to 1 community

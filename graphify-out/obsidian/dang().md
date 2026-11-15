@@ -1,19 +1,19 @@
 ---
 source_file: "code/ce.py"
 type: "code"
-community: "Community 11"
+community: "common.py"
 location: "L15"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_11
+  - community/commonpy
 ---
 
 # dang()
 
 ## Connections
 - [[ce.py]] - `contains` [EXTRACTED]
-- [[draw()_3]] - `calls` [EXTRACTED]
-- [[step()_1]] - `calls` [EXTRACTED]
+- [[draw()_5]] - `calls` [EXTRACTED]
+- [[step()_3]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_11
+#graphify/code #graphify/EXTRACTED #community/commonpy

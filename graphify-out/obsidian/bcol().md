@@ -1,18 +1,18 @@
 ---
 source_file: "code/rb.py"
 type: "code"
-community: "Community 18"
+community: "common.py"
 location: "L68"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_18
+  - community/commonpy
 ---
 
 # bcol()
 
 ## Connections
-- [[draw()_10]] - `calls` [EXTRACTED]
+- [[draw()_13]] - `calls` [EXTRACTED]
 - [[rb.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_18
+#graphify/code #graphify/EXTRACTED #community/commonpy

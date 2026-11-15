@@ -1,12 +1,12 @@
 ---
-source_file: "code/ls.py"
+source_file: "code/gearpl.py"
 type: "code"
-community: "Community 16"
-location: "L86"
+community: "common.py"
+location: "L116"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Community_16
+  - community/commonpy
 ---
 
 # run()
@@ -14,9 +14,9 @@ tags:
 ## Connections
 - [[Writer]] - `calls` [EXTRACTED]
 - [[draw()_8]] - `calls` [EXTRACTED]
-- [[ls.py]] - `contains` [EXTRACTED]
+- [[gearpl.py]] - `contains` [EXTRACTED]
 - [[make_audio()]] - `calls` [EXTRACTED]
 - [[mux()]] - `calls` [EXTRACTED]
 - [[step()_6]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Community_16
+#graphify/code #graphify/EXTRACTED #community/commonpy

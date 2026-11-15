@@ -4,7 +4,7 @@ cohesion: 0.06
 members: 36
 ---
 
-# Community 22
+# desktop/package.json
 
 **Cohesion:** 0.06 - loosely connected
 **Members:** 36 nodes
@@ -50,12 +50,12 @@ members: 36
 ## Live Query (requires Dataview plugin)
 
 ```dataview
-TABLE source_file, type FROM #community/Community_22
+TABLE source_file, type FROM #community/desktop/packagejson
 SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 1 edge to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_server.js]]
 
 ## Top bridge nodes
 - [[main.js]] - degree 8, connects to 1 community
