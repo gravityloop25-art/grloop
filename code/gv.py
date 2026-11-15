@@ -7,18 +7,20 @@ MODE = sys.argv[1]; CMD = sys.argv[2]; SEED = int(sys.argv[3]); GRAV = float(sys
 PV = {int(x) for x in sys.argv[6:]}
 random.seed(SEED); rng = np.random.default_rng(SEED)
 CX, CY, R = 540.0, 1010.0, 480.0
-BR = 8.0; SUB = 4; MAXB = 1000; GH0 = int(__import__("os").environ.get("GH0","12")); THR = 1.2; VMAX = 13.0; REST = 0.55; DUR_MAX = 46 * FPS
+BR = 8.0; SUB = 4; MAXB = 1000; GH0 = int(__import__("os").environ.get("GH0","12")); THR = 1.2; VMAX = 13.0; REST = float(__import__("os").environ.get("REST","0.8")); DUR_MAX = 46 * FPS
 sky = Sky(151 if MODE == "gear" else 152)
 BC = [(60, 220, 255), (255, 60, 220), (255, 160, 60), (160, 100, 255), (120, 255, 160)]
-RAMPS = [((CX - 452, CY + 150), (CX - 170, CY + 348)), ((CX + 452, CY + 150), (CX + 170, CY + 348))]
-RG = 80.0; TH = 14.0; NT = 10
-GEARS = [dict(c=np.array([CX - 85, CY + 395.0]), w=0.045, off=0.0, col=CYAN), dict(c=np.array([CX + 85, CY + 395.0]), w=-0.045, off=math.pi / NT, col=MAG)]
-PIV = np.array([CX, CY + R - 20]); AL0 = 0.95; ARML = R * 0.97; HW = 36.0
+RAMPS = [((CX - 452, CY + 120), (CX - 150, CY + 300)), ((CX + 452, CY + 120), (CX + 150, CY + 300))] if MODE == "gear" else []
+import os
+KICK = float(os.environ.get("KICK","7")); GYO = float(os.environ.get("GYO","120")); SPD = float(os.environ.get("SPD","8")); AMP = float(os.environ.get("AMP","1.25"))
+RG = float(os.environ.get("RG","95")); TH = 14.0; NT = 10
+GEARS = [dict(c=np.array([CX - RG - 8, CY + GYO]), w=0.045, off=0.0, col=CYAN), dict(c=np.array([CX + RG + 8, CY + GYO]), w=-0.045, off=math.pi / NT, col=MAG)]
+PIV = np.array([CX, CY + R - 20]); AL0 = float(os.environ.get("AMP","1.25")); ARML = R * 0.97; HW = float(os.environ.get("HW","36"))
 CFG = {"gear": dict(t1="Every gear touch", t2="doubles the balls", out="gravity_zahnrad.mp4"),
        "paddle": dict(t1="Every crush", t2="doubles a ball", out="schlaeger.mp4")}[MODE]
 
 if MODE == "gear": P = np.array([[CX - 130.0, CY - 280]]); V = np.array([[1.5, 0.5]])
-else: P = np.array([[CX - 150.0, CY - 100]]); V = np.array([[2.0, 0.5]])
+else: P = np.array([[CX - 150.0, CY - 100]]); V = np.array([[5.0, -6.0]])
 GH = np.zeros(1); CI = np.zeros(1, int); events = []
 
 def rot(v, a):
@@ -36,7 +38,7 @@ def gear_hit(g, t):
     if len(ii) == 0: return np.zeros(0, int), np.zeros(0)
     n = rel[ii] / d[ii, None]; P[ii] = c + n * (rho[hit] + BR)[:, None]
     vs = g["w"] * np.stack([-rel[ii, 1], rel[ii, 0]], 1); vn = ((V[ii] - vs) * n).sum(1); bad = vn < 0
-    jj = ii[bad]; V[jj] -= (1 + REST) * vn[bad, None] * n[bad]; V[jj] += rng.normal(0, 0.6, (len(jj), 2))
+    jj = ii[bad]; V[jj] -= (1 + REST) * vn[bad, None] * n[bad]; V[jj] += KICK * n[bad] + rng.normal(0, 0.8, (len(jj), 2))
     return jj, -vn[bad]
 
 def seg_hit(A, B, rad):
@@ -76,7 +78,10 @@ def step(fr):
     ns = 0
     for sub in range(SUB):
         t = fr + (sub + 1) / SUB
-        V[:, 1] += GRAV / SUB; sp = np.hypot(V[:, 0], V[:, 1]); big = sp > VMAX; V[big] *= (VMAX / sp[big])[:, None]
+        V[:, 1] += GRAV / SUB; sp = np.hypot(V[:, 0], V[:, 1])
+        if MODE == 'paddle': V *= (SPD / (sp + 1e-9))[:, None]
+        else:
+            big = sp > VMAX; V[big] *= (VMAX / sp[big])[:, None]
         P += V / SUB
         rel = P - [CX, CY]; d = np.hypot(rel[:, 0], rel[:, 1]) + 1e-9; out = d > R - BR
         if out.any():
@@ -91,11 +96,16 @@ def step(fr):
         else:
             al, w = arm_state(t); jj, spd = obb(al, w)
             if len(jj):
-                dd = np.hypot(P[jj, 0] - CX, P[jj, 1] - CY); cands.append(jj[(spd > THR) & (dd > R - 120)])
+                dd = np.hypot(P[jj, 0] - CX, P[jj, 1] - CY); cands.append(jj[spd > 0.0])
         if cands:
             cand = np.unique(np.concatenate(cands)); cand = cand[GH[cand] <= 0][:max(0, MAXB - len(P))]
             if len(cand):
-                nv = rot(V[cand], -0.5) + rng.normal(0, 0.8, (len(cand), 2)); V[cand] = rot(V[cand], 0.5); GH[cand] = GH0
+                if MODE == 'paddle':
+                    aa = rng.uniform(0.5, 1.6, len(cand)) * rng.choice([-1, 1], len(cand)); c_, s_ = np.cos(aa), np.sin(aa); v0 = V[cand].copy()
+                    nv = np.stack([v0[:, 0] * c_ - v0[:, 1] * s_, v0[:, 0] * s_ + v0[:, 1] * c_], 1); V[cand] = np.stack([v0[:, 0] * c_ + v0[:, 1] * s_, -v0[:, 0] * s_ + v0[:, 1] * c_], 1)
+                else:
+                    nv = rot(V[cand], -0.5) + rng.normal(0, 0.8, (len(cand), 2)); V[cand] = rot(V[cand], 0.5)
+                GH[cand] = GH0
                 P = np.vstack([P, P[cand] + rng.normal(0, 1.5, (len(cand), 2))]); V = np.vstack([V, nv])
                 GH = np.concatenate([GH, np.full(len(cand), GH0)]); CI = np.concatenate([CI, (CI[cand] + 1) % 5]); ns += len(cand)
     GH -= 1
@@ -121,7 +131,7 @@ def draw(fr, endfr):
     if MODE == "gear":
         for A, B in RAMPS:
             d.line([A, B], fill=(70, 50, 110), width=34); d.line([A, B], fill=(190, 150, 255), width=5)
-        d.polygon([RAMPS[0][1], (CX - 100, CY + 470), (CX + 100, CY + 470), RAMPS[1][1], (CX, CY + 380)], fill=(40, 30, 70))
+        pass
         for g in GEARS:
             pts = tooth_poly(g, fr); d.polygon(pts, fill=tuple(int(c * .22) for c in g["col"]), outline=g["col"])
             d.line(pts + [pts[0]], fill=g["col"], width=4)
