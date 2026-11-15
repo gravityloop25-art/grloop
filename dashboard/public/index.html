@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#000000">
+<title>Gravity Loop Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="brand">GRAVITY<span>LOOP</span></div>
+  <nav id="nav">
+    <a href="#/" data-p="">Übersicht</a>
+    <a href="#/videos" data-p="videos">Videos</a>
+    <a href="#/plan" data-p="plan">Zeitplan</a>
+    <a href="#/tiktok" data-p="tiktok">TikTok</a>
+  </nav>
+  <div class="sync">
+    <span id="syncInfo"></span>
+    <button id="syncBtn" title="Jetzt aktualisieren">↻ <span>Jetzt aktualisieren</span></button>
+    <button id="logoutBtn" class="ghost" hidden>Logout</button>
+  </div>
+</header>
+<div id="banner"></div>
+<main id="app"></main>
+<div id="modal" hidden></div>
+<script src="/vendor/chart.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
